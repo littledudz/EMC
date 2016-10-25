@@ -105,8 +105,13 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         </div>
         <?php include('scripts/php/modal-form.php'); ?>
 		<?php include_once 'scripts/php/footer_js.php'; ?>
-        <script rel="text/javascript" src="scripts/main.js"></script>
-        <script rel="text/javascript" src="scripts/factories.js"></script>
-        <script rel="text/javascript" src="scripts/controllers.js"></script>
+		<script rel="text/javascript" src="scripts/main.js"></script>
+		<script rel="text/javascript" src="scripts/factories.js"></script>
+		<script rel="text/javascript" src="scripts/controllers.js"></script>
+		<script rel="text/javascript" src="scripts/js/contact.js"></script>
+		<script rel="text/javascript" src="scripts/js/countdown.js"></script>
+		<script rel="text/javascript" src="scripts/js/jasny-bootstrap.min.js"></script>
+		<script rel="text/javascript" src="scripts/js/revolution_slider.js"></script>
+		<script rel="text/javascript" src="scripts/js/scripts.js"></script>
     </body>
 </html>

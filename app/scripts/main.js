@@ -6,19 +6,19 @@ app.config (['$routeProvider', function ($routeProvider) {
         templateUrl: 'snippets/views/home.html',
         controller: 'HomeViewController'
     })
-    .when('/', {
+    .when('/consulting', {
         templateUrl: 'snippets/views/lab.html',
         controller: 'LabViewController'
     })
-    .when('/', {
+    .when('/lab', {
         templateUrl: 'snippets/views/consulting.html',
         controller: 'ConsultingViewController'
     })
-    .when('/', {
+    .when('/septic', {
         templateUrl: 'snippets/views/septic.html',
         controller: 'SepticViewController'
     })
-    .when('/', {
+    .when('/waste-water', {
         templateUrl: 'snippets/views/waste-water.html',
         controller: 'WasteWaterViewController'
     })
