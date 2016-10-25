@@ -41,6 +41,16 @@
 <link rel="stylesheet" href="styles/css/navbar.css">
 <link rel="stylesheet" href="styles/css/home.css">
 <link rel="stylesheet" href="styles/css/footer.css">
+<link rel="stylesheet" href="styles/css/animate.css">
+<link rel="stylesheet" href="styles/css/carousel.css">
+<link rel="stylesheet" href="styles/css/consulting.css">
+<link rel="stylesheet" href="styles/css/essentials.css">
+<link rel="stylesheet" href="styles/css/flexslider.css">
+<link rel="stylesheet" href="styles/css/lab.css">
+<link rel="stylesheet" href="styles/css/layerslider.css">
+<link rel="stylesheet" href="styles/css/layout.css">
+<link rel="stylesheet" href="styles/css/septic.css">
+<link rel="stylesheet" href="styles/css/waste-water.css">
 <!-- 		<link href="assets/css/color_scheme/red.css" rel="stylesheet" type="text/css" id="color_scheme"> -->
 
 <!-- Morenizr -->

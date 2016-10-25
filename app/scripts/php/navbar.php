@@ -7,7 +7,7 @@
 
 			<!-- Logo -->
 			<a class="logo" href="/">
-				<img src="assets/images/emc-birmingham-logo-iso.png" alt="emc-birmingham-logo-iso" height="50">
+				<img src="**/**/secondary/images/emc-birmingham-logo-iso.png" alt="emc-birmingham-logo-iso" height="50">
 			</a>
 
 			<!-- Mobile Menu Button -->
