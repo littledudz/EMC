@@ -2,12 +2,12 @@
 <!-- mobile settings -->
 <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
 <!-- Favicon -->
-<link rel="shortcut icon" href="secondary/images/emc-birmingham-logo-favicon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="secondary/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="167x167" href="secondary/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="152x152" href="secondary/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="120x120" href="secondary/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="76x76" href="secondary/images/apple-touch-icon.png">
+<link rel="shortcut icon" href="support/images/emc-birmingham-logo-favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="support/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="167x167" href="support/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="support/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="120x120" href="support/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="76x76" href="support/images/apple-touch-icon.png">
 <!-- WEB FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css">
 
