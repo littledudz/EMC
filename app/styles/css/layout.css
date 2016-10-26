@@ -276,6 +276,7 @@ div.slider {
 	background-color:#171717;
 	position:relative;
 	z-index:1;
+	/*margin-top: 5.25em;*/
 
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);

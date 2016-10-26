@@ -30,7 +30,7 @@
 								<li>
 									<div class="row">
 										<div class="col-md-4">
-											<h3>Lab Services</h3>
+											<h3>Client Services</h3>
 											<ul>
 												<li><a href="/#environmental-testing">Environmental Testing</a></li>
 												<li><a href="/#petroleum-and-jet-fuel">Petroleum / Jet Fuel</a></li>
@@ -39,11 +39,10 @@
 												<li><a href="/#sample-pickup">Sample Pickup</a></li>
 											</ul>
 										</div>
-										<div class="col-md-4">
+										<!-- <div class="col-md-4">
 											<h3>Other Services</h3>
 											<ul>
 												<li><a href="/#wastewater-treatment">WWTP Operations &amp; Maintenance</a></li>
-<!-- 												<li><a href="#">Treatment Facility Upgrades</a></li> -->
 												<li><a href="consulting">Consulting</a></li>
 												<li><a href="/#cooling-tower-water">Cooling Tower Water Treatment Programs</a></li>
 											</ul>
@@ -54,9 +53,7 @@
 												<li><a href="#">Client Login</a></li>
 												<li><a href="/files/ChainofCustody.pdf" target="_blank">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
 											</ul>
-											<!-- <img class="img-responsive" style="height: 100px;" src="assets/images/demo/desktop.png" alt="test image"> -->
-<!-- 											<p>Epona Megamenu can be 1-4 columns, full width, including widgetized images.</p> -->
-										</div>
+										</div> -->
 									</div>
 								</li>
 							</ul>
@@ -74,13 +71,8 @@
 							<a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a>
 						</li>
 					</ul>
-
 				</nav>
-
 			</div>
-
 		</div><!--.container -->
-
 	</header>
-
 </header>

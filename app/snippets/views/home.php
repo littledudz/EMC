@@ -46,7 +46,7 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<img src="secondary/images/1x1.png" data-lazyload="secondary/images/bg-emc-4.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
 					data-y="125"
@@ -79,7 +79,7 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<img src="secondary/images/1x1.png" data-lazyload="secondary/images/bg-emc-3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
 					data-y="110"
@@ -105,7 +105,7 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<img src="secondary/images/1x1.png" data-lazyload="secondary/images/bg-emc-2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
 					data-y="110"
@@ -166,7 +166,7 @@
                         <p>We can also prepare <b>The Electronic Discharge Monitoring Reports</b>. After setting you up on the eFile program, we will complete the reports and then when complete, you will receive an email to review the data and submit it directly to ADEM.</p>
                     </div>
                     <div class="col-md-5 col-sm-12">
-                        <img class="img-responsive animate_fade_in" src="assets/images/lab-results.jpg" alt="lab data delivery">
+                        <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="lab data delivery">
                     </div>
                 </div>
             </div>

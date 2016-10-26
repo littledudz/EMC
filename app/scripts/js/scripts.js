@@ -830,7 +830,7 @@ function _toggle() {
 
 /** 10. Background Image
 	class="boxed" should be added to body.
-	Add to body - example: data-background="assets/images/boxed_background/1.jpg"
+	Add to body - example: data-background="support/images/boxed_background/1.jpg"
  **************************************************************** **/
 	function _bgimage() {
 		if(jQuery('body').hasClass('boxed')) {
@@ -1129,7 +1129,7 @@ function _toggle() {
 		/**
 			SUMMERNOTE - textarea html editor
 
-			<script type="text/javascript" src="assets/plugins/html_summernote/summernote.min.js"></script>
+			<script type="text/javascript" src="scripts/plugins/html_summernote/summernote.min.js"></script>
 		**/
 		if(jQuery('textarea.summernote').length > 0 && jQuery().summernote) {
 			jQuery('textarea.summernote').each(function() {
@@ -1153,7 +1153,7 @@ function _toggle() {
 		/**
 			MARKDOWN - textarea html editor
 
-			<script type="text/javascript" src="assets/plugins/html_markdown/bootstrap-markdown.min.js"></script>
+			<script type="text/javascript" src="scripts/plugins/html_markdown/bootstrap-markdown.min.js"></script>
 		**/
 		if(jQuery('textarea.markdown').length > 0 && jQuery().markdown) {
 			jQuery('textarea.markdown').each(function() {

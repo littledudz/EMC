@@ -1412,7 +1412,7 @@ border-style:none;
 .tp-rightarrow.navbar-old.thumbswitharrow				{	margin-left:0px; }
 
 .tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("../../support/images/revolution_slider/assets/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
-.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("../images/revolution_slider/assets/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
+.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url("../../support/images/revolution_slider/assets/arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
 
 
 .tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url("../../support/images/revolution_slider/assets/arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}

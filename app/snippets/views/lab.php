@@ -7,7 +7,7 @@
                 <p>EMC has provided a full range of environmental testing services for permit holders for over two decades. Samples are analyzed using EPA approved methods for compliance purposes.</p>
 
                 <div class="col-md-4 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/bottle-by-stream.jpg" alt="environmental testing">
+                    <img class="img-responsive animate_fade_in" src="support/images/bottle-by-stream.jpg" alt="environmental testing">
                 </div>
 
                 <div class="col-md-4 col-sm-6">
@@ -30,7 +30,7 @@
             </div>
 
             <!-- <div class="col-md-6 text-center">
-                <img class="img-responsive animate_fade_in" src="assets/images/environmental-testing.jpg" alt="environmental testing">
+                <img class="img-responsive animate_fade_in" src="support/images/environmental-testing.jpg" alt="environmental testing">
             </div> -->
         </div>
 
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="col-md-6 col-sm-12 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/diesel-testing.jpg" alt="diesel testing">
+                    <img class="img-responsive animate_fade_in" src="support/images/diesel-testing.jpg" alt="diesel testing">
 
                 </div>
 
@@ -105,7 +105,7 @@
                 <p>EMC provides product quality testing for many local manufacturing and industrial companies. Some examples are:</p>
                 
                 <div class="col-md-4 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/tractor-farming-pesticide.jpg" alt="tractor farmer">
+                    <img class="img-responsive animate_fade_in" src="support/images/tractor-farming-pesticide.jpg" alt="tractor farmer">
                 </div>
 
                 <div class="col-md-8">
@@ -129,7 +129,7 @@
             </div>
 
             <div class="col-md-6 col-sm-6 text-center">
-                <img class="img-responsive animate_fade_in" src="assets/images/agricultural-testing.jpg" alt="agricultural testing">
+                <img class="img-responsive animate_fade_in" src="support/images/agricultural-testing.jpg" alt="agricultural testing">
             </div>
 
             <div class="col-md-3 col-sm-3">

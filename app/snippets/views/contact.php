@@ -10,7 +10,7 @@
 	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing">
 	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing proudly serving Alabama and surrounding Southeastern states since 1989.">
 	<meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
-	<?php include_once 'assets/includes/head.php'; ?>
+	<?php include_once 'snippets/includes/head-tags.php'; ?>
 </head>
 
 	<body class="smoothscroll">
@@ -18,7 +18,7 @@
 		<div id="wrapper">
 
 			<?php
-				include_once 'assets/includes/navbar.php';
+				include_once 'snippets/includes/navbar.php';
 			?>
 
 			<!-- GOOGLE MAP -->
@@ -126,13 +126,13 @@
 
 
 
-			<?php include_once 'assets/includes/footer.php'; ?>
+			<?php include_once 'snippets/includes/footer.php'; ?>
 
 			<a href="#" id="toTop"></a>
 
 		</div><!--#wrapper -->
 
-		<?php include_once 'assets/includes/footer_js.php'; ?>
+		<?php include_once 'snippets/includes/script-tags.php'; ?>
 
 	</body>
 

@@ -6,7 +6,7 @@
                 <h4><b>Operations</b></h4>
                 <p>EMC offers a wide range of wastewater treatment plant operational services. With our State Certified Operators, we can fully operate your plant and take care of all aspects of plant operations, or we can provide part-time operational assistance that will allow you to stay in compliance with ADEM regulations. Either way, EMC’s State Certified Operators can provide the services you need at a price you can afford.</p>
                 <div class="col-md-5 col-sm-12">
-                    <img class="img-responsive animate_fade_in" src="assets/images/wastewater-treatment-plant.jpg" alt="wastewater treatment plant">
+                    <img class="img-responsive animate_fade_in" src="support/images/wastewater-treatment-plant.jpg" alt="wastewater treatment plant">
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <ul class="list-icon spaced check-circle">
@@ -56,7 +56,7 @@
                 <h2><strong>Cooling Tower Water</strong> Treatment Programs</h2>
             </div>
             <div class="col-md-4 col-sm-5">
-                <img class="img-responsive animate_fade_in" src="assets/images/cooling-tower.jpg" alt="cooling tower">
+                <img class="img-responsive animate_fade_in" src="support/images/cooling-tower.jpg" alt="cooling tower">
             </div>
             <div class="col-md-8 col-sm-7">
                 <p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion. Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>

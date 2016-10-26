@@ -7,7 +7,7 @@
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 				<!-- COVER IMAGE -->
-				<img src="assets/images/1x1.png" data-lazyload="assets/images/bg-emc-1.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-1.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption modern_medium_fat_white lfl stl"
 					data-x="65"
@@ -39,7 +39,7 @@
 					data-speed="2000"
 					data-start="0"
 					data-easing="easeOutExpo">
-					<img src="assets/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;">
+					<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;">
 				</div>
 
 				<div class="tp-caption small_light_white fade str"
@@ -58,7 +58,7 @@
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 				<!-- COVER IMAGE -->
-				<img src="assets/images/1x1.png" data-lazyload="assets/images/bg-emc-4.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
@@ -111,7 +111,7 @@
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 				<!-- COVER IMAGE -->
-				<img src="assets/images/1x1.png" data-lazyload="assets/images/bg-emc-3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
@@ -164,7 +164,7 @@
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 				<!-- COVER IMAGE -->
-				<img src="assets/images/1x1.png" data-lazyload="assets/images/bg-emc-2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption large_bold_black sft stb"
 					data-x="60"
@@ -218,14 +218,14 @@
 			<!-- SLIDE  -->
 			<!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="http://www.stepofweb.com/" data-target="_blank" data-saveperformance="off" >
 
-				<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/layerslider/slide-b-1.png" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat">
+				<img src="support/images/1x1.png" data-lazyload="support/images/demo/layerslider/slide-b-1.png" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat">
 
 				<div class="tp-caption sft medium_light_white"
 					data-x="right"
 					data-y="bottom" data-voffset="100"
 					data-speed="1000"
 					data-start="1000"
-					data-easing="easeOutExpo"><img src="assets/images/demo/layerslider/slide-b-4.png" alt="">
+					data-easing="easeOutExpo"><img src="support/images/demo/layerslider/slide-b-4.png" alt="">
 				</div>
 
 				<div class="tp-caption sft medium_light_white"
@@ -233,7 +233,7 @@
 					data-y="430"
 					data-speed="1000"
 					data-start="1500"
-					data-easing="easeOutExpo"><img src="assets/images/demo/layerslider/bi-colored-butterfly-source_ijc.gif" alt="">
+					data-easing="easeOutExpo"><img src="support/images/demo/layerslider/bi-colored-butterfly-source_ijc.gif" alt="">
 				</div>
 
 				<div class="tp-caption block_black sfl tp-resizeme"

@@ -8,7 +8,7 @@
 			<!-- col #1 -->
 			<div class="logo_footer dark col-md-3 col-sm-3">
 
-				<img alt="" src="assets/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
+				<img alt="" src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
 
 				<p class="block">
 					EMC Birmingham<br>

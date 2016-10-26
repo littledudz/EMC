@@ -135,7 +135,7 @@
 
 <!--
                 <div class="col-md-6 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/demo/desktop.png" alt="image">
+                    <img class="img-responsive animate_fade_in" src="support/images/demo/desktop.png" alt="image">
                 </div>
 -->
             </div>
@@ -152,7 +152,7 @@
                 </div>
 <!--
                 <div class="col-md-6 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/demo/desktop.png" alt="image">
+                    <img class="img-responsive animate_fade_in" src="support/images/demo/desktop.png" alt="image">
                 </div>
 -->
             </div>
@@ -169,7 +169,7 @@
                 </div>
 <!--
                 <div class="col-md-6 text-center">
-                    <img class="img-responsive animate_fade_in" src="assets/images/demo/desktop.png" alt="image">
+                    <img class="img-responsive animate_fade_in" src="support/images/demo/desktop.png" alt="image">
                 </div>
 -->
             </div>
