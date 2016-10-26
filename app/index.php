@@ -89,29 +89,17 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
         <meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
         <meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
         <script src='https://www.google.com/recaptcha/api.js'></script>
-		<?php include_once 'scripts/php/head.php'; ?>
+		<?php include_once 'snippets/global/head-tags.php'; ?>
     </head>
-    <body>
-        <?php include_once("scripts/php/analyticstracking.php") ?>
+    <body class="smoothscroll">
+        <?php include_once("snippets/global/analyticstracking.php") ?>
         <div class="website-container">
-            <?php include_once 'scripts/php/navbar.php'; ?>
-            <div ng-view></div>
-            <?php include_once 'scripts/php/footer.php'; ?>
-            <a href="#" id="toTop"></a>
+            <?php include_once 'snippets/global/navbar.php'; ?>
+            <?php include_once 'snippets/views/home.php'; ?>
+            <?php include_once 'snippets/global/footer.php'; ?>
         </div>
-        <?php include('scripts/php/modal-form.php'); ?>
-		<?php include_once 'scripts/php/footer_js.php'; ?>
-		<script rel="text/javascript" src="scripts/main.js"></script>
-		<script rel="text/javascript" src="scripts/factories.js"></script>
-		<script rel="text/javascript" src="scripts/controllers.js"></script>
-		<script rel="text/javascript" src="scripts/js/contact.js"></script>
-		<script rel="text/javascript" src="scripts/js/countdown.js"></script>
-		<script rel="text/javascript" src="scripts/js/jasny-bootstrap.min.js"></script>
-		<script rel="text/javascript" src="scripts/js/revolution_slider.js"></script>
-		<script rel="text/javascript" src="scripts/js/scripts.js"></script>
+        <?php include('snippets/global/modal-form.php'); ?>
+		<?php include_once 'snippets/global/script-tags.php'; ?>
     </body>
 </html>
