@@ -153,33 +153,3 @@
         </div>
     </div>
 </section>
-<section id="lab-data">
-    <div class="container">
-        <header>
-            <div class="col-md-12">
-                <h2>Lab Data Delivery</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-7 col-sm-12">
-                        <p>We know getting test results in a timely manner is very important to you. That’s why we developed an electronic system that allows us to post lab data to your website as soon as it’s available. Using our password-protected portal, you can see your test results any time you want. You’ll even have access to historical data. No more lost test reports! Of course, we always mail the hard copies of all test reports as well.</p>
-                        <p>We can also prepare <b>The Electronic Discharge Monitoring Reports</b>. After setting you up on the eFile program, we will complete the reports and then when complete, you will receive an email to review the data and submit it directly to ADEM.</p>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="lab data delivery">
-                    </div>
-                </div>
-            </div>
-        </header>
-        <header id="sample-pickup">
-            <div class="col-md-12">
-                <h2>Field Sampling and Pickup</h2>
-            </div>
-            <div class="col-md-12">
-                <p>EMC has environmental technicians on the road every day providing sampling and sample pickup services in the better half of Alabama. If you collect your own samples, we can pick them up at your convenience. If you want us to collect your samples, we can set up a comprehensive sampling schedule, including composite sampling equipment, if necessary. Regardless of your needs, EMC can provide the services that make your job easier.</p>
-                <p>EMC also provides storm water sampling and testing services. Our technicians are trained in the proper sampling procedures associated with storm water regulations. Reportable samples will be collected and analyzed according to EPA protocols and reported to you on the Discharge Monitoring Reports that have to be submitted to ADEM. In short, EMC can take care of your storm water requirements from start to finish.</p>
-                <p>If you want a price quote on your sampling and testing needs, please call (205-951-3400) or <a href="#" data-toggle="modal" data-target="#ContactFormModal">send us a message</a>.</p>
-            </div>
-        </header>
-    </div>
-</section>

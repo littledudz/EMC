@@ -1,4 +1,4 @@
-<header id="header" class="sticky">
+<header id="header" class="sticky" ng-controller="NavbarController">
 
 	<!-- Top Nav -->
 	<header id="topNav" class="translucent bordered">
@@ -21,7 +21,7 @@
 
 					<ul id="topMain" class="nav nav-pills nav-main"><!-- add "white" class if you want white menu text color-->
 						<li class="mega-menu">
-							<a href="/">Home</a>
+							<a href="/Projects/EMC/app/">Home</a>
 						</li>
 
 						<li class="dropdown mega-menu">
@@ -29,14 +29,13 @@
 							<ul class="dropdown-menu">
 								<li>
 									<div class="row">
-										<div class="col-md-4">
+										<div class="col-md-12">
 											<h3>Client Services</h3>
 											<ul>
-												<li><a href="/#environmental-testing">Environmental Testing</a></li>
-												<li><a href="/#petroleum-and-jet-fuel">Petroleum / Jet Fuel</a></li>
-												<li><a href="/#product-quality-testing">Product Quality Testing</a></li>
-												<li><a href="/#lab-data">Lab Data</a></li>
-												<li><a href="/#sample-pickup">Sample Pickup</a></li>
+												<li><a href="/Projects/EMC/app/snippets/views/consulting.php">Consulting</a></li>
+												<li><a href="/Projects/EMC/app/snippets/views/lab.php">Lab</a></li>
+												<li><a href="/Projects/EMC/app/snippets/views/septic.php">Septic</a></li>
+												<li><a href="/Projects/EMC/app/snippets/views/waste-water.php">Waste Water</a></li>
 											</ul>
 										</div>
 										<!-- <div class="col-md-4">

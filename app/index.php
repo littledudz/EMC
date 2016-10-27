@@ -90,17 +90,25 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
         <meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
         <script src='https://www.google.com/recaptcha/api.js'></script>
+		
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js"> -->
+
 		<?php include_once 'snippets/global/head-tags.php'; ?>
     </head>
     <body class="smoothscroll">
         <?php include_once("snippets/global/analyticstracking.php") ?>
         <div class="website-container">
             <?php include_once 'snippets/global/navbar.php'; ?>
-            <?php include_once 'snippets/views/home.php'; ?>
+            <?php include_once'snippets/views/home.php'; ?>
             <?php include_once 'snippets/global/footer.php'; ?>
         </div>
         <?php include('snippets/global/modal-form.php'); ?>
 		<?php include_once 'snippets/global/script-tags.php'; ?>
+		<!-- <script src="scripts/main.js"></script>
+		<script src="scripts/factories.js"></script>
+		<script src="scripts/controllers.js"></script> -->
     </body>
 </html>
 
