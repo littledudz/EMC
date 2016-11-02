@@ -1,76 +1,77 @@
 <!-- FOOTER -->
 <footer id="footer">
-
 	<div class="container">
-
 		<div class="row">
-
-			<!-- col #1 -->
-			<div class="logo_footer dark col-md-3 col-sm-3">
-
+			<div class="logo_footer dark col-md-4 col-sm-4">
 				<img alt="" src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
-
 				<p class="block">
 					EMC Birmingham<br>
 					2607 Commerce Boulevard<br>
 					Birmingham, AL 35210<br>
-					(205) 951-3400<br><br>
-					<a href="http://www.emcbham.com">www.emcbham.com</a>
+					(205) 951-3400<br>
 				</p>
-
 			</div>
-
-			<!-- col #2 -->
-			<div class="spaced col-md-9 col-sm-9">
-
-				<h4 id="form">Need a price quote? Fill out the form below.</h4>
-
-				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-
-					<div class="form-group col-md-6">
-						<label for="senderemail">Email address</label>
-						<input type="text" class="form-control" id="senderemail" name="senderemail" placeholder="j.smith@company.com" required>
-					</div>
-					<div class="form-group col-md-6">
-						<label for="sendername">Name</label>
-						<input type="text" class="form-control" id="sendername" name="sendername" placeholder="John Smith" required>
-					</div>
-					<div class="form-group col-md-6">
-						<label for="companyname">Company Name</label>
-						<input type="text" class="form-control" id="companyname" name="companyname" placeholder="Company Name" required>
-					</div>
-					<div class="form-group col-md-3">
-						<label for="senderphone">Phone</label>
-						<input type="text" class="form-control" id="senderphone" name="senderphone" data-mask="(999) 999-9999" placeholder="(123) 456-7890" required>
-					</div>
-					<div class="form-group col-md-3">
-						<label for="zip">Zip</label>
-						<input type="text" class="form-control" id="zip" name="zip" data-mask="99999" placeholder="35007" required>
-					</div>
-					<div class="form-group col-md-12">
-						<label for="details">Details</label>
-						<textarea class="form-control" id="details" name="details" rows="6" required></textarea>
-					</div>
-
-					<div class="col-md-4">
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</div>
-
-				</form>
-
+			<section class="openinghours col-md-4 col-sm-4">
+				<div class="openinghourscontent section">
+					<table class="opening-hours-table">
+						<tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+							<td>Monday</td>
+							<td class="opens">9:00am</td>
+							<td>-</td>
+							<td class="closes">5:00pm</td>
+						</tr>
+						<tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+							<td>Tuesday</td>
+							<td class="opens">9:00am</td>
+							<td>-</td>
+							<td class="closes">5:00pm</td>
+						</tr>
+						<tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+							<td>Wednesday</td>
+							<td class="opens">9:00am</td>
+							<td>-</td>
+							<td class="closes">5:00pm</td>
+						</tr>
+						<tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+							<td>Thursday</td>
+							<td class="opens">9:00am</td>
+							<td>-</td>
+							<td class="closes">5:00pm</td>
+						</tr>
+						<tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+							<td>Friday</td>
+							<td class="opens">9:00am</td>
+							<td>-</td>
+							<td class="closes">5:00pm</td>
+						</tr>
+						<tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+							<td>Saturday</td>
+							<td class="opens">Closed</td>
+						</tr>
+						<tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+							<td>Sunday</td>
+							<td class="opens">Closed</td>
+						</tr>
+					</table>
+					<script>
+						(function(e, t, n, r) {
+							if (e) return;
+							t._appt = true;
+							var i = n.createElement(r),
+								s = n.getElementsByTagName(r)[0];
+							i.async = true;
+							i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+							s.parentNode.insertBefore(i, s)
+						})(window._appt, window, document, "script")
+					</script>
+				</div>
+			</section>
+			<div class="copyright col-md-4 col-sm-4">
+				<div class="container text-center fsize12">
+					All Right Reserved &copy; EMC Birmingham <?php echo date("Y"); ?>. | Site designed &amp; powered by Dudley Dickerson & <a href="http://www.phillipsanford.com" target="_blank" title="Got digital strategy? Click here." class="copyright">Phillip Sanford</a>
+				</div>
 			</div>
-
-		</div>
-
-	</div>
-
-	<hr>
-
-	<div class="copyright">
-		<div class="container text-center fsize12">
-			All Right Reserved &copy; EMC Birmingham <?php echo date("Y"); ?>. | Site designed &amp; powered by <a href="http://www.phillipsanford.com" target="_blank" title="Got digital strategy? Click here." class="copyright">www.phillipsanford.com</a>
 		</div>
 	</div>
-
 </footer>
 <!--FOOTER -->

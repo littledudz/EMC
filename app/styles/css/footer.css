@@ -1,10 +1,9 @@
 /** Footer
  **************************************************************** **/
 #footer {
-	color:#777;
 	display:block;
 	vertical-align:bottom;
-	background-color:#2B2B2B;
+	background-color:#252525;
 	border-top:#252525 5px solid;
 	z-index:101;
 }
@@ -25,11 +24,11 @@
 	padding:60px 15px;
 }
 #footer .logo_footer {
-	padding:40px 15px;
+	padding:15px;
 }
 #footer .dark {
-	height:400px;
-	background-color:#252525;
+	color:#777;
+	height: 200px;
 }
 
 #footer h2,
@@ -39,8 +38,9 @@
 }
 
 #footer .copyright {
-	background-color:#252525;
-	padding:20px 0;
+	color:#777;
+	height: 200px;
+	padding: 15px;
 }
 
 
@@ -123,6 +123,23 @@
 }
 #footer ul.nobordered li a>i.fa{
 	padding-right:6px;
+}
+
+/** Hours of Operation
+ **************************************************************** **/
+
+.openinghours {
+    font-family:Lucida Console;
+	font-weight:bold;
+	color: #777;
+    padding:15px;
+    overflow: hidden;
+}
+.openinghourscontent {
+    float:left;
+}
+.opening-hours-table tr td {
+    padding:0px 5px;
 }
 
 /** Responsive
