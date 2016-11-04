@@ -29,30 +29,28 @@
 							<ul class="dropdown-menu">
 								<li>
 									<div class="row">
-										<div class="col-md-12">
+										<div class="logo_footer dark col-md-4 col-sm-4">
+											<img alt="" src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
+											<p class="block">
+												EMC Birmingham<br>
+												2607 Commerce Boulevard<br>
+												Birmingham, AL 35210<br>
+												(205) 951-3400<br>
+											</p>
+										</div>
+										<div class="col-md-4 col-sm-4">
 											<h3>Client Services</h3>
 											<ul>
-												<li><a href="/Projects/EMC/app/snippets/views/consulting.php">Consulting</a></li>
-												<li><a href="/Projects/EMC/app/snippets/views/lab.php">Lab</a></li>
-												<li><a href="/Projects/EMC/app/snippets/views/septic.php">Septic</a></li>
-												<li><a href="/Projects/EMC/app/snippets/views/waste-water.php">Waste Water</a></li>
+												<li><a href="/Projects/EMC/app/consulting.php">Consulting Services</a></li>
+												<li><a href="/Projects/EMC/app/lab.php">Laboratory Services</a></li>
+												<li><a href="/Projects/EMC/app/septic.php">Septic Tank Services</a></li>
+												<li><a href="/Projects/EMC/app/waste-water.php">Waste Water Services</a></li>
 											</ul>
 										</div>
-										<!-- <div class="col-md-4">
-											<h3>Other Services</h3>
-											<ul>
-												<li><a href="/#wastewater-treatment">WWTP Operations &amp; Maintenance</a></li>
-												<li><a href="consulting">Consulting</a></li>
-												<li><a href="/#cooling-tower-water">Cooling Tower Water Treatment Programs</a></li>
-											</ul>
+										 <div class="col-md-4 col-sm-4">
+											<a href="#" class="btn btn-primary btn-block">Client Login</a>
+											<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 										</div>
-										<div class="col-md-4">
-											<h3>EMC Clients</h3>
-											<ul>
-												<li><a href="#">Client Login</a></li>
-												<li><a href="/files/ChainofCustody.pdf" target="_blank">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-											</ul>
-										</div> -->
 									</div>
 								</li>
 							</ul>

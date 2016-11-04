@@ -101,7 +101,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once("snippets/global/analyticstracking.php") ?>
         <div class="website-container">
             <?php include_once 'snippets/global/navbar.php'; ?>
-            <?php include_once'snippets/views/home.php'; ?>
+            <?php include_once'home.php'; ?>
             <?php include_once 'snippets/global/footer.php'; ?>
         </div>
         <?php include('snippets/global/modal-form.php'); ?>
