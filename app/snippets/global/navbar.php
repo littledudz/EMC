@@ -6,7 +6,7 @@
 		<div class="container">
 
 			<!-- Logo -->
-			<a class="logo" href="/">
+			<a class="logo" href="/Projects/EMC/app/index.php">
 				<img src="support/images/emc-birmingham-logo-iso.png" alt="emc-birmingham-logo-iso" height="50">
 			</a>
 
@@ -29,16 +29,7 @@
 							<ul class="dropdown-menu">
 								<li>
 									<div class="row">
-										<div class="logo_footer dark col-md-4 col-sm-4">
-											<img alt="" src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
-											<p class="block">
-												EMC Birmingham<br>
-												2607 Commerce Boulevard<br>
-												Birmingham, AL 35210<br>
-												(205) 951-3400<br>
-											</p>
-										</div>
-										<div class="col-md-4 col-sm-4">
+										<div class="col-md-12">
 											<h3>Client Services</h3>
 											<ul>
 												<li><a href="/Projects/EMC/app/consulting.php">Consulting Services</a></li>
@@ -46,10 +37,6 @@
 												<li><a href="/Projects/EMC/app/septic.php">Septic Tank Services</a></li>
 												<li><a href="/Projects/EMC/app/waste-water.php">Waste Water Services</a></li>
 											</ul>
-										</div>
-										 <div class="col-md-4 col-sm-4">
-											<a href="#" class="btn btn-primary btn-block">Client Login</a>
-											<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 										</div>
 									</div>
 								</li>
