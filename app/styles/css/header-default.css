@@ -447,7 +447,7 @@ body.boxed #topBar {
 	}
 	#topNav div.nav-main-collapse {
 		float: none;
-		overflow-x:hidden;
+		overflow-x: hidden;
 	}
 	#topNav div.nav-main-collapse.collapse {
 		display: none !important;

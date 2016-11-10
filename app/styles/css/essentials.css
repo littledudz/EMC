@@ -2169,6 +2169,9 @@ h4.modal-title {
 body {
 	padding-right:0 !important;
 }
+select {
+	width: 100%;
+}
 
 
 /** 27. Carousel

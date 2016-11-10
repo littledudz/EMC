@@ -118,9 +118,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
         <section class="alternate">
             <div class="container">
+				<img class="col-md-12 views-top-photo" id="waste-water-top-photo" src="support/images/wastewater-treatment-plant.jpg">
                 <div class="row" id="wastewater-treatment">
                     <div class="col-md-12">
-                        <h2 class="padding-top40"><strong>Wastewater Treatment Plant</strong> Operations &amp; Maintenance</h2>
+                        <h2 class="padding-top30"><strong>Wastewater Treatment Plant</strong> Operations &amp; Maintenance</h2>
                         <h4><b>Operations</b></h4>
                         <p>EMC offers a wide range of wastewater treatment plant operational services. With our State Certified Operators, we can fully operate your plant and take care of all aspects of plant operations, or we can provide part-time operational assistance that will allow you to stay in compliance with ADEM regulations. Either way, EMC’s State Certified Operators can provide the services you need at a price you can afford.</p>
                         <div class="col-md-5 col-sm-12">
@@ -168,21 +169,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                     </div>
         -->
                 </div>
-                <hr>
-                <div class="row" id="cooling-tower-water">
-                    <div class="col-md-12">
-                        <h2><strong>Cooling Tower Water</strong> Treatment Programs</h2>
-                    </div>
-                    <div class="col-md-4 col-sm-5">
-                        <img class="img-responsive animate_fade_in" src="support/images/cooling-tower.jpg" alt="cooling tower">
-                    </div>
-                    <div class="col-md-8 col-sm-7">
-                        <p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion. Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
-                    </div>
-                </div>
             </div>
         </section>
-        <?php include('snippets/global/modal-form.php'); ?>
+        <?php include('snippets/global/modal-form-contact-us.php'); ?>
+		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
         <?php include_once 'snippets/global/footer.php'; ?>
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->

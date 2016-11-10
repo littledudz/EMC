@@ -1,0 +1,129 @@
+/******************************
+_______________________________
+
+TABLE OF CONTENTS
+
+01. Global
+02. Consulting View
+03. Cooling Tower View
+04. Home View
+05. Index View
+06. Lab View
+07. Septic View
+08. Waste Water View
+09. Responsiveness   
+________________________________
+
+******************************/
+
+
+
+/*****************************  
+01. Global
+******************************/
+
+.views-top-photo {
+    display: block;
+    width: 103%;
+    height: 400px;
+    padding: 0px;
+    margin: 20px 0px 0px -15px;
+}
+
+
+
+
+/*****************************  
+02. Consulting View
+******************************/
+
+.consulting-title {
+    padding-left: 15px;
+}
+
+
+
+
+/*****************************  
+03. Cooling Tower View
+******************************/
+
+
+
+
+
+
+/*****************************  
+04. Home View
+******************************/
+
+
+
+
+
+/*****************************  
+05. Index View
+******************************/
+
+
+
+
+
+
+/*****************************  
+06. Lab View
+******************************/
+
+
+
+
+
+
+
+/*****************************  
+07. Septic View
+******************************/
+
+
+
+
+
+
+/*****************************  
+08. Waste Water View
+******************************/
+
+
+
+
+
+
+
+/*****************************  
+09. Responsiveness
+******************************/
+
+@media only screen and (min-width: 990px) {
+
+}
+
+@media only screen and (max-width: 990px) {
+    .views-top-photo {
+        height: 400px;
+        margin: -50px 0px 0px -15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.views-top-photo {
+        height: 300px;
+        margin: -50px 0px 0px -15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .views-top-photo {
+        height: auto;
+        margin: -50px 0px 0px -5px;
+    }
+}

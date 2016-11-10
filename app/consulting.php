@@ -124,9 +124,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			<!-- WELCOME -->
 			<section>
 				<div class="container">
+					<img class="col-md-12 views-top-photo" id="consulting-top-photo" src="support/images/bg-emc-1.jpg">
 					<header>
 						<div class="row">
-							<h2 class="padding-top40">Consulting</h2>
+							<h2 class="padding-top30 consulting-title">Consulting</h2>
 							<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
 								<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
 							</div>
@@ -351,16 +352,11 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			</section>
 			<!--PREMIUM -->
 			
-			<?php include('snippets/global/modal-form.php'); ?>
-
+			<?php include('snippets/global/modal-form-contact-us.php'); ?>
+			<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
 			<?php include_once 'snippets/global/footer.php'; ?>
-
 			<a href="#" id="toTop"></a>
-
 		</div><!--#wrapper -->
-
 		<?php include_once 'snippets/global/script-tags.php'; ?>
-
 	</body>
-
 </html>

@@ -32,20 +32,16 @@
 #topNav .nav-pills>li.active>a, 
 #topNav .nav-pills>li.active>a:hover, 
 #topNav .nav-pills>li.active>a:focus {
-	background-color:transparent;
+	background-color:white;
 }
 #topNav div.navbar-collapse {
 	padding:0;
 }
 #topNav ul.nav>li {
 	color:#666;
-	border-left:#eee 1px solid;
 	text-align:center;
 	position:relative;
 	margin:0;
-}
-#topNav ul.nav>li:last-child {
-	border-right:#eee 1px solid;
 }
 #topNav ul.nav>li:hover>a:before,
 #topNav ul.nav>li.active>a:before {
@@ -276,15 +272,19 @@
 }
 
 #topNav ul.nav>li.mega-menu>ul {
-	width:100%;
+	width: 500px;
 	background-color:transparent;
-	border:none;
+	border-bottom: 1px solid rgba(0,0,0,1);
+	border-right: 1px solid rgba(0,0,0,1);
+	border-left: 1px solid rgba(0,0,0,1);
 	box-shadow:none;
 }
 #topNav ul.nav>li.mega-menu>ul.dropdown-menu>li {
 	margin:0 15px; padding:15px;
 	background-color:#fff;
-	border: #eee 1px solid;
+	border-bottom: 1px solid rgba(0,0,0,1);
+	border-right: 1px solid rgba(0,0,0,1);
+	border-left: 1px solid rgba(0,0,0,1);
 	box-shadow: rgba(0,0,0,0.2) 0 6px 12px;
 }
 #topNav ul.nav>li.mega-menu>ul ul {
@@ -311,6 +311,14 @@
 	border:0;
 	border:rgba(0,0,0,0.01) 1px solid;
 	margin:10px 0;
+}
+#topNav #dropdown-menu-spacing {
+	width: 400px;
+	margin-left: 40%;
+	margin-right: 60%;
+}
+#topNav #dropdown-menu-spacing ul li {
+	text-align: center;
 }
 
 
@@ -388,6 +396,13 @@
 
 /** Responsive Top Nav
  **************************************************************** **/
+@media only screen and (min-width: 990px) {
+	#topNav #dropdown-menu-spacing {
+		width: 400px;
+		margin-left: 40%;
+		margin-right: 60%;
+	}
+}
 @media only screen and (max-width: 990px) {
 	.navbar-collapse {
 		max-height:100%;
@@ -524,6 +539,14 @@
 	}
 	#topNav ul.nav>li.mega-menu div div:last-child {
 		margin-bottom:0;
+	}
+	#topNav #dropdown-menu-spacing {
+		width: 95%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	#topNav #dropdown-menu-spacing ul li {
+		text-align: left;
 	}
 }
 
@@ -751,7 +774,7 @@ body.menu-vertical #mainMenu .social {
 	z-index:11;
 }
 #topNav.translucent {
-	background-color:rgba(255,255,255,0.2);
+	background-color:rgba(255,255,255,0.5);
 }
 #topNav.bordered {
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -811,7 +834,7 @@ body.menu-vertical #mainMenu .social {
 	font-size:14px;
 	line-height:14px;
 	display:block;
-	font-weight:300;
+	font-weight:700;
 
 	-webkit-transition: all 0.2s;
 	   -moz-transition: all 0.2s;
@@ -867,7 +890,7 @@ body.menu-vertical #mainMenu .social {
 #topNav ul.dropdown-menu>li a {
 	margin:0;
 	padding:10px 15px;
-	font-weight:400;
+	font-weight:700;
 
 	color:#555;
 	font-size:13px;

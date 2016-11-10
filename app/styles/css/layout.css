@@ -276,13 +276,19 @@ div.slider {
 	background-color:#171717;
 	position:relative;
 	z-index:1;
-	/*margin-top: 5.25em;*/
+	margin-top: 5.25em;
 
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 		 -o-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 			box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 }
+
+@media only screen and (max-width: 990px) {
+	div.slider {
+	  margin-top: 0em;
+	}
+ }
 
 div.slider a.btn {
 	color:#fff;

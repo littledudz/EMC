@@ -115,10 +115,12 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
          <section class="alternate">
             <div class="container">
-                <h1>Septic Page</h1>
+				<img class="col-md-12 views-top-photo" id="septic-top-photo" src="support/images/bg-emc-3.jpg">
+                <h1 class="padding-top30">Septic Page</h1>
             </div>
         </section>
-        <?php include('snippets/global/modal-form.php'); ?>
+        <?php include('snippets/global/modal-form-contact-us.php'); ?>
+		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
         <?php include_once 'snippets/global/footer.php'; ?>
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->

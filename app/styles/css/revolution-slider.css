@@ -1188,6 +1188,10 @@ border-style:none;
 	position:relative;
 }
 
+.fullwidthbanner-container .fullwidthbanner ul li a img{
+	width:100%;
+}
+
 
 
 /************************************************

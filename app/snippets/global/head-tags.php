@@ -24,18 +24,14 @@
 <!-- THEME CSS -->
 <link rel="stylesheet" type="text/css" href="styles/css/global.css">
 <link rel="stylesheet" type="text/css" href="styles/css/navbar.css">
-<link rel="stylesheet" type="text/css" href="styles/css/home.css">
 <link rel="stylesheet" type="text/css" href="styles/css/footer.css">
 <link rel="stylesheet" type="text/css" href="styles/css/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/css/carousel.css">
-<link rel="stylesheet" type="text/css" href="styles/css/consulting.css">
 <link rel="stylesheet" type="text/css" href="styles/css/essentials.css">
 <link rel="stylesheet" type="text/css" href="styles/css/flexslider.css">
-<link rel="stylesheet" type="text/css" href="styles/css/lab.css">
 <link rel="stylesheet" type="text/css" href="styles/css/layerslider.css">
 <link rel="stylesheet" type="text/css" href="styles/css/layout.css">
-<link rel="stylesheet" type="text/css" href="styles/css/septic.css">
-<link rel="stylesheet" type="text/css" href="styles/css/waste-water.css">
+<link rel="stylesheet" type="text/css" href="styles/css/views.css">
 
 <!-- Morenizr -->
 <!-- 		<script type="text/javascript" src="scripts/plugins/modernizr.min.js"></script> -->

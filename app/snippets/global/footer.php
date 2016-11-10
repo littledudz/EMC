@@ -11,7 +11,7 @@
 					(205) 951-3400<br>
 				</p>
 			</div>
-			<section class="openinghours col-md-4 col-sm-4">
+			<div class="openinghours col-md-4 col-sm-4">
 				<div class="openinghourscontent section">
 					<table class="opening-hours-table">
 						<tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
@@ -53,21 +53,10 @@
 							<td class="opens">Closed</td>
 						</tr>
 					</table>
-					<script>
-						(function(e, t, n, r) {
-							if (e) return;
-							t._appt = true;
-							var i = n.createElement(r),
-								s = n.getElementsByTagName(r)[0];
-							i.async = true;
-							i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
-							s.parentNode.insertBefore(i, s)
-						})(window._appt, window, document, "script")
-					</script>
 				</div>
-			</section>
+			</div>
 			<div class="copyright col-md-4 col-sm-4">
-				<div class="container text-center fsize12">
+				<div class="text-center fsize12">
 					All Right Reserved &copy; EMC Birmingham <?php echo date("Y"); ?>. | Site designed &amp; powered by Dudley Dickerson & <a href="http://www.phillipsanford.com" target="_blank" title="Got digital strategy? Click here." class="copyright">Phillip Sanford</a>
 				</div>
 			</div>
