@@ -11,9 +11,9 @@
 	display:block; left:0; right:0; top:0;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	background:#fff;
+	background:#ffffff;
 	position:relative;
-	z-index:11;
+	z-index:100;
 
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -46,7 +46,7 @@
 #topNav ul.nav>li:hover>a:before,
 #topNav ul.nav>li.active>a:before {
 	content:' ';
-	background-color: #a94545;
+	background-color: #1f8fbe;
 	height: 2px; width: 100%;
 	left: 0; top: -3px;
 	position: absolute;
@@ -100,15 +100,15 @@
 }
 
 #topNav ul.dropdown-menu {
-	text-align:left;
-	margin-top:0;
-	box-shadow:none;
-	border:#eee 1px solid;
-	border-top:0;
-	list-style:none;
-	background-color:#fff;
-	box-shadow:rgba(0,0,0,0.2) 0 6px 12px;
-	min-width:200px;
+	text-align: left;
+	margin-top: 70px;
+	box-shadow: none;
+	border: #eee 1px solid;
+	border-top: 0;
+	list-style: none;
+	background-color: #fff;
+	box-shadow: rgba(0,0,0,0.4) 0 6px 12px;
+	min-width: 200px;
 
 	-webkit-border-radius: 0;
 	   -moz-border-radius: 0;
@@ -124,7 +124,7 @@
 
 	color:#555;
 	font-size:13px;
-	border-bottom:rgba(0,0,0,0.1) 1px solid;
+	border-bottom:rgba(0,0,0,0.4) 1px solid;
 }
 #topNav ul.dropdown-menu>li a i.fa {
 	margin-right:4px;
@@ -280,7 +280,7 @@
 	box-shadow:none;
 }
 #topNav ul.nav>li.mega-menu>ul.dropdown-menu>li {
-	margin:0 15px; padding:15px;
+	margin:0px 15px; padding:15px;
 	background-color:#fff;
 	border-bottom: 1px solid rgba(0,0,0,1);
 	border-right: 1px solid rgba(0,0,0,1);
@@ -321,77 +321,28 @@
 	text-align: center;
 }
 
-
-
-
-
-/** Secondary Main Menu
-	Top Bar / Shop Cart
+/** Call Now
  **************************************************************** **/
-#barMain {
-	float:right;
-	margin-top:6px;
-	font-size:12px;
-}
 
-#barMain .nav>li>a {
-	padding:5px 10px;
-}
-#barMain .nav>li>a:hover, 
-#barMain .nav>li>a:focus {
-	background-color:rgba(0,0,0,0.03);
-}
+#topNav .call-now {
 
-/* cart */
-#barMain .nav>li.quick-cart {
-	background-color:#F8F8F8;
-	margin-left:10px;
 }
-#topBar.styleBackgroundColor .nav>li.quick-cart {
-	background-color:rgba(0,0,0,0.1) !important;
+.call-now .call-full {
+	color: #ffffff;
+    font-size: 20px;
+    line-height: 70px;
+    vertical-align: middle;
 }
-#topBar.styleBackgroundColor .nav>li.quick-cart.open>a {
-	color:#000;
+.call-now .call-short {
+	font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(37,37,37,0.85);
+    box-shadow:rgba(0,0,0,1) 0px 0px 30px;
 }
-#topBar.styleBackgroundColor .nav>li.quick-cart p {
-	color:#000;
-}
-#barMain .nav>li.quick-cart>.dropdown-menu {
-	border:0; margin:0;
-	background-color:#F0F0F0;
-	width:250px;
-}
-#barMain .nav>li.quick-cart .quick-cart-content {
-	padding:10px 10px 0 10px;
-}
-#barMain .nav>li.quick-cart p {
-	margin:0; padding:10px 10px 0 10px;
-	font-size:13px;
-}
-#barMain .nav>li.quick-cart a.quick-cart-item {
-	clear: both;
-	display: block;
-	padding: 10px 8px;
-	font-size: 13px;
-	line-height: 16px;
-	min-height: 60px;
-	text-decoration: none;
-	border-bottom: rgba(0,0,0,0.1) 1px solid;
-	background: rgba(0,0,0,0.05);
-}
-#barMain .nav>li.quick-cart a.quick-cart-item,
-#barMain .nav>li.quick-cart a.quick-cart-item a {
-	color:#999 !important;
-}
-#barMain .nav>li.quick-cart a.quick-cart-item:hover {
-	background: rgba(0,0,0,0.08);
-}
-#barMain .nav>li.quick-cart .cart-footer {
-	margin-top:10px;
-}
-
-
-
 
 
 /** Responsive Top Nav
@@ -774,7 +725,7 @@ body.menu-vertical #mainMenu .social {
 	z-index:11;
 }
 #topNav.translucent {
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,1);
 }
 #topNav.bordered {
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -784,7 +735,7 @@ body.menu-vertical #mainMenu .social {
 }
 
 #topNav a.logo {
-	margin:10px 30px 0 0;
+	margin:10px 30px 0;
 	display:inline-block;
 	min-height:50px;
 	float:left;
@@ -820,7 +771,7 @@ body.menu-vertical #mainMenu .social {
 #topNav ul.nav>li:hover>a:before,
 #topNav ul.nav>li.active>a:before {
 	content:' ';
-	background-color: #a94545;
+	background-color: #1f8fbe;
 	height: 2px; width: 100%;
 	left: 0; top: -3px;
 	position: absolute;
@@ -871,7 +822,7 @@ body.menu-vertical #mainMenu .social {
 
 #topNav ul.dropdown-menu {
 	text-align:left;
-	margin-top:0;
+	margin-top: 70px;
 	box-shadow:none;
 	border:#eee 1px solid;
 	border-top:0;

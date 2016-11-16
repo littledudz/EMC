@@ -106,21 +106,134 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
 	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
 	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
-	<meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
+	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>$( function() { $( "#datepicker" ).datepicker() } ); </script>
 </head>
 <body class="smoothscroll">
     <?php include_once("snippets/global/analyticstracking.php") ?>
     <div id="wrapper">
         <?php include_once 'snippets/global/navbar.php' ?>
-         <section class="alternate">
+		<div class="container">
+			<!-- <div class="septic-header-bar">
+				<div class="col-md-5 col-sm-2 call-now">
+					<p class="call-full">Call Now: <a href="+12059513400"><strong>(205) 951-3400</strong></a></p>
+					<a class="call-short" href="+12059513400"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><p class="call-text">Call Now</p></a> 
+				</div>
+			</div> -->
+		</div>
+         <section class="alternate" id="septic-page-top">
             <div class="container">
-				<img class="col-md-12 views-top-photo" id="septic-top-photo" src="support/images/bg-emc-3.jpg">
-                <h1 class="padding-top30">Septic Page</h1>
-            </div>
+				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg">
+				<!--<a class="ha-seal" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="display: block; margin: 0 auto;"><img alt="Enviro Management Company, Inc. - Reviews on Home Advisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-border.png?sp=56516298&key=4283b6a0c8716f1c51f22f19ad5fcc93" /></a>-->
+				<div class="photo-schedule-container">
+					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
+					<p class="col-md-12 schedule-subtitle">Select Preferred Time & Date</p>
+					<input type="text" id="schedule-date datepicker" placeholder="Select Date" required>
+					<input type="text" id="schedule-phone" placeholder="Contact Phone #" required>
+					<input type="text" id="schedule-address" placeholder="Site Address" required>
+					<select name="time" required>
+						<option value="Morning">Morning (8am-12pm)</option>
+						<option value="worofmouth">Afternoon (12pm-4pm)</option>
+						<option value="homeadvisor">Evening (4pm-8pm)</option>
+					</select>
+					<button class="btn schedule-button" onclick="schedule-service">Schedule Service</button>
+				</div> <!-- end .photo-schedule-container -->
+				<button class="btn second-button" onclick="schedule-service" data-toggle="modal" data-target="#ScheduleFormModal">Schedule Service</button>
+				<div class="text-content-container">
+					<h2 class="col-md-12"><strong>Septic Tank & Grease Trap</strong> Cleaning</h2>
+					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
+						<p>sfgfgedrgergerg fdfbvdbbdvbdbvdggr dsdfbddvvd sfvdffbvdfdfbvdfbvdf vfddfdgd gddrdgr fdbtergeer gregregvreggvreg egerggerggerg ervgreggergev vbervgvergverr ergvergrg ffcvfesefew frfrewffwre wvadvw elgergheorhg ergheroighoireh egoeirhgoierhgoihergie ergheroigheroigh egrogheroigheirhg ergerighieorgherheuigh ewrghrgheorhgewiu hvhreoher dbchbvhe wsvbvberuf wvrwverwern ervenerv ernrnovr nerner nnergregnrognr eerg ergerog ergerg egier greguergeruhg eriergergerhg uigger hg hgerghgerghiu ghgeriggugiueggehregrhghg giuerh uhvkjdvkjvbre erberukv bvbdvkbevbb rbervebvervbvbviurbiberuiv bvbbviubvirurriereb vebrv rbebvvbberbrrebvehrbvhbvehr r  fff vvherveue bv erbu</p>
+						<h3 class="septic-symptoms">Symptoms Indicating Your System Needs To Be Pumped</h3>
+						<div class="col-md-6 col-sm-6">
+							<p class="bullet-title">Indoors</p>
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>water back-up through plumbing</li>
+								<li>fluctuating levels in the toilets</li>
+								<li>gurgling in sinks & toilets</li>
+								<li>slow draining</li>
+								<li>odors</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<p class="bullet-title">Outdoors</p>
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>sunken ground around disposal area</li>
+								<li>wetspot in disposal area</li>
+								<li>sewage backups</li>
+								<li>tall green grass</li>
+								<li>odors</li>
+							</ul>
+						</div>
+						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
+						<h3 class="septic-symptoms">What Are All of the Services That We Provide?</h3>
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>edfcwefcw</li>
+								<li>wefwefcwef</li>
+								<li>wefwefce</li>
+								<li>wefcwefwe</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>edfcwefcw</li>
+								<li>wefwefcwef</li>
+								<li>wefwefce</li>
+								<li>wefcwefwe</li>
+							</ul>
+						</div>
+						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="coupon">
+							<div class="half-coupon col-md-12">
+								<p class="coupon-text coupon-money ">$25.00 off</p>
+								<p class="coupon-text coupon-main">Septic Tank</p>
+								<p class="coupon-text coupon-main">Cleaning</p>
+								<p class="coupon-text coupon-septic">Septic lid must be uncovered.</p>
+								<p class="coupon-text coupon-disclaimer">Not valid with any other coupon. Must provide coupon. Expiration 12/31/2018</p>
+							</div>
+							<div class="half-coupon col-md-12">
+								<p class="coupon-text coupon-money">$25.00 off</p>
+								<p class="coupon-text coupon-main">Refer a friend</p>
+								<p class="coupon-text coupon-main">and recieve a</p>
+								<p class="coupon-text coupon-main">$25.00 rebate.</p>
+								<p class="coupon-text coupon-septic">Septic lid must be uncovered.</p>
+								<p class="coupon-text coupon-disclaimer">Not valid with any other coupon. Must provide coupon. Expiration 12/31/2018</p>
+							</div>
+							<div class="half-coupon col-md-12">
+								<a href="support/files/Coupon.pdf"><button class="schedule-button" ><i class="fa fa-print" aria-hidden="true"></i> Print Coupon</button></a>
+							</div>
+						</div>
+						<div class="client-buttons col-md-12">
+							<a href="#" class="btn btn-primary btn-block">Client Login</a>
+							<a href="support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+						</div>
+					</div> <!-- end .col-md-3 -->
+				</div> <!-- end .text-content-container -->
+				<div class="ha-reviews-horizontal" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 0 15px 10px; margin: 0 auto; width: 855px; height: 310px; overflow: hidden; box-sizing: border-box;">
+					<div style="border-bottom: 1px solid #d7d7d7; margin: 0 -15px 10px;">
+						<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="185" style="float: left; margin: 10px 0 0 20px;">
+						<h2 style="background: #3d4549; color:#fff; margin: 0; padding: 11px 27px 9px; float:right; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
+						<div style="clear: both;"></div>
+					</div>
+					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=horizontal&reviewSort=highest" style="width: 100%; height: 215px; background: transparent;" frameborder="0" scrolling="no"></iframe>
+					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; float: right; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
+				</div>
+				<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; margin: 0 auto; width: 300px; height: 780px; box-sizing: border-box;">
+					<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="259">
+					<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
+					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=highest" style="width: 100%; height: 607px; background: transparent;" frameborder="0" scrolling="no"></iframe>
+					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
+				</div>
+			</div> <!-- end .container -->
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>
 		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
+		<?php include('snippets/global/modal-form-schedule.php'); ?>
         <?php include_once 'snippets/global/footer.php'; ?>
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->

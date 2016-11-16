@@ -62,12 +62,13 @@
                 </select>
             </div>
             <div class="form-group col-md-3">
-                <label for="budget">Budget</label>
-                <select name="budget" required>
+                <label for="reference">Who Referred You To Us?</label>
+                <select name="reference" required>
                     <option value="other">Other</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="worofmouth">Word of Mouth</option>
+                    <option value="homeadvisor">Home Advisor</option>
+                    <option value="angieslist">Angies List</option>
+                    <option value="valpack">Val Pack</option>
                 </select>
             </div>
             <div class="form-group col-md-12">

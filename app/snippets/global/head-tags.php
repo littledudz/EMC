@@ -27,6 +27,7 @@
 <link rel="stylesheet" type="text/css" href="styles/css/footer.css">
 <link rel="stylesheet" type="text/css" href="styles/css/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/css/carousel.css">
+<link rel="stylesheet" type="text/css" href="styles/css/calendar.css">
 <link rel="stylesheet" type="text/css" href="styles/css/essentials.css">
 <link rel="stylesheet" type="text/css" href="styles/css/flexslider.css">
 <link rel="stylesheet" type="text/css" href="styles/css/layerslider.css">

@@ -96,7 +96,7 @@ select {
 	border: 2px solid #E5E7E9;
 	border-radius: 6px;
 	height: 46px;
-	padding: 12px;
+	padding: 9px;
 	outline: none;
 }
 
@@ -318,6 +318,19 @@ pre {
 .padding-top150		{ padding-top:150px; }
 .padding-top180		{ padding-top:180px; }
 .padding-top200		{ padding-top:200px; }
+
+.padding-bottom10		{ padding-bottom:10px; }
+.padding-bottom20		{ padding-bottom:20px; }
+.padding-bottom30		{ padding-bottom:30px; }
+.padding-bottom40		{ padding-bottom:40px; }
+.padding-bottom50		{ padding-bottom:50px; }
+.padding-bottom60		{ padding-bottom:60px; }
+.padding-bottom80		{ padding-bottom:80px; }
+.padding-bottom100		{ padding-bottom:100px; }
+.padding-bottom130		{ padding-bottom:130px; }
+.padding-bottom150		{ padding-bottom:150px; }
+.padding-bottom180		{ padding-bottom:180px; }
+.padding-bottom200		{ padding-bottom:200px; }
 
 .margin-top3		{ margin-top:3px; }
 .margin-top6		{ margin-top:6px; }
@@ -1037,7 +1050,7 @@ h6.progress-head {
 
 /** 12. Buttons
  **************************************************************** **/
-.btn, .btn:hover {
+.btn {
 	border: 0;
 	padding: 8px 18px;
 	margin-bottom:3px;
@@ -1048,7 +1061,16 @@ h6.progress-head {
 		 -o-transition: all 0.2s;
 			transition: all 0.2s;
 }
-
+.btn:hover {
+	border: 0;
+	padding: 8px 18px;
+	margin-bottom:3px;
+	border:rgba(255,255,255,0) 1px solid;
+	box-shadow:rgba(0,0,0,1) 0px 0px 15px;
+}
+@media only screen and (max-width: 990px) { 
+	.btn, .btn-primary, .btn-block, .btn-danger { box-shadow:rgba(0,0,0,1) 0px 0px 15px; } 
+}
 .btn.notransition {
 	-webkit-transition: all 0s;
 	   -moz-transition: all 0s;
@@ -4881,4 +4903,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 	.col-sm-3 	{ width: 25%; }
 	.col-sm-2 	{ width: 16.666666666666664%; }
 	.col-sm-1 	{ width: 8.333333333333332%; }
+	.col-sm-0 	{ display: none; }
+
+	.col-md-0   { display: none; }
 }

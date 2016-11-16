@@ -109,7 +109,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
 	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
 	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
-	<meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
+	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 </head>
 <body class="smoothscroll">

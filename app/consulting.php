@@ -109,7 +109,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
 	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
 	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
-	<meta name="Author" content="Phillip Sanford [www.phillipsanford.com]">
+	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 </head>
 
@@ -125,27 +125,28 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			<section>
 				<div class="container">
 					<img class="col-md-12 views-top-photo" id="consulting-top-photo" src="support/images/bg-emc-1.jpg">
-					<header>
-						<div class="row">
-							<h2 class="padding-top30 consulting-title">Consulting</h2>
-							<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
-								<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
-							</div>
-							
-							<div class="col-md-3 col-sm-4">
-								<a href="#" class="btn btn-primary btn-block">Client Login</a>
-								<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-							</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="padding-top30"><strong>Consulting</strong> Services</h2>
 						</div>
+						<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
+							<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-4">
+							<a href="#" class="btn btn-primary btn-block">Client Login</a>
+							<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+						</div>
+					</div>
 
-						<div class="col-md-6 col-sm-4">
-							<ul class="list-icon spaced check-circle">
-								<li>NPDES Permit Applications and Renewals</li>
-								<li>SID Permit Applications and Renewals</li>
-								<li>UIC Permit Applications and Renewals</li>
-								<li>Storm Water Permit Applications and Renewals</li>
-							</ul>
-						</div>
+					<div class="col-md-6 col-sm-4">
+						<ul class="list-icon spaced check-circle">
+							<li>NPDES Permit Applications and Renewals</li>
+							<li>SID Permit Applications and Renewals</li>
+							<li>UIC Permit Applications and Renewals</li>
+							<li>Storm Water Permit Applications and Renewals</li>
+						</ul>
+					</div>
 
 						<div class="col-md-6 col-sm-4">
 							<ul class="list-icon spaced check-circle">
@@ -155,8 +156,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 								<li>EDMR Preparation and Submission</li>
 							</ul>
 						</div>
-
-					</header>
 				</div>
 			</section>
 			<!--WELCOME -->
