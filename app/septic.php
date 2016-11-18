@@ -212,23 +212,16 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 							<a href="#" class="btn btn-primary btn-block">Client Login</a>
 							<a href="support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 						</div>
+						<a class="ha-review" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">
+							<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; box-sizing: border-box;">
+								<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="100%">
+								<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
+								<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=highest" style="width: 100%; height: 607px; background: transparent;" frameborder="0" scrolling="no"></iframe>
+								<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">More Reviews</a>
+							</div>
+						</a>
 					</div> <!-- end .col-md-3 -->
 				</div> <!-- end .text-content-container -->
-				<div class="ha-reviews-horizontal" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 0 15px 10px; margin: 0 auto; width: 855px; height: 310px; overflow: hidden; box-sizing: border-box;">
-					<div style="border-bottom: 1px solid #d7d7d7; margin: 0 -15px 10px;">
-						<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="185" style="float: left; margin: 10px 0 0 20px;">
-						<h2 style="background: #3d4549; color:#fff; margin: 0; padding: 11px 27px 9px; float:right; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
-						<div style="clear: both;"></div>
-					</div>
-					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=horizontal&reviewSort=highest" style="width: 100%; height: 215px; background: transparent;" frameborder="0" scrolling="no"></iframe>
-					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; float: right; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
-				</div>
-				<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; width: 300px; height: 780px; box-sizing: border-box;">
-					<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="259">
-					<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
-					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=highest" style="width: 100%; height: 607px; background: transparent;" frameborder="0" scrolling="no"></iframe>
-					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
-				</div>
 			</div> <!-- end .container -->
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>

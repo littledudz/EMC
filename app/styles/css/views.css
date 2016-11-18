@@ -252,9 +252,20 @@ ________________________________
     text-align: center;
     margin: 0px; 
 }
-.ha-reviews{
-    margin: 0px auto;
+.ha-review {
+    text-decoration: none;
 }
+.ha-reviews-verticle { 
+    width: 100%;
+    height: 850px;
+    margin: 710px auto 0px auto; 
+}
+#ha-btn {  
+    color: #3d4549;
+    background-color: #fb8e2e;
+    font-weight: bold; 
+}
+.overall-rating .cf .rating-info { margin: 0px 50px; }
 .call-now .row .call-full a { color: #ffffff; }
 .call-short p { margin: 0px;}
 .container #septic-top-photo { margin: 15px 0px 0px -15px; }
@@ -287,11 +298,10 @@ ________________________________
 ******************************/
 
 @media only screen and (min-width: 1026px) {
-    .ha-reviews-verticle { display: none; }
+    /*.ha-reviews-verticle { display: none; }*/
 }
 @media only screen and (max-width: 1025px) {
     .ha-reviews-horizontal { display: none; }
-    .ha-reviews-verticle { margin: 1250px auto 0px auto; }
 }
 @media only screen and (min-width: 990px) {
     .second-button { display: none; }
@@ -305,6 +315,7 @@ ________________________________
     .text-content-container .coupon {  margin: 0px 0px 20px 0px; }
     .call-short { display: inline-block; }
     .schedule-button { box-shadow:rgba(0,0,0,1) 0px 0px 15px; }
+    .ha-reviews-verticle { margin: 25px auto 0px auto; }
     .views-top-photo {
         height: 400px;
         margin: -50px 0px 0px -15px;
