@@ -225,12 +225,13 @@
 	display:none;
 }
 	#topNav button.btn-mobile {
+		float: right;
 		color:#fff;
 		display: none;
 		background:#333;
-		padding:6px 10px;
-		margin-top:10px;
-		margin-bottom:3px;
+		padding:12px;
+		border: 2px solid #ffffff;
+		margin-top:4px;
 
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
@@ -324,24 +325,16 @@
 /** Call Now
  **************************************************************** **/
 
-#topNav .call-now {
-
-}
-.call-now .call-full {
-	color: #ffffff;
-    font-size: 20px;
-    line-height: 70px;
-    vertical-align: middle;
-}
-.call-now .call-short {
+#topNav .call-short {
+	float: right;
 	font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    border: 4px solid #ffffff;
-    border-radius: 5px;
-    background-color: rgba(37,37,37,0.85);
-    box-shadow:rgba(0,0,0,1) 0px 0px 30px;
+	border: 2px solid #ffffff;
+    background-color: #333;
+	margin: 4px 10px 0px 0px;
+	padding: 2px 5px;
 }
 
 
@@ -353,6 +346,7 @@
 		margin-left: 40%;
 		margin-right: 60%;
 	}
+	#topNav .call-short { display: none; }
 }
 @media only screen and (max-width: 990px) {
 	.navbar-collapse {
@@ -362,19 +356,16 @@
 		padding:0;
 		margin:0;
 	}
-
  	#topNav button.btn-mobile {
 		display:block;
 		float:right;
 		margin-right:15px;
 	}
-	
 	#topNav form.search {
 		float:left;
 		margin-top:6px;
 		margin-left:15px;
 	}
-
 	#topNav nav.nav-main {
 		background-color:#fff;
 	}
@@ -505,10 +496,10 @@
 @media only screen and (max-width: 479px) {
 
 	#topNav form.search {
-		margin-left:4px;
+		margin-left:10px;
 	}
  	#topNav button.btn-mobile {
-		margin-right:4px;
+		margin-right:10px;
 	}
 
 	.hide_mobile {
@@ -949,9 +940,9 @@ body.menu-vertical #mainMenu .social {
 		color:#fff;
 		display: none;
 		background:#333;
-		padding:6px 10px;
-		margin-top:10px;
-		margin-bottom:3px;
+		border: 2px solid #ffffff;
+		padding: 12px 14px;
+		margin-top:4px;
 
 		-webkit-border-radius: 0;
 		   -moz-border-radius: 0;
@@ -1055,7 +1046,7 @@ body.menu-vertical #mainMenu .social {
 		display:block;
 		float:right;
 		margin-right:15px;
-		margin-top:9px;
+		margin-top:4px;
 	}
 	#topNav a.logo {
 		margin:3px 30px 3px 10px;
@@ -1200,7 +1191,7 @@ body.menu-vertical #mainMenu .social {
 		margin-left:4px;
 	}
  	#topNav button.btn-mobile {
-		margin-right:4px;
+		margin-right:10px;
 	}
 
 	.hide_mobile {

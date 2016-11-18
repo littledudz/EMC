@@ -291,6 +291,7 @@ ________________________________
 }
 @media only screen and (max-width: 1025px) {
     .ha-reviews-horizontal { display: none; }
+    .ha-reviews-verticle { margin: 1250px auto 0px auto; }
 }
 @media only screen and (min-width: 990px) {
     .second-button { display: none; }

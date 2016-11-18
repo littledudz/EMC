@@ -223,7 +223,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=horizontal&reviewSort=highest" style="width: 100%; height: 215px; background: transparent;" frameborder="0" scrolling="no"></iframe>
 					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; float: right; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
 				</div>
-				<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; margin: 0 auto; width: 300px; height: 780px; box-sizing: border-box;">
+				<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; width: 300px; height: 780px; box-sizing: border-box;">
 					<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="259">
 					<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
 					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=highest" style="width: 100%; height: 607px; background: transparent;" frameborder="0" scrolling="no"></iframe>
