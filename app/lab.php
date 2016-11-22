@@ -118,10 +118,17 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
         <section class="alternate">
             <div class="container">
-                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-2.jpg">
+                <ul class="top-photo-overlay-container">
+                    <li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
+                    <li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
+                    <li class="top-photo-text welcome-text">WELCOME TO</li>
+                    <li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+                    <li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
+                </ul>
+                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-4.jpg">
                 <div class="row" id="environmental-testing">
                     <div class="col-md-12">
-                        <h2 class="padding-top30"><strong>Environmental</strong> Testing</h2>
+                        <h2 class="page-titles">Environmental Testing</h2>
                         <p>EMC has provided a full range of environmental testing services for permit holders for over two decades. Samples are analyzed using EPA approved methods for compliance purposes.</p>
 
                         <div class="col-md-4 text-center">

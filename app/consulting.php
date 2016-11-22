@@ -124,11 +124,16 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			<!-- WELCOME -->
 			<section>
 				<div class="container">
-					<img class="col-md-12 views-top-photo" id="consulting-top-photo" src="support/images/bg-emc-1.jpg">
+					<ul class="top-photo-overlay-container">
+						<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
+						<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
+						<li class="top-photo-text welcome-text">WELCOME TO</li>
+						<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+						<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
+					</ul>
+					<img class="col-md-12 views-top-photo" id="consulting-top-photo" src="support/images/shutterstock_265671650.jpg">
 					<div class="row">
-						<div class="col-md-12">
-							<h2 class="padding-top30"><strong>Consulting</strong> Services</h2>
-						</div>
+						<h2 class="page-titles page-title-margin">Consulting Services</h2>
 						<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
 							<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
 						</div>

@@ -103,11 +103,16 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
         <section class="alternate">
             <div class="container">
+				<ul class="top-photo-overlay-container">
+					<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
+					<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
+					<li class="top-photo-text welcome-text">WELCOME TO</li>
+					<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
+				</ul>
 				<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/cooling-tower.jpg">
                 <div class="row" id="cooling-tower-water">
-                    <div class="col-md-12">
-                        <h2 class="padding-top30"><strong>Cooling Tower Water</strong> Treatment Programs</h2>
-                    </div>
+                    <h2 class="page-titles page-title-margin">Cooling Tower Water Treatment Programs</h2>
 					<div class="col-md-12">
 						<p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
 					</div>

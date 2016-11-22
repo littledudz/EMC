@@ -5,7 +5,7 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/consulting.php"><img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-1.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
+				<a href="/Projects/EMC/app/consulting.php"><img src="support/images/1x1.png" data-lazyload="support/images/shutterstock_265671650.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
 				<div class="tp-caption modern_medium_light fade"
 					data-x="75"
 					data-y="125"
@@ -115,7 +115,7 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/cooling-tower.php"><img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
+				<a href="/Projects/EMC/app/cooling-tower.php"><img src="support/images/1x1.png" data-lazyload="support/images/cooling-tower.jpg"" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
 				<div class="tp-caption modern_medium_light fade"
 					data-x="75"
 					data-y="125"

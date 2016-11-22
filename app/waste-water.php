@@ -118,10 +118,17 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
         <section class="alternate">
             <div class="container">
+				<ul class="top-photo-overlay-container">
+					<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
+					<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
+					<li class="top-photo-text welcome-text">WELCOME TO</li>
+					<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
+				</ul>
 				<img class="col-md-12 views-top-photo" id="waste-water-top-photo" src="support/images/wastewater-treatment-plant.jpg">
                 <div class="row" id="wastewater-treatment">
                     <div class="col-md-12">
-                        <h2 class="padding-top30"><strong>Wastewater Treatment Plant</strong> Operations &amp; Maintenance</h2>
+                        <h2 class="page-titles" id="wastewater-title">Wastewater Treatment Plant Operations &amp; Maintenance</h2>
                         <h4><b>Operations</b></h4>
                         <p>EMC offers a wide range of wastewater treatment plant operational services. With our State Certified Operators, we can fully operate your plant and take care of all aspects of plant operations, or we can provide part-time operational assistance that will allow you to stay in compliance with ADEM regulations. Either way, EMC’s State Certified Operators can provide the services you need at a price you can afford.</p>
                         <div class="col-md-5 col-sm-12">

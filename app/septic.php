@@ -128,22 +128,39 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
             <div class="container">
 				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg">
 				<!--<a class="ha-seal" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="display: block; margin: 0 auto;"><img alt="Enviro Management Company, Inc. - Reviews on Home Advisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-border.png?sp=56516298&key=4283b6a0c8716f1c51f22f19ad5fcc93" /></a>-->
-				<div class="photo-schedule-container">
+				<form class="photo-schedule-container" method="GET" action="mailto:littledudz@yahoo.com" enctype="text/plain">
 					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
 					<p class="col-md-12 schedule-subtitle">Select Preferred Time & Date</p>
-					<input type="text" id="schedule-date datepicker" placeholder="Select Date" required>
-					<input type="text" id="schedule-phone" placeholder="Contact Phone #" required>
-					<input type="text" id="schedule-address" placeholder="Site Address" required>
+					<input type="text" id="datepicker" name="date" placeholder="Select Date" required>
+					<input type="text" id="schedule-phone" name="phone" placeholder="Contact Phone #" required>
+					<input type="text" id="schedule-address" name="address" placeholder="Site Address" required>
 					<select name="time" required>
 						<option value="Morning">Morning (8am-12pm)</option>
 						<option value="worofmouth">Afternoon (12pm-4pm)</option>
 						<option value="homeadvisor">Evening (4pm-8pm)</option>
 					</select>
-					<button class="btn schedule-button" onclick="schedule-service">Schedule Service</button>
-				</div> <!-- end .photo-schedule-container -->
-				<button class="btn second-button" onclick="schedule-service" data-toggle="modal" data-target="#ScheduleFormModal">Schedule Service</button>
+					<button class="btn schedule-button" type="submit" value="Send">Schedule Service</button>
+				</form> <!-- end .photo-schedule-container -->
+				<script>
+					var form = document.getElementsByClassName('photo-schedule-container')[0];
+					form.addEventListener('submit',contact,false);
+					function contact(e) {
+						e.preventDefault();
+						var target = e.target || e.srcElement;
+						var i = 0;
+						var message = '';
+						for (i = 0; i < target.length; ++i) {
+							if (target[i].type != 'text' && target[i].type != 'input') { continue; }
+							message += target[i].name + ': ' + target[i].value + "\r\n";
+						}
+						target.elements["body"].value = message;
+						this.submit();
+					}
+				</script>
+				<a class="btn second-button" data-toggle="modal" data-target="#ScheduleFormModal">Schedule Service</a>
 				<div class="text-content-container">
-					<h2 class="col-md-12"><strong>Septic Tank & Grease Trap</strong> Cleaning</h2>
+					<h2 class="page-titles">Septic Tank & Grease Trap Cleaning</h2>
+					<h3 class="col-md-12 counties">Servicing Jefferson, Shelby and St. Clair Counties</h3>
 					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
 						<p>sfgfgedrgergerg fdfbvdbbdvbdbvdggr dsdfbddvvd sfvdffbvdfdfbvdfbvdf vfddfdgd gddrdgr fdbtergeer gregregvreggvreg egerggerggerg ervgreggergev vbervgvergverr ergvergrg ffcvfesefew frfrewffwre wvadvw elgergheorhg ergheroighoireh egoeirhgoierhgoihergie ergheroigheroigh egrogheroigheirhg ergerighieorgherheuigh ewrghrgheorhgewiu hvhreoher dbchbvhe wsvbvberuf wvrwverwern ervenerv ernrnovr nerner nnergregnrognr eerg ergerog ergerg egier greguergeruhg eriergergerhg uigger hg hgerghgerghiu ghgeriggugiueggehregrhghg giuerh uhvkjdvkjvbre erberukv bvbdvkbevbb rbervebvervbvbviurbiberuiv bvbbviubvirurriereb vebrv rbebvvbberbrrebvehrbvhbvehr r  fff vvherveue bv erbu</p>
 						<h3 class="septic-symptoms">Symptoms Indicating Your System Needs To Be Pumped</h3>
