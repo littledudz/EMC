@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
 			navigationStyle:jQuery('.fullwidthbanner').attr('data-navigationStyle') || "square",
 
 			touchenabled:"on",
-			onHoverStop:"on",
+			onHoverStop:"off",
 
 			navigationHAlign:"center",
 			navigationVAlign:"bottom",
@@ -140,7 +140,7 @@ jQuery(document).ready(function() {
 					navigationStyle:jQuery('.fullscreenbanner').attr('data-navigationStyle') || "round",
 
 					touchenabled:"on",
-					onHoverStop:"on",
+					onHoverStop:"off",
 
 					swipe_velocity: 0.7,
 					swipe_min_touches: 1,
@@ -173,8 +173,8 @@ jQuery(document).ready(function() {
 					fullScreen:"on",
 
 					stopLoop:"off",
-					stopAfterLoops:-1,
-					stopAtSlide:-1,
+					stopAfterLoops:3,
+					stopAtSlide:0,
 
 					shuffle:"off",
 

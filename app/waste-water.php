@@ -152,18 +152,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                 </div>
                 <hr class="col-md-12 half-margins invisible">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-12">
                         <h4><b>Maintenance</b></h4>
                         <p>EMC can provide maintenance and repair services on pump stations and other wastewater treatment plant equipment, including sewer jetting. Our maintenance technicians have 25 + years of experience. Repairs to equipment will be handled quickly, professionally and economically. For a price quote on your operational or maintenance needs, please <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact us today</a>!</p>
-                    </div>
-                    <div class="col-md-5">
-                        <h4>Septic System Maintenance and Improvement</h4>
-                        <ul class="list-icon spaced check-circle">
-                            <li>Pump Care and Replacement</li>
-                            <li>Lift Station pump installation</li>
-                            <li>Grease Trap Cleaning</li>
-                            <li>Sludge Hauling</li>
-                        </ul>
                     </div>
         <!--
                     <div class="col-md-6 col-sm-6">

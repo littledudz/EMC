@@ -113,8 +113,12 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/cooling-tower.jpg">
                 <div class="row" id="cooling-tower-water">
                     <h2 class="page-titles page-title-margin">Cooling Tower Water Treatment Programs</h2>
-					<div class="col-md-12">
+					<div class="col-md-9 col-sm-8">
 						<p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<a href="#" class="btn btn-primary btn-block">Client Login</a>
+						<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 					</div>
                     <div class="col-md-4 col-sm-5">
                         <img class="img-responsive animate_fade_in" src="support/images/cooling-tower.jpg" alt="cooling tower">

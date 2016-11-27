@@ -127,7 +127,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
          <section class="alternate" id="septic-page-top">
             <div class="container">
 				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg">
-				<!--<a class="ha-seal" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="display: block; margin: 0 auto;"><img alt="Enviro Management Company, Inc. - Reviews on Home Advisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-border.png?sp=56516298&key=4283b6a0c8716f1c51f22f19ad5fcc93" /></a>-->
 				<form class="photo-schedule-container" method="GET" action="mailto:littledudz@yahoo.com" enctype="text/plain">
 					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
 					<p class="col-md-12 schedule-subtitle">Select Preferred Time & Date</p>
@@ -157,12 +156,16 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 						this.submit();
 					}
 				</script>
+				<a class="ha-seal" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html"><img alt="Enviro Management Company, Inc. - Reviews on Home Advisor" src="http://www.homeadvisor.com/images/sp-badges/soap-border.png?sp=56516298&key=4283b6a0c8716f1c51f22f19ad5fcc93"/ class="ha-seal-img"></a>
 				<a class="btn second-button" data-toggle="modal" data-target="#ScheduleFormModal">Schedule Service</a>
 				<div class="text-content-container">
 					<h2 class="page-titles">Septic Tank & Grease Trap Cleaning</h2>
 					<h3 class="col-md-12 counties">Servicing Jefferson, Shelby and St. Clair Counties</h3>
-					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
+					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #dddddd;">
 						<p>sfgfgedrgergerg fdfbvdbbdvbdbvdggr dsdfbddvvd sfvdffbvdfdfbvdfbvdf vfddfdgd gddrdgr fdbtergeer gregregvreggvreg egerggerggerg ervgreggergev vbervgvergverr ergvergrg ffcvfesefew frfrewffwre wvadvw elgergheorhg ergheroighoireh egoeirhgoierhgoihergie ergheroigheroigh egrogheroigheirhg ergerighieorgherheuigh ewrghrgheorhgewiu hvhreoher dbchbvhe wsvbvberuf wvrwverwern ervenerv ernrnovr nerner nnergregnrognr eerg ergerog ergerg egier greguergeruhg eriergergerhg uigger hg hgerghgerghiu ghgeriggugiueggehregrhghg giuerh uhvkjdvkjvbre erberukv bvbdvkbevbb rbervebvervbvbviurbiberuiv bvbbviubvirurriereb vebrv rbebvvbberbrrebvehrbvhbvehr r  fff vvherveue bv erbu</p>
+
+						<hr>
+
 						<h3 class="septic-symptoms">Symptoms Indicating Your System Needs To Be Pumped</h3>
 						<div class="col-md-6 col-sm-6">
 							<p class="bullet-title">Indoors</p>
@@ -185,6 +188,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 							</ul>
 						</div>
 						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
+						
+						<hr>
+
 						<h3 class="septic-symptoms">What Are All of the Services That We Provide?</h3>
 						<div class="col-md-6 col-sm-6">
 							<ul class="list-icon spaced check-circle septic-bullets">
@@ -200,6 +206,23 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 								<li>wefwefcwef</li>
 								<li>wefwefce</li>
 								<li>wefcwefwe</li>
+							</ul>
+						</div>
+						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
+
+						<hr>
+
+						<h4 class="septic-symptoms">Septic System Maintenance and Improvement</h4>
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>Pump Care and Replacement</li>
+								<li>Lift Station pump installation</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-icon spaced check-circle septic-bullets">
+								<li>Grease Trap Cleaning</li>
+								<li>Sludge Hauling</li>
 							</ul>
 						</div>
 						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>

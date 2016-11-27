@@ -941,7 +941,7 @@ function _toggle() {
 				_iHeight 		= jQuery(this).height(),
 				_cItem 			= 1,
 				_cTop 			= 0,
-				_delay 			= jQuery(this).attr('data-delay') || 2000;
+				_delay 			= jQuery(this).attr('data-delay') || 11700;
 
 			_items.append(firstItemClone);
 			_t.height(_iHeight).addClass("active");

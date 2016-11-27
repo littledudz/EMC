@@ -55,6 +55,7 @@ body.grey { /* grey background - YT style */
 section {
 	padding-top:60px;
 	padding-bottom:60px;
+	background-color: #f5f3f4;
 }
 	section.alternate .divider .fa,
 	section.alternate {
