@@ -8,8 +8,8 @@ remove_action('wp_head', 'wp_generator');
 function enqueue_styles() {
      
     /** REGISTER css/screen.css **/
-    wp_register_style( 'screen-style', THEME_DIR . '/css_path/screen.css', array(), '1', 'all' );
-    wp_enqueue_style( 'screen-style' );
+    wp_register_style( 'styles', THEME_DIR . 'wordpress-files/style.css', array(), '1', 'all' );
+    wp_enqueue_style( 'styles' );
          
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
