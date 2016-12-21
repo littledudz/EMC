@@ -20,7 +20,7 @@
 						data-y="212"
 						data-speed="4000"
 						data-start="900"
-						data-easing="easeOutExpo">An ISO 9001:2008
+						data-easing="easeOutExpo">An ISO 9001:2008 Company
 					</div>
 					<div class="tp-caption modern_medium_fat_white lfl stl"
 						data-x="75"
@@ -63,7 +63,7 @@
 						data-y="212"
 						data-speed="4000"
 						data-start="900"
-						data-easing="easeOutExpo">An ISO 9001:2008
+						data-easing="easeOutExpo">An ISO 9001:2008 Company
 					</div>
 					<div class="tp-caption modern_medium_fat_white lfl stl"
 						data-x="75"
@@ -106,7 +106,7 @@
 						data-y="212"
 						data-speed="4000"
 						data-start="900"
-						data-easing="easeOutExpo">An ISO 9001:2008
+						data-easing="easeOutExpo">An ISO 9001:2008 Company
 					</div>
 					<div class="tp-caption modern_medium_fat_white lfl stl"
 						data-x="75"
@@ -149,7 +149,7 @@
 						data-y="212"
 						data-speed="4000"
 						data-start="900"
-						data-easing="easeOutExpo">An ISO 9001:2008
+						data-easing="easeOutExpo">An ISO 9001:2008 Company
 					</div>
 					<div class="tp-caption modern_medium_fat_white lfl stl"
 						data-x="75"
@@ -192,7 +192,7 @@
 						data-y="212"
 						data-speed="4000"
 						data-start="900"
-						data-easing="easeOutExpo">An ISO 9001:2008
+						data-easing="easeOutExpo">An ISO 9001:2008 Company
 					</div>
 					<div class="tp-caption modern_medium_fat_white lfl stl"
 						data-x="75"
@@ -243,6 +243,7 @@
         <!-- end word rotator -->
         <div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
             <p>EMC takes a hands on approach to provide a variety of services to assist clients in complying with local, state and federal environmental (EPA) and safety (OSHA) regulatory requirements. With the assistances of our Laboratory Services, Environmental and Safety Consulting, Wastewater Treatment and Cooling Tower Facility Operations or our Maintenance and Servicing Teams our clients are able to keep current with applicable regulations that affect their businesses and operations on a day to day basis. We pride ourselves on providing a "one stop shop" for our clients to meet their environmental and safety compliance requirements.</p>
+			<p>EMC takes a hands on approach to provide a variety of services to assist clients in complying with local, state and federal environmental (EPA) and safety (OSHA) regulatory requirements. With the assistances of our Laboratory Services, Environmental and Safety Consulting, Wastewater Treatment and Cooling Tower Facility Operations or our Maintenance and Servicing Teams our clients are able to keep current with applicable regulations that affect their businesses and operations on a day to day basis. We pride ourselves on providing a "one stop shop" for our clients to meet their environmental and safety compliance requirements.</p>
 			<p>EMC takes a hands on approach to provide a variety of services to assist clients in complying with local, state and federal environmental (EPA) and safety (OSHA) regulatory requirements. With the assistances of our Laboratory Services, Environmental and Safety Consulting, Wastewater Treatment and Cooling Tower Facility Operations or our Maintenance and Servicing Teams our clients are able to keep current with applicable regulations that affect their businesses and operations on a day to day basis. We pride ourselves on providing a "one stop shop" for our clients to meet their environmental and safety compliance requirements.</p>
         </div>
         <div class="col-md-3 col-sm-4">

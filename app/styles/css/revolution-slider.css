@@ -451,6 +451,7 @@ margin:0px;
 border-width:0px;
 border-style:none;
 white-space:nowrap;
+text-shadow: 0px 0px 10px #000000;
 }
 
 .tp-caption.modern_medium_light {

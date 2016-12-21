@@ -127,35 +127,26 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
          <section class="alternate" id="septic-page-top">
             <div class="container">
 				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg">
-				<form class="photo-schedule-container" method="GET" action="mailto:littledudz@yahoo.com" enctype="text/plain">
+				<form class="photo-schedule-container" name="contactform" method="post" action="send_septic_form.php">	
 					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
-					<p class="col-md-12 schedule-subtitle">Select Preferred Time & Date</p>
-					<input type="text" id="datepicker" name="date" placeholder="Select Date" required>
-					<input type="text" id="schedule-phone" name="phone" placeholder="Contact Phone #" required>
-					<input type="text" id="schedule-address" name="address" placeholder="Site Address" required>
-					<select name="time" required>
+					<p class="col-md-12 schedule-subtitle">Select Preferred Name, Time, and Date</p>
+					
+					<input type="text" required="required" maxlength="50" id="schedule-name" name="first_name" placeholder="Name">
+					<input type="text" required="required" maxlength="08" id="datepicker" name="last_name" placeholder="Select Date">
+					<input type="text" required="required" maxlength="11" id="schedule-phone" name="email" placeholder="Contact Phone #">
+					<input type="text" required="required" maxlength="75" id="schedule-address" name="telephone" placeholder="Site Address">
+					<select name="comments" required="required">
 						<option value="Morning">Morning (8am-12pm)</option>
-						<option value="worofmouth">Afternoon (12pm-4pm)</option>
-						<option value="homeadvisor">Evening (4pm-8pm)</option>
+						<option value="Afternoon">Afternoon (12pm-4pm)</option>
+						<option value="Evening">Evening (4pm-8pm)</option>
 					</select>
-					<button class="btn schedule-button" type="submit" value="Send">Schedule Service</button>
-				</form> <!-- end .photo-schedule-container -->
-				<script>
-					var form = document.getElementsByClassName('photo-schedule-container')[0];
-					form.addEventListener('submit',contact,false);
-					function contact(e) {
-						e.preventDefault();
-						var target = e.target || e.srcElement;
-						var i = 0;
-						var message = '';
-						for (i = 0; i < target.length; ++i) {
-							if (target[i].type != 'text' && target[i].type != 'input') { continue; }
-							message += target[i].name + ': ' + target[i].value + "\r\n";
-						}
-						target.elements["body"].value = message;
-						this.submit();
-					}
-				</script>
+					<input type="submit" value="Submit" class="btn" id="schedule-button"/>
+				</form> 
+
+
+
+
+
 				<a class="ha-seal" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html"><img alt="Enviro Management Company, Inc. - Reviews on Home Advisor" src="http://www.homeadvisor.com/images/sp-badges/soap-border.png?sp=56516298&key=4283b6a0c8716f1c51f22f19ad5fcc93"/ class="ha-seal-img"></a>
 				<a class="btn second-button" data-toggle="modal" data-target="#ScheduleFormModal">Schedule Service</a>
 				<div class="text-content-container">
@@ -245,7 +236,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 								<p class="coupon-text coupon-disclaimer">Not valid with any other coupon. Must provide coupon. Expiration 12/31/2018</p>
 							</div>
 							<div class="half-coupon col-md-12">
-								<a href="support/files/Coupon.pdf"><button class="schedule-button" ><i class="fa fa-print" aria-hidden="true"></i> Print Coupon</button></a>
+								<a href="support/files/Coupon.pdf"><button class="schedule-button"><i class="fa fa-print" aria-hidden="true"></i> Print Coupon</button></a>
 							</div>
 						</div>
 						<div class="client-buttons col-md-12">
@@ -271,5 +262,36 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->
     <?php include_once 'snippets/global/script-tags.php'; ?>
+	<!--<script type='text/javascript' src='scripts/js/javascript_form/gen_validatorv4.js'>
+	<script type='text/javascript'>
+	// <![CDATA[
+		var frmvalidator = new Validator("contactus");
+		frmvalidator.EnableOnPageErrorDisplay();
+		frmvalidator.EnableMsgsTogether();
+		frmvalidator.addValidation("name","req","Please provide your name");
+		frmvalidator.addValidation("date","req", "Please provide a valid date");
+		frmvalidator.addValidation("phone","req", "Please provide your phone number");
+		frmvalidator.addValidation("address","req", "Please provide your address");
+	// ]]>
+	</script>
+	
+	<?PHP
+	require_once("./include/fgcontactform.php");	
+	$formproc = new FGContactForm();
+	
+	//1. Add your email address here.
+	//You can add more than one recipients.
+	$formproc->AddRecipient('littledudz@yahoo.com'); 
+	
+	//2. For better security. Get a random string from
+	// this link: http://tinyurl.com/randstr
+	// and put it here
+	$formproc->SetFormRandomKey('w2CO0nq6OOwM7KD');
+	
+	if(isset($_POST['submitted'])) { 
+		if($formproc->ProcessForm()) {
+			$formproc->RedirectToURL("thank-you.html");
+		}
+	}?>-->
 </body>
 </html>

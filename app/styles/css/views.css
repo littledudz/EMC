@@ -27,7 +27,7 @@ ________________________________
     width: 103%;
     height: 500px;
     padding: 0px;
-    margin: -355px 0px 20px -15px;
+    margin: -295px 0px 0px -15px;
 }
 .top-photo-overlay-container {
     z-index: 10;
@@ -83,7 +83,10 @@ ________________________________
 02. Consulting View
 ******************************/
 
-
+.jay-image {
+    margin: 0px auto 25px auto;
+    border: 3px solid #1770a7;
+}
 
 
 
@@ -92,7 +95,10 @@ ________________________________
 03. Cooling Tower View
 ******************************/
 
-
+#cooling-tower-title {
+    margin: 205px 0px 0px 0px;
+    padding: 15px;
+}
 
 
 
@@ -155,19 +161,22 @@ ________________________________
 .container .ha-seal {
     float: right;
     position: relative;
-    margin: -82px 0px 0px 0px;
+    margin: -107px 0px 0px 0px;
 }
-.container #septic-top-photo { height: 450px; }
+.container #septic-top-photo { 
+    height: 450px; 
+    margin: 74px 0px 0px -15px;
+}
 .container .photo-schedule-container {
     z-index: 51;
     position: relative;
     width: 350px;
-    height: 310px;
+    height: 365px;
     border: 4px solid #ffffff;
     border-radius: 10px;
     background-color: rgba(37,37,37,0.85);
     box-shadow:rgba(0,0,0,1) 0px 0px 30px;
-    margin: -375px 0px 0px 15px;
+    margin: -405px 0px 0px 15px;
     padding: 0px;
 }
 .photo-schedule-container .schedule-title {
@@ -201,13 +210,17 @@ ________________________________
     width: 90%;
     margin: 5px 5%; 
 }
+.photo-schedule-container #schedule-name { 
+    width: 90%;
+    margin: 5px 5%; 
+}
 .photo-schedule-container select {
     width: 90%;
     border: 3px solid #1f8fbe;
     border-radius: 5px;
     margin: 5px 5%; 
 }
-.schedule-button {
+.photo-schedule-container #schedule-button {
     width: 90%;
     color: #ffffff;
     background-color: #1f8fbe;
@@ -216,7 +229,7 @@ ________________________________
     border: 3px solid #ffffff;
     border-radius: 5px;
 }
-.schedule-button:hover {
+.photo-schedule-container #schedule-button:hover {
     width: 92%;
     color: #ffffff;
     margin: 5px 4%;
@@ -307,7 +320,6 @@ ________________________________
 .overall-rating .cf .rating-info { margin: 0px 50px; }
 .call-now .row .call-full a { color: #ffffff; }
 .call-short p { margin: 0px;}
-.container #septic-top-photo { margin: 15px 0px 0px -15px; }
 .col-md-6 .septic-bullets { margin: 0px 0px 20px 0px; }
 .client-buttons { margin: 20px 0px 0px 0px; }
 .text-content-container h2 { margin-top: 75px; }

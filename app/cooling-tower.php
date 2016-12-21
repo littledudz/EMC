@@ -103,6 +103,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include_once 'snippets/global/navbar.php' ?>
         <section class="alternate">
             <div class="container">
+				
 				<ul class="top-photo-overlay-container">
 					<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
 					<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
@@ -111,10 +112,11 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 				</ul>
 				<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/cooling-tower.jpg">
-                <div class="row" id="cooling-tower-water">
-                    <h2 class="page-titles page-title-margin">Cooling Tower Water Treatment Programs</h2>
+                
+				<div class="row" id="cooling-tower-water">
+                    <h2 class="page-titles page-title-margin" id="cooling-tower-title">Cooling Tower Water Treatment Programs</h2>
 					<div class="col-md-9 col-sm-8">
-						<p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
+						<p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
 					</div>
 					<div class="col-md-3 col-sm-4">
 						<a href="#" class="btn btn-primary btn-block">Client Login</a>
@@ -124,9 +126,147 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                         <img class="img-responsive animate_fade_in" src="support/images/cooling-tower.jpg" alt="cooling tower">
                     </div>
                     <div class="col-md-8 col-sm-7">
-                        <p>Regardless if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage to utilizing a program is increased efficiency and minimal down time for unnecessary repairs. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
+                        <p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!  wrfcwercewrcedcceqcfercerver fvefvfv v vvrf vve vv vv ev vfv vv fvv vf v vv fdvfdv v vdf vfd vdf v f vfe v efv fev f v fv vfe fvvf vef vef verf  ve f reff refhyhyh ybhyjh6yhyhy6h 6h h6y hh y hhyt hht htyh hy hhyt hbyt. wedfweferfrf wfvfervfergeruig  ier herhrehfueirh ruirehofg pe pgiepgiur eit-g irt gi0-rtih0-rtuh-0rtuh-t9uh-t9 u9rtubf8ub9burt9hur90hruhur90h uru0ru ubu9uruurdu8r8ru900u90dhdp ur s t0sg gs 9 ege eh sgr9uwr0-9turt09phurtp9whurp9th uwrth rot hrtuh r9tuh9rthuer09huurthr r r rh ur. eb ehrb eiuguie riuehr</p>
                     </div>
                 </div>
+
+				<hr>
+
+				<div class="row">
+						<div class="col-md-12">
+							<h2>Training and Education (OSHA Authorized 10 &amp; 30 Hour Trainer) </h2>
+							<p></p>
+
+							<div class="col-md-6 col-sm-4">
+								<ul class="list-icon spaced check-circle">
+									<li>Bloodborne Pathogens</li>
+									<li>Chemical Safety</li>
+									<li>Confined Space</li>
+									<li>Fall Protection</li>
+									<li>Fire Extinguisher</li>
+									<li>First Aid and CPR Certification Training</li>
+									<li>Globally Harmonized System of Classification and Labeling of Chemicals (GHS)</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-4">
+								<ul class="list-icon spaced check-circle">
+									<li>Hazard Communication</li>
+									<li>Hearing Conservation</li>
+									<li>Lockout/Tagout</li>
+									<li>New Employee Orientation</li>
+									<li>Powered Industrial Trucks (Forklift, Manlifts, etc.)</li>
+									<li>Personal Protective Equipment</li>
+									<li>Respiratory Protection</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="row">
+						<p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!  wrfcwercewrcedcceqcfercerver fvefvfv v vvrf vve vv vv ev vfv vv fvv vf v vv fdvfdv v vdf vfd vdf v f vfe v efv fev f v fv vfe fvvf vef vef verf  ve f reff refhyhyh ybhyjh6yhyhy6h 6h h6y hh y hhyt hht htyh hy hhyt hbyt. wedfweferfrf wfvfervfergeruig  ier herhrehfueirh ruirehofg pe pgiepgiur eit-g irt gi0-rtih0-rtuh-0rtuh-t9uh-t9 u9rtubf8ub9burt9hur90hruhur90h uru0ru ubu9uruurdu8r8ru900u90dhdp ur s t0sg gs 9 ege eh sgr9uwr0-9turt09phurtp9whurp9th uwrth rot hrtuh r9tuh9rthuer09huurthr r r rh ur. eb ehrb eiuguie riuehr</p>
+					</div>
+
+
+
+					<form name="contactform" method="post" action="send_form_email.php">
+ 
+<table width="450px">
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="first_name">First Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="last_name">Last Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Email Address *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="email" maxlength="80" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Telephone Number</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">Comments *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td colspan="2" style="text-align:center">
+ 
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ 
+ </td>
+ 
+</tr>
+ 
+</table>
+ 
+</form>
             </div>
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>
