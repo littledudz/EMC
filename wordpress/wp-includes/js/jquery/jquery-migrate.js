@@ -7,7 +7,7 @@
 // "use strict";
 
 
-jQuery.migrateVersion = "latest";
+jQuery.migrateVersion = "1.4.1";
 
 
 var warnedAbout = {};

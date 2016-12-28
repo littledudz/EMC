@@ -6,7 +6,6 @@
 	overflow:hidden;
 	margin-top:3px;
 }
-
 #topNav {
 	display:block; left:0; right:0; top:0;
 	border-top: 1px solid #eee;
@@ -351,6 +350,9 @@
 	.navbar-collapse {
 		max-height:100%;
 	}
+	#topNav ul.dropdown-menu {
+		margin-top: -20px;
+	}
 	#topNav .container {
 		padding:0;
 		margin:0;
@@ -519,11 +521,6 @@ body.menu-vertical #mainMenu.sidebar-vertical {
 	width:263px;
 	background-color:#fff;
 	z-index:100;
-}
-
-body.menu-vertical #mainMenu .navbar-collapse {
-	background-color:#transparent;
-	border-color:transparent;
 }
 
 body.menu-vertical #mainMenu .navbar-default {
@@ -1040,7 +1037,9 @@ body.menu-vertical #mainMenu .social {
 		padding:0;
 		margin:0;
 	}
-
+	#topNav ul.dropdown-menu {
+		margin-top: -20px;
+	}	
  	#topNav button.btn-mobile {
 		display:block;
 		float:right;

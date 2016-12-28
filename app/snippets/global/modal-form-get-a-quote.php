@@ -8,22 +8,22 @@
       </div>
       
       <div class="modal-body">
-		<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+		<form name="contactform" method="post" action="send_quote_form.php">
             <div class="form-group col-md-6">
                 <label for="sendername">Name</label>
-                <input type="text" class="form-control" id="sendername" name="sendername" placeholder="John Smith" required>
+                <input type="text" class="form-control" id="sendername" name="first_name" placeholder="John Smith" required>
             </div>
             <div class="form-group col-md-6">
                 <label for="companyname">Company Name</label>
-                <input type="text" class="form-control" id="companyname" name="companyname" placeholder="Company Name" required>
+                <input type="text" class="form-control" id="companyname" name="last_name" placeholder="Company Name" required>
             </div>
             <div class="form-group col-md-6">
                 <label for="senderemail">Email address</label>
-                <input type="text" class="form-control" id="senderemail" name="senderemail" placeholder="j.smith@company.com" required>
+                <input type="text" class="form-control" id="senderemail" name="email" placeholder="j.smith@company.com" required>
             </div>
             <div class="form-group col-md-3">
                 <label for="senderphone">Phone</label>
-                <input type="text" class="form-control" id="senderphone" name="senderphone" data-mask="(999) 999-9999" placeholder="(123) 456-7890" required>
+                <input type="text" class="form-control" id="senderphone" name="telephone" data-mask="(999) 999-9999" placeholder="(123) 456-7890" required>
             </div>
             <div class="form-group col-md-3">
                 <label for="zip">Zip</label>
@@ -72,8 +72,8 @@
                 </select>
             </div>
             <div class="form-group col-md-12">
-                <label for="details">Any Other Details</label>
-                <textarea class="form-control" id="details" name="details" rows="6" required></textarea>
+                <label for="comments">Any Other Details</label>
+                <textarea class="form-control" id="details" name="comments" rows="6" required></textarea>
             </div>
 
             <div class="col-md-12">

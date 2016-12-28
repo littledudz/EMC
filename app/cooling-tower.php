@@ -119,154 +119,45 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 						<p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!</p>
 					</div>
 					<div class="col-md-3 col-sm-4">
-						<a href="#" class="btn btn-primary btn-block">Client Login</a>
+						<a href="wp-login.php" class="btn btn-primary btn-block">Client Login</a>
 						<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-					</div>
-                    <div class="col-md-4 col-sm-5">
-                        <img class="img-responsive animate_fade_in" src="support/images/cooling-tower.jpg" alt="cooling tower">
-                    </div>
-                    <div class="col-md-8 col-sm-7">
-                        <p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!  wrfcwercewrcedcceqcfercerver fvefvfv v vvrf vve vv vv ev vfv vv fvv vf v vv fdvfdv v vdf vfd vdf v f vfe v efv fev f v fv vfe fvvf vef vef verf  ve f reff refhyhyh ybhyjh6yhyhy6h 6h h6y hh y hhyt hht htyh hy hhyt hbyt. wedfweferfrf wfvfervfergeruig  ier herhrehfueirh ruirehofg pe pgiepgiur eit-g irt gi0-rtih0-rtuh-0rtuh-t9uh-t9 u9rtubf8ub9burt9hur90hruhur90h uru0ru ubu9uruurdu8r8ru900u90dhdp ur s t0sg gs 9 ege eh sgr9uwr0-9turt09phurtp9whurp9th uwrth rot hrtuh r9tuh9rthuer09huurthr r r rh ur. eb ehrb eiuguie riuehr</p>
-                    </div>
-                </div>
-
-				<hr>
-
-				<div class="row">
-						<div class="col-md-12">
-							<h2>Training and Education (OSHA Authorized 10 &amp; 30 Hour Trainer) </h2>
-							<p></p>
-
-							<div class="col-md-6 col-sm-4">
-								<ul class="list-icon spaced check-circle">
-									<li>Bloodborne Pathogens</li>
-									<li>Chemical Safety</li>
-									<li>Confined Space</li>
-									<li>Fall Protection</li>
-									<li>Fire Extinguisher</li>
-									<li>First Aid and CPR Certification Training</li>
-									<li>Globally Harmonized System of Classification and Labeling of Chemicals (GHS)</li>
-								</ul>
-							</div>
-							<div class="col-md-6 col-sm-4">
-								<ul class="list-icon spaced check-circle">
-									<li>Hazard Communication</li>
-									<li>Hearing Conservation</li>
-									<li>Lockout/Tagout</li>
-									<li>New Employee Orientation</li>
-									<li>Powered Industrial Trucks (Forklift, Manlifts, etc.)</li>
-									<li>Personal Protective Equipment</li>
-									<li>Respiratory Protection</li>
-								</ul>
-							</div>
-						</div>
 					</div>
 
 					<hr>
 
-					<div class="row">
-						<p>Regardless of if your system operates continuously or seasonally, you will save money with a water treatment program for your cooling tower. These programs are specifically designed to maximize performance and protect valuable equipment from scale and corrosion.  Another advantage of utilizing a water treatment program is increased efficiency and minimal down time.  This can save you quite a bit of money by not having to pay for unnecessary repairs on your equipment. EMC has the solution and will gladly administer a proficient water treatment program for you. For a price quote on your operational or maintenance needs, <a href="#" data-toggle="modal" data-target="#ContactFormModal">contact EMC today</a>!  wrfcwercewrcedcceqcfercerver fvefvfv v vvrf vve vv vv ev vfv vv fvv vf v vv fdvfdv v vdf vfd vdf v f vfe v efv fev f v fv vfe fvvf vef vef verf  ve f reff refhyhyh ybhyjh6yhyhy6h 6h h6y hh y hhyt hht htyh hy hhyt hbyt. wedfweferfrf wfvfervfergeruig  ier herhrehfueirh ruirehofg pe pgiepgiur eit-g irt gi0-rtih0-rtuh-0rtuh-t9uh-t9 u9rtubf8ub9burt9hur90hruhur90h uru0ru ubu9uruurdu8r8ru900u90dhdp ur s t0sg gs 9 ege eh sgr9uwr0-9turt09phurtp9whurp9th uwrth rot hrtuh r9tuh9rthuer09huurthr r r rh ur. eb ehrb eiuguie riuehr</p>
-					</div>
+                    <div class="col-md-5 col-sm-5" id="cooling-tower-photo">
+                        <img class="img-responsive animate_fade_in" src="support/images/stockimage2.jpg" alt="cooling tower">
+                    </div>
+                    <div class="col-md-7 col-sm-7">
+                        <div class="col-md-12">
+							<h2>What We Can Do For You</h2>
 
+							<ul class="list-icon spaced check-circle">
+								<li>Open and closed loop treatment programs</li>
+								<li>Full-service contracts or “pay-as-you-need” chemicals</li>
+								<li>Knowledgeable and experienced technicians</li>
+								<li>In-house laboratory support</li>
+								<li>We can supply water treatment equipment as part of our services</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
 
+				<hr> 
 
-					<form name="contactform" method="post" action="send_form_email.php">
- 
-<table width="450px">
- 
-<tr>
- 
- <td valign="top">
- 
-  <label for="first_name">First Name *</label>
- 
- </td>
- 
- <td valign="top">
- 
-  <input  type="text" name="first_name" maxlength="50" size="30">
- 
- </td>
- 
-</tr>
- 
-<tr>
- 
- <td valign="top">
- 
-  <label for="last_name">Last Name *</label>
- 
- </td>
- 
- <td valign="top">
- 
-  <input  type="text" name="last_name" maxlength="50" size="30">
- 
- </td>
- 
-</tr>
- 
-<tr>
- 
- <td valign="top">
- 
-  <label for="email">Email Address *</label>
- 
- </td>
- 
- <td valign="top">
- 
-  <input  type="text" name="email" maxlength="80" size="30">
- 
- </td>
- 
-</tr>
- 
-<tr>
- 
- <td valign="top">
- 
-  <label for="telephone">Telephone Number</label>
- 
- </td>
- 
- <td valign="top">
- 
-  <input  type="text" name="telephone" maxlength="30" size="30">
- 
- </td>
- 
-</tr>
- 
-<tr>
- 
- <td valign="top">
- 
-  <label for="comments">Comments *</label>
- 
- </td>
- 
- <td valign="top">
- 
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- 
- </td>
- 
-</tr>
- 
-<tr>
- 
- <td colspan="2" style="text-align:center">
- 
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- 
- </td>
- 
-</tr>
- 
-</table>
- 
-</form>
+				<div class="row">
+					<h2 class="col-md-12">Why Are Cooling Towers Needed?</h2>
+
+					<p class="col-md-12">Cooling towers are not just needed in one industry. In fact, there are many different kind of facilities that need a cooling tower for efficient, proper operation. One of the most common is industrial production processes which need a cooling water to keep their machines cool. Refineries, petrochemical plants, food plants, manufacturing facilities, steel mills, chemical processing plants, large buildings, and electric utilities all rely on the cooling water system to do their job. How do water cooling tower systems do this?  They control temperatures and pressures of hot fluids by transferring the heat from these hot fluids into the cooling water. As this happens over time, the cooling water heats up, and it must be either cooled before it can be used again or replaced with fresh, clean water. The cooling system design, effectiveness, and efficiency all depend on the type of process being cooled, the characteristics of the water moving through it, and environmental considerations surrounding the unit. To help maintain the cooling tower, a monitoring and treatment program will need to be implemented for optimal uptime.</p>
+				</div>
+
+				<hr>
+
+				<div class="row">
+					<h2 class="col-md-12">Why is Monitoring, Control, and Treatment Important?</h2>
+
+					<p class="col-md-12 bottom-p">The cooling system’s operation can directly affect reliability, efficiency, and the cost of any industrial, institutional, or power industry process. Monitoring and maintaining control of corrosion, deposition, microbial growth, and system operation is essential to provide the most amount of uptime for the cooling system. The big step to achieving outstanding uptime is choosing an appropriate treatment program for your water cooling tower solution to minimize system stresses. This process will require regularly scheduled monitoring for your system. It is used to determine treatment effectiveness, to establish the optimum level of treatment that is most cost effective (in respect to energy, water, and chemical usage), and to prevent corrosion from building up in the system.</p>
+				</div>
             </div>
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>

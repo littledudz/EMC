@@ -24,7 +24,7 @@
 							</li>
 						</ul>
 					</li>
-					<li><a href="#">Client Login</a></li>
+					<li><a href="wp-login.php">Client Login</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 					<li><a href="+12059513400">(205) 951-3400</a></li>

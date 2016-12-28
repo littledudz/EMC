@@ -223,7 +223,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                     <div class="col-md-12">
                         <h2><strong>Product Quality</strong> Testing</h2>
         <!-- 							<p>EMC provides product quality testing for many local manufacturing and industrial companies. The integrity of a company’s products is vitally important and we can provide the crucial information necessary to maintain that integrity. Pesticide residue in food products, organic content of automotive tubing, the flash point of jet fuel, and the composition of cement are just a few examples of product quality testing that we routinely perform. If you have a product that needs independent verification, contact us. We’ll be glad to help you any way that we can.</p> -->
-                        <p>EMC provides product quality testing for many local manufacturing and industrial companies. Some examples are:</p>
+                        <p>EMC provides product quality testing for many local manufacturing and industrial companies. Some examples of the products that we test are:</p>
                         
                         <div class="col-md-4 text-center">
                             <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="tractor farmer">
@@ -247,11 +247,11 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="col-md-7 col-sm-12">
-                                <p>We know getting test results in a timely manner is very important to you. That’s why we developed an electronic system that allows us to post lab data to your website as soon as it’s available. Using our password-protected portal, you can see your test results any time you want. You’ll even have access to historical data. No more lost test reports! Of course, we always mail the hard copies of all test reports as well.</p>
-                                <p>We can also prepare <b>The Electronic Discharge Monitoring Reports</b>. After setting you up on the eFile program, we will complete the reports and then when complete, you will receive an email to review the data and submit it directly to ADEM.</p>
+                                <p>We know getting test results in a timely manner is very important to you. That’s why we developed an electronic system that allows us to post lab data to your account on our website as soon as it’s available. Using our password-protected portal, you can see your test results any time you want. You’ll even have access to historical data. No more lost test reports! Of course, we always mail the hard copies of all test reports as well.</p>
+                                <p>We can also prepare the Electronic Discharge Monitoring Reports as well. After setting you up on the eFile program, we will complete the reports, and when complete, you will receive an email to review the data and submit it to ADEM directly.</p>
                             </div>
                             <div class="col-md-5 col-sm-12">
-                                <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="lab data delivery">
+                                <img class="img-responsive animate_fade_in" src="support/images/stockimage3.jpg" alt="lab data delivery">
                             </div>
                         </div>
                     </div>
@@ -262,14 +262,15 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                         <h2><strong>Field Sampling </strong>and Pickup</h2>
                     </div>
                     <div class="col-md-12">
-                        <p>EMC has environmental technicians on the road every day providing sampling and sample pickup services in the better half of Alabama. If you collect your own samples, we can pick them up at your convenience. If you want us to collect your samples, we can set up a comprehensive sampling schedule, including composite sampling equipment, if necessary. Regardless of your needs, EMC can provide the services that make your job easier.</p>
+                        <p>EMC has environmental technicians on the road every day providing sampling and sample pickup services in the most of Alabama. If you collect your own samples, we can pick them up at your convenience. If you want us to collect your samples, we can set up a comprehensive sampling schedule, including composite sampling equipment, if necessary. Regardless of your needs, EMC can provide the services that make your job easier.</p>
                         <p>EMC also provides storm water sampling and testing services. Our technicians are trained in the proper sampling procedures associated with storm water regulations. Reportable samples will be collected and analyzed according to EPA protocols and reported to you on the Discharge Monitoring Reports that have to be submitted to ADEM. In short, EMC can take care of your storm water requirements from start to finish.</p>
-                        <p>If you want a price quote on your sampling and testing needs, please call (205-951-3400) or <a href="#" data-toggle="modal" data-target="#ContactFormModal">send us a message</a>.</p>
+                        <p class="bottom-p">If you want a price quote on your sampling and testing needs, please call (205-951-3400) or <a href="#" data-toggle="modal" data-target="#ContactFormModal">send us a message</a>.</p>
                     </div>
                 </div>
             </div> <!-- end .container -->
         </section>
-        <?php include('snippets/global/modal-form.php'); ?>
+        <?php include('snippets/global/modal-form-contact-us.php'); ?>
+		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
         <?php include_once 'snippets/global/footer.php'; ?>
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->

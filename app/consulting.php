@@ -137,13 +137,15 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<div class="row">
 						<div class="col-md-12">
 							<h2 class="page-titles page-title-margin">Consulting Services</h2>
-							<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
-								<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
-							</div>
-							
-							<div class="col-md-3 col-sm-4">
-								<a href="#" class="btn btn-primary btn-block">Client Login</a>
-								<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+							<div class="row">
+								<div class="col-md-9 col-sm-8" style="border-right: 1px solid #EEE;">
+									<p>EMC employs a wide range of capabilities and certifications in compliance with local, state and federal regulations. Maintaining OSHA Standards, Environmental Permitting of Discharges, developing compliance schedules and implementing storm water management plans are just a few examples. If you have environmental or safety issues that need attention, EMC can help.</p>
+								</div>
+								
+								<div class="col-md-3 col-sm-4">
+									<a href="wp-login.php" class="btn btn-primary btn-block">Client Login</a>
+									<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+								</div>
 							</div>
 
 							<div class="col-md-6 col-sm-4">
@@ -349,7 +351,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 
 					<hr>
 
-					<div class="row">
+					<div class="row bottom-p">
 						<div class="col-md-12">
 							<h2>Environmental Services</h2>
 							<p></p>

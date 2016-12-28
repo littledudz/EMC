@@ -140,7 +140,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 						<option value="Afternoon">Afternoon (12pm-4pm)</option>
 						<option value="Evening">Evening (4pm-8pm)</option>
 					</select>
-					<input type="submit" value="Submit" class="btn" id="schedule-button"/>
+					<input type="submit" value="Submit" class="btn schedule-button"/>
 				</form> 
 
 
@@ -153,72 +153,50 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<h2 class="page-titles">Septic Tank & Grease Trap Cleaning</h2>
 					<h3 class="col-md-12 counties">Servicing Jefferson, Shelby and St. Clair Counties</h3>
 					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #dddddd;">
-						<p>sfgfgedrgergerg fdfbvdbbdvbdbvdggr dsdfbddvvd sfvdffbvdfdfbvdfbvdf vfddfdgd gddrdgr fdbtergeer gregregvreggvreg egerggerggerg ervgreggergev vbervgvergverr ergvergrg ffcvfesefew frfrewffwre wvadvw elgergheorhg ergheroighoireh egoeirhgoierhgoihergie ergheroigheroigh egrogheroigheirhg ergerighieorgherheuigh ewrghrgheorhgewiu hvhreoher dbchbvhe wsvbvberuf wvrwverwern ervenerv ernrnovr nerner nnergregnrognr eerg ergerog ergerg egier greguergeruhg eriergergerhg uigger hg hgerghgerghiu ghgeriggugiueggehregrhghg giuerh uhvkjdvkjvbre erberukv bvbdvkbevbb rbervebvervbvbviurbiberuiv bvbbviubvirurriereb vebrv rbebvvbberbrrebvehrbvhbvehr r  fff vvherveue bv erbu</p>
+						<p>Enviro Management Corp is your choice for complete septic tank and plumbing services. We service both commercial and residential clients in Birmingham, Al and the surrounding area. At <a>EMC</a>, we have licensed, professionally trained technicians who are dedicated to getting the job done right the first time and doing it with a smile. We don’t shy away from any commercial or residential job, no matter how big or how small. You can get a <a>free estimate</a> for any of our many services today, so if you are experiencing any difficulty with the plumbing or septic system in your home or business, put your trust in the hands of a professional EMC technician by <a href="+12059513400">giving us a call</a> today!</p>
 
 						<hr>
 
-						<h3 class="septic-symptoms">Symptoms Indicating Your System Needs To Be Pumped</h3>
-						<div class="col-md-6 col-sm-6">
-							<p class="bullet-title">Indoors</p>
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>water back-up through plumbing</li>
-								<li>fluctuating levels in the toilets</li>
-								<li>gurgling in sinks & toilets</li>
-								<li>slow draining</li>
-								<li>odors</li>
-							</ul>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<h3 class="septic-symptoms">Services We Provide</h3>
+								<ul class="list-icon spaced check-circle septic-bullets">
+									<li>Pump Care and Replacement</li>
+									<li>Lift Station pump installation</li>
+									<li>Grease Trap Cleaning</li>
+									<li>Sludge Hauling</li>
+								</ul>
+							</div>
+							<div class="col-md-8 col-sm-12 indicators">
+								<h3 class="septic-symptoms">Indicators That Maintenance is Needed</h3>
+								<div class="col-md-6 col-sm-6">
+									<p class="bullet-title">Indoors</p>
+									<ul class="list-icon spaced check-circle septic-bullets">
+										<li>water back-up through plumbing</li>
+										<li>fluctuating levels in the toilets</li>
+										<li>gurgling in sinks & toilets</li>
+										<li>slow draining</li>
+										<li>odors</li>
+									</ul>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<p class="bullet-title">Outdoors</p>
+									<ul class="list-icon spaced check-circle septic-bullets">
+										<li>sunken ground around disposal area</li>
+										<li>wetspot in disposal area</li>
+										<li>sewage backups</li>
+										<li>tall green grass</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-6 col-sm-6">
-							<p class="bullet-title">Outdoors</p>
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>sunken ground around disposal area</li>
-								<li>wetspot in disposal area</li>
-								<li>sewage backups</li>
-								<li>tall green grass</li>
-								<li>odors</li>
-							</ul>
-						</div>
-						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
-						
-						<hr>
-
-						<h3 class="septic-symptoms">What Are All of the Services That We Provide?</h3>
-						<div class="col-md-6 col-sm-6">
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>edfcwefcw</li>
-								<li>wefwefcwef</li>
-								<li>wefwefce</li>
-								<li>wefcwefwe</li>
-							</ul>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>edfcwefcw</li>
-								<li>wefwefcwef</li>
-								<li>wefwefce</li>
-								<li>wefcwefwe</li>
-							</ul>
-						</div>
-						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
-
-						<hr>
-
-						<h4 class="septic-symptoms">Septic System Maintenance and Improvement</h4>
-						<div class="col-md-6 col-sm-6">
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>Pump Care and Replacement</li>
-								<li>Lift Station pump installation</li>
-							</ul>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<ul class="list-icon spaced check-circle septic-bullets">
-								<li>Grease Trap Cleaning</li>
-								<li>Sludge Hauling</li>
-							</ul>
-						</div>
-						<p>ergergnerjerb bferrebfvebferf wfiuwfrfewbfcewif rfhuerwfberuifger wvferiufheri rgergjerigjier egeriogjerijegeio jperjgrepigejgperjgp ejitejhitejhpietjhieo ergierhgeiorihgveoirhv ergheroihgioerhgoierhg egierhgiherigrhoergh eerigheroihgeoirhgerog erpgjerpijgeprijgio ervguehriughe erghveruihgvieurghru hriuh bf herbvherbfhebrhfbfhfb bh ehbvrbeubvuere yefrferyegef yerre ryereguygfy rgyeruyferuyf reuyfg eryvfvbehv beuvererveur ergryegreyugvyer egyergfyu ergfruery euyeg eruyg eryg yeurg yureg feruyg eugberfbreerbfhr bfrrebbferbbb errbgreuhgierjbg ererbfrehbgregegre</p>
 					</div>
+
 					<div class="col-md-3 col-sm-4">
+						<div class="client-buttons col-md-12">
+							<a href="wp-login.php" class="btn btn-primary btn-block">Client Login</a>
+							<a href="support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+						</div>
 						<div class="coupon">
 							<div class="half-coupon col-md-12">
 								<p class="coupon-text coupon-money ">$25.00 off</p>
@@ -236,23 +214,29 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 								<p class="coupon-text coupon-disclaimer">Not valid with any other coupon. Must provide coupon. Expiration 12/31/2018</p>
 							</div>
 							<div class="half-coupon col-md-12">
-								<a href="support/files/Coupon.pdf"><button class="schedule-button"><i class="fa fa-print" aria-hidden="true"></i> Print Coupon</button></a>
+								<a href="support/files/Coupon.pdf"><button id="coupon-button"><i class="fa fa-print" aria-hidden="true"></i> Print Coupon</button></a>
 							</div>
 						</div>
-						<div class="client-buttons col-md-12">
-							<a href="#" class="btn btn-primary btn-block">Client Login</a>
-							<a href="support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-						</div>
-						<a class="ha-review" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">
+						<!--<a class="ha-review" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">
 							<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; box-sizing: border-box;">
 								<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="100%">
 								<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
 								<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=highest" style="width: 100%; height: 607px; background: transparent;" frameborder="0" scrolling="no"></iframe>
 								<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">More Reviews</a>
 							</div>
-						</a>
+						</a>-->
 					</div> <!-- end .col-md-3 -->
 				</div> <!-- end .text-content-container -->
+				<div class="ha-reviews-horizontal">
+					<div style="border-bottom: 1px solid #d7d7d7; margin: 0 -15px 10px;">
+						<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="185" style="float: left; margin: 10px 0 0 20px;">
+						<h2 style="background: #3d4549; color:#fff; margin: 0; padding: 11px 27px 9px; float:right; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
+						<div style="clear: both;"></div>
+					</div>
+					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=horizontal&reviewSort=recent" style="width: 100%; height: 215px; background: transparent;" frameborder="0" scrolling="no"></iframe>
+					<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">More Reviews</a>
+					<!--<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; float: right; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>-->
+				</div>
 			</div> <!-- end .container -->
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>
@@ -262,36 +246,5 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <a href="#" id="toTop"></a>
     </div><!--#wrapper -->
     <?php include_once 'snippets/global/script-tags.php'; ?>
-	<!--<script type='text/javascript' src='scripts/js/javascript_form/gen_validatorv4.js'>
-	<script type='text/javascript'>
-	// <![CDATA[
-		var frmvalidator = new Validator("contactus");
-		frmvalidator.EnableOnPageErrorDisplay();
-		frmvalidator.EnableMsgsTogether();
-		frmvalidator.addValidation("name","req","Please provide your name");
-		frmvalidator.addValidation("date","req", "Please provide a valid date");
-		frmvalidator.addValidation("phone","req", "Please provide your phone number");
-		frmvalidator.addValidation("address","req", "Please provide your address");
-	// ]]>
-	</script>
-	
-	<?PHP
-	require_once("./include/fgcontactform.php");	
-	$formproc = new FGContactForm();
-	
-	//1. Add your email address here.
-	//You can add more than one recipients.
-	$formproc->AddRecipient('littledudz@yahoo.com'); 
-	
-	//2. For better security. Get a random string from
-	// this link: http://tinyurl.com/randstr
-	// and put it here
-	$formproc->SetFormRandomKey('w2CO0nq6OOwM7KD');
-	
-	if(isset($_POST['submitted'])) { 
-		if($formproc->ProcessForm()) {
-			$formproc->RedirectToURL("thank-you.html");
-		}
-	}?>-->
 </body>
 </html>
