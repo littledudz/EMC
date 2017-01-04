@@ -405,8 +405,8 @@ function wp_login_form( $args = array() ) {
 		// Default 'redirect' value takes the user back to the request URI.
 		'redirect' => ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'],
 		'form_id' => 'loginform',
-		'label_username' => __( 'Username or Email Address' ),
-		'label_password' => __( 'Password' ),
+		'label_username' => __( 'Username:' ),
+		'label_password' => __( 'Password:' ),
 		'label_remember' => __( 'Remember Me' ),
 		'label_log_in' => __( 'Log In' ),
 		'id_username' => 'user_login',
@@ -416,7 +416,7 @@ function wp_login_form( $args = array() ) {
 		'remember' => true,
 		'value_username' => '',
 		// Set 'value_remember' to true to default the "Remember me" checkbox to checked.
-		'value_remember' => false,
+		'value_remember' => true,
 	);
 
 	/**
@@ -468,20 +468,16 @@ function wp_login_form( $args = array() ) {
 	$login_form_bottom = apply_filters( 'login_form_bottom', '', $args );
 
 	$form = '
-		<form name="' . $args['form_id'] . '" id="' . $args['form_id'] . '" action="' . esc_url( site_url( 'wp-login.php', 'login_post' ) ) . '" method="post">
+		<form class="wp-login" name="' . $args['form_id'] . '" id="' . $args['form_id'] . '" action="' . esc_url( site_url( 'wp-login.php', 'login_post' ) ) . '" method="post">
 			' . $login_form_top . '
-			<p class="login-username">
-				<label for="' . esc_attr( $args['id_username'] ) . '">' . esc_html( $args['label_username'] ) . '</label>
-				<input type="text" name="log" id="' . esc_attr( $args['id_username'] ) . '" class="input" value="' . esc_attr( $args['value_username'] ) . '" size="20" />
-			</p>
-			<p class="login-password">
-				<label for="' . esc_attr( $args['id_password'] ) . '">' . esc_html( $args['label_password'] ) . '</label>
-				<input type="password" name="pwd" id="' . esc_attr( $args['id_password'] ) . '" class="input" value="" size="20" />
-			</p>
+			<div class="wp-inputs">
+				<p class="login-username"><input class="login-inputs" placeholder="Username" type="text" name="log" id="' . esc_attr( $args['id_username'] ) . '" class="input" value="' . esc_attr( $args['value_username'] ) . '" size="20" /></p>
+			</div>
+			<p class="login-password"><input class="login-inputs" placeholder="Password" type="password" name="pwd" id="' . esc_attr( $args['id_password'] ) . '" class="input" value="" size="20" /></p>
 			' . $login_form_middle . '
 			' . ( $args['remember'] ? '<p class="login-remember"><label><input name="rememberme" type="checkbox" id="' . esc_attr( $args['id_remember'] ) . '" value="forever"' . ( $args['value_remember'] ? ' checked="checked"' : '' ) . ' /> ' . esc_html( $args['label_remember'] ) . '</label></p>' : '' ) . '
 			<p class="login-submit">
-				<input type="submit" name="wp-submit" id="' . esc_attr( $args['id_submit'] ) . '" class="button button-primary" value="' . esc_attr( $args['label_log_in'] ) . '" />
+				<input type="submit" name="wp-submit" id="' . esc_attr( $args['id_submit'] ) . '" class="wp-submit-btn btn" value="Login" />
 				<input type="hidden" name="redirect_to" value="' . esc_url( $args['redirect'] ) . '" />
 			</p>
 			' . $login_form_bottom . '

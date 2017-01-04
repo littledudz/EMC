@@ -1,0 +1,271 @@
+/**
+	@Red		#196FAB
+	@Dark Red	#12527F
+*/
+
+a,
+.tp-caption a {
+	color:#12527F;
+}
+
+#footer li a:hover,
+#footer a:hover,
+a, a:hover, a:active,
+#topNav ul.nav li li a:hover,
+.tp-caption a:hover,
+.featured-box-minimal h4,
+.glyphicon, .wi,
+p.dropcap:first-letter,
+ul.side-nav a:hover,
+ul.side-nav ul li.active>a,
+.li, div.owl-carousel .caption,
+.pagination>li>a,
+.pagination>li>span,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+div.mega-price-table .pricing:hover h4,
+div.mega-price-table .pricing-table i.fa, /* icons */
+#blog a>span,
+#blog h1>span,
+.cartContent a.remove_item:hover,
+.owl-carousel.featured a.figure>span>i,
+.btn-link,
+.styleColor {
+	color:#196FAB;
+}
+
+p.dropcap.color:first-letter,
+span.badge,
+#toTop:hover,
+#bar, .slider-handle,
+div.featured-box i.fa,
+i.featured-icon,
+.progress-bar-primary,
+.modal-header,
+.timeline .timeline-left .item:before,
+.timeline .timeline-right .item:before,
+.timeline .timeline-centered .item.pull-right:before,
+.timeline .timeline-centered .item.pull-left:before,
+div.mega-price-table .pricing-title,
+div.mega-price-table .pricing-head,
+div.mega-price-table .pricing.popular,
+#topNav ul.nav>li:hover>a:before,
+#topNav ul.nav>li.active>a:before,
+.styleBackgroundColor {
+	background-color:#196FAB;
+}
+
+/* icons , boxes */
+i.featured-icon:after,
+div.featured-box.nobg.border-only i.fa {
+	color:#196FAB;
+	border-color:#196FAB;
+}
+section.product-view-colors a:hover,
+section.product-view-colors a.active,
+i.featured-icon {
+	border-color:#196FAB;
+
+}
+i.featured-icon.empty {
+	color:#196FAB !important;
+	border-color:#196FAB;
+}
+
+/* Top Nav */
+#topNav ul.nav .dropdown-menu>li.active>a,
+#topNav ul.nav .dropdown-menu>li:hover>a,
+#topNav ul.nav .dropdown-menu>li:focus>a {
+	color:#fff !important;
+	background-color:#196FAB;
+}
+
+#topNav ul.dropdown-menu>li:hover>a.dropdown-toggle:after { /* arrow sub-submenu */
+	color:#fff;
+}
+
+/* Primary Button */
+.btn-primary {
+	border-color:#12527F;
+	background-color:#12527F;
+}
+
+.btn-white {
+	color:#196FAB !important;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.daterangepicker td.active,
+.daterangepicker td.active:hover,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	border-color:#196FAB;
+	background-color:#196FAB;
+}
+
+
+/* embed title */
+section header em,
+h1>em, h2>em, h3>em, h4>em, h5>em, h6>em {
+	font-style:normal;
+	color:#196FAB;
+}
+
+/* Top Nav active/hover */
+#topNav ul.nav>li.mega-menu>ul li:hover>a,
+#topNav ul.nav>li.mega-menu>ul li.active>a,
+#topNav ul.nav>li:hover:before,
+#topNav ul.nav>li.active:before {
+	background-color: #196FAB;
+}
+/* Top Nav color active */
+#topNav .nav-pills.colored>li.active>a,
+#topNav .nav-pills.colored>li.active>a:hover,
+#topNav .nav-pills.colored>li.active>a:focus {
+	color:#fff;
+	background-color:#196FAB;
+}
+#topNav.translucent {background-color: rgba(255,255,255,0.75)}
+
+/* Misc */
+.styleBackgroundColor,
+.featured-box-minimal i.fa {
+	background-color:#196FAB;
+}
+
+ul.list-icon li:before {
+	color:#196FAB;
+	font-size:16px;
+}
+body.boxed #topBar {
+	border-top:#196FAB 4px solid;
+}
+
+.panel-epona {
+	border:#196FAB 1px solid;
+}
+
+.panel-epona>.panel-heading {
+	background-color:#196FAB;
+	color:#fff;
+}
+
+/* Slider Captions */
+.tp-caption.block_styleColor {
+	background-color: #196FAB;
+	color:#fff;
+}
+.tp-caption.block_white {
+	color:#196FAB;
+}
+
+/* flex slider */
+.flexslider.flexFull .flex-direction-nav a:hover,
+.flexslider.flexContent .flex-direction-nav a:hover {
+	background-color: #196FAB;
+	color:#fff;
+}
+
+/* essentials rewrite */
+.alert.alert-default {
+	border-left:#196FAB 3px solid;
+}
+
+/* item box */
+.item-box .item-hover .overlay {
+	background-color:rgba(169,69,69,0.6);
+}
+
+
+
+/*
+	Sky Forms
+*/
+/**/
+/* normal state */
+/**/
+.sky-form .toggle i:before {
+	background-color: #196FAB;
+}
+.sky-form .button {
+	background-color: #196FAB;
+}
+
+
+/**/
+/* checked state */
+/**/
+.sky-form .radio input + i:after {
+	background-color: #196FAB;
+}
+.sky-form .checkbox input + i:after {
+	color: #196FAB;
+}
+.sky-form .radio input:checked + i,
+.sky-form .checkbox input:checked + i,
+.sky-form .toggle input:checked + i {
+	border-color: #196FAB;
+}
+.sky-form .rating input:checked ~ label {
+	color: #196FAB;
+}
+
+section header {
+	margin-bottom: 0;
+}
+
+
+body {
+	color: #5F5F5F;
+}
+p {
+	text-align: justify;
+	line-height: 1.7em;
+	letter-spacing: 0.045em;
+}
+h2 {
+	margin-bottom: 15px;
+}
+#footer input.form-control {
+	border-radius: 3px;
+}
+#footer textarea.form-control {
+	height: inherit;
+}
+#topNav img {
+	margin: 2px 0px 0px 0px;
+}
+#topNav button.btn-mobile {
+	color: #333;
+	background: #FFF;
+}
+.callout {
+	margin: 0 !important;
+}
+#topNav ul.nav>li.mega-menu h3 {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+}
+#topNav ul.nav>li a {
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-size: 0.85em;
+	font-weight: 400;
+}
+.mega-menu li a {
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+}
