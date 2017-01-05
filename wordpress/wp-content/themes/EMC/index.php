@@ -81,7 +81,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<div class="row">
 		<div class="wp-top-photo col-md-12">
 			<ul class="top-photo-overlay-container">
-				<li class="wp-photo-logo"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-iso-white.jpg" alt="emc logo" style="height: 90px;"></li>
+				<li class="wp-photo-logo" id="wp-photo-logo-spacing"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-iso-white.jpg" alt="emc logo" style="height: 90px;"></li>
 				<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
 				<li class="top-photo-text welcome-text">WELCOME TO</li>
 				<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
@@ -89,19 +89,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			</ul>
 			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/cooling-tower.jpg">
 		</div>
-
-		<div class="wp-login">
-			<?php
-			if ( ! is_user_logged_in() ) { // Display WordPress login form:
-				$args = array(
-					'redirect' => admin_url(), 
-					'form_id' => 'wp-login'
-				);
-				wp_login_form( $args );
-			} 
-			?>
-		</div>	
-
 		<div class="col-sm-8 blog-main">
 			<!-- The Loop - ESSENTIAL TO WORDPRESS - All of your content is generated through a loop - Pulls from content.php-->
 			<?php       

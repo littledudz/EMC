@@ -1,13 +1,5 @@
 /** Menu
  **************************************************************** **/
-.nav-main .wp-top-spacing {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	height: 30px;
-	background-color: #23282d;
-}
 #topMain {
 	position: fixed;
 	top: 30px;

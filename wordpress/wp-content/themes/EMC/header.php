@@ -94,7 +94,17 @@
 								'form_id' => 'wp-login'
 							);
 							wp_login_form( $args );
-						} 
+							echo "<style> 
+									.top-photo-overlay-container #wp-photo-logo-spacing { margin: 209px 0px 0px 0px; }
+									#topMain { top: 0px; } 
+									#topMain #nav-services { top: 0px; }
+									#topMain #nav-home { top: 0px; }
+									.nav-info { top: 7px; }
+									#secondNav { top: 44px; }
+									.wp-login { top: 63px; }
+									#topNav #dropdown-menu-spacing { top: 44px; }
+								  </style>";
+						}
 						?>
 					</div>
 				</nav> 
