@@ -57,6 +57,7 @@
 						<div class="wp-top-spacing"></div>
 						<ul id="topMain" class="nav nav-pills nav-main"><!-- add "white" class if you want white menu text color-->
 							<li id="nav-home" class="mega-menu"><a href="<?php bloginfo( 'wpurl' );?>">Home</a></li>
+							<li id="nav-blog" class="mega-menu"><a href="<?php bloginfo( 'wpurl' );?>">Blog</a></li>
 							<li id="nav-services" class="dropdown mega-menu">
 								<a class="dropdown-toggle" href="#">Our Services</a>
 								<ul class="dropdown-menu">
@@ -75,8 +76,9 @@
 							<li class="nav-contact"><a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 						</ul>
 						<div class="nav-info">
-							<p class="nav-info-text">Call us today at: <a href="+12059513400"> (205) 951-3400</a></p> 
-							<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a> , Birmingham, AL 35210</p>
+							<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
+							<p class="nav-info-text">Birmingham Al, 35210</p> 
+							<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
 						</div>
 					</nav>
 				</div>
@@ -84,7 +86,7 @@
 			<header class="navbar-collapse nav-main-collapse collapse">
 				<nav id="secondNav">
 					<!-- Logo -->
-					<div id="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-iso-white.jpg" alt="emc-birmingham-logo-iso" height="50"></a></div>
+					<div id="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso" height="75"></a></div>
 					<!-- wordpress login -->
 					<div class="wp-login">
 						<?php
