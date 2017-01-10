@@ -34,6 +34,8 @@
 	right: 0px;
 	width: 365px;
 	color: #23282d;
+	font-size: 16px;
+	font-weight: bold;
 	text-decoration: none;
 	text-align: right;
 	margin: 0px 15px 0px 0px;
@@ -135,12 +137,9 @@
 
 #topNav {
 	display:block; left:0; right:0; top:0;
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid #eee;
 	background:#ffffff;
 	position:relative;
 	z-index:100;
-	max-width: 500px;
 
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -450,7 +449,7 @@
     text-decoration: none;
     color: #ffffff;
 	border: 2px solid #ffffff;
-    background-color: #333;
+    background-color: #23282d;
 	margin: 4px 10px 0px 0px;
 	padding: 2px 5px;
 }
@@ -1058,7 +1057,7 @@ body.menu-vertical #mainMenu .social {
 	#topNav button.btn-mobile {
 		color:#fff;
 		display: none;
-		background:#333;
+		background:#23282d;
 		border: 2px solid #ffffff;
 		padding: 12px 14px;
 		margin-top:4px;
@@ -1310,7 +1309,7 @@ body.menu-vertical #mainMenu .social {
 		margin-left:4px;
 	}
  	#topNav button.btn-mobile {
-		margin-right:10px;
+		margin-right:8px;
 	}
 
 	.hide_mobile {

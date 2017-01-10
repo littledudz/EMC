@@ -22,6 +22,10 @@ ________________________________
 01. Global
 ******************************/
 
+#secondNav .logo #nav-logo {
+    height: 75px;
+}
+
 .views-top-photo {
     display: block;
     width: 103%;
@@ -367,6 +371,7 @@ ________________________________
 }
 @media only screen and (min-width: 990px) {
     .second-button { display: none; }
+    #wp-login-mobile { display: none; }
 }
 @media only screen and (max-width: 990px) {
     .container .septic-header-bar { top: 56px; }
@@ -379,6 +384,42 @@ ________________________________
     .ha-reviews-verticle { margin: 25px auto 0px auto; }
     #ha-btn { margin-top: 7px; }
     .counties { text-align: center; }
+    .top-photo-overlay-container #wp-photo-logo-spacing { margin: 143px 0px 0px 0px; }
+    .wp-top-photo #lab-top-photo { margin: -272px 0px 0px -15px; }
+    #topNav { top: 62px; }
+    .wp-login { display: none; }
+    #nav-home { top: 0px; }
+    #nav-blog { top: 30px; }
+    #nav-services { top: 60px; }
+    #nav-quote { top: 90px; }
+    #nav-contact { top: 120px; }
+    #topNav {
+        position: fixed; 
+        top: 96px;
+        left: 0px;
+        right: 0px;
+        margin: 0px; 
+    }
+    .nav-tabs {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #23282d;
+    }
+    .tab-spacing {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0px;
+    }
+    .wp-login-mobile {
+        position: fixed;
+        top: 50px;
+        left: 0px;
+    }
     .views-top-photo {
         height: 400px;
         margin: -50px 0px 0px -15px;
@@ -443,6 +484,19 @@ ________________________________
         height: auto;
         margin: -420px 0px 0px -15px;
     }
+    .nav-info .nav-info-text {
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0px;
+    }
+    .wp-top-photo #lab-top-photo { margin: 64px 0px 0px -15px; }
+    .top-photo-overlay-container { display: none; }
+    #topNav .call-short { margin: 4px 10px 4px 0px; }
+    #secondNav .logo #nav-logo { height: 45px; }
+    #logo-container { margin:-8px 0px 0px -15px; }
+    #topNav { top: 62px; }
+    #secondNav { height: 85px; }
+    #secondNav .nav-info { top: 4px; }
     .views-top-photo { width: 109%; }
     .top-photo-overlay-container .top-photo-logo { margin: 0px;}
     .top-photo-overlay-container .iso-text { font-size: 10px; }

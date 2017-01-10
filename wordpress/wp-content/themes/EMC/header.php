@@ -13,6 +13,7 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
         <script src='https://www.google.com/recaptcha/api.js'></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/wordpress/wp-content/themes/EMC/support/images/emc-birmingham-logo-favicon.jpg">
 		<link rel="apple-touch-icon" sizes="180x180" href="/wordpress/wp-content/themes/EMC/support/images/apple-touch-icon.png">
@@ -36,6 +37,7 @@
 		<link href="<?php bloginfo('template_directory');?>/css/layout.css" rel="stylesheet">
 		<link href="<?php bloginfo('template_directory');?>/css/views.css" rel="stylesheet">
 		<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_directory');?>/css/font-awesome.min.css" rel="stylesheet">
 		
 		<?php include('snippets/global/modal-form-contact-us.php'); ?>
 		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
@@ -46,11 +48,25 @@
 	<body class="smoothscroll" id="body">
 	<div class="body">
 		<header id="header" class="sticky">
+			<header class="">
+				<nav id="secondNav">
+					<!-- Logo -->
+					<div id="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img id="nav-logo" src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso"></a></div>
+					<!-- Nav Info -->
+					<div class="nav-info">
+						<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
+						<p class="nav-info-text">Birmingham Al, 35210</p> 
+						<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
+					</div>
+				</nav> 
+			</header>
 			<!-- Top Nav -->
-			<header id="topNav" class="bordered">
+			<header id="topNav" class="tab-spacing">
 				<!-- Mobile Menu Buttons -->
 				<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i></button>
-				<a class="call-short btn" href="+12059513400"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><p class="call-text">Call Now</p></a> 
+				<a class="call-short btn" href="+12059513400"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><p class="call-text">Call Now</p></a>
+				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i><p class="call-text">Client Login</p></a>
+				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-home fa-lg" aria-hidden="true"></i><p class="call-text">Homepage</p></a>    
 				<!-- Desktop Top Menu -->
 				<div class="navbar-collapse nav-main-collapse collapse">
 					<nav class="nav-main">
@@ -75,40 +91,30 @@
 							<li class="nav-quote"><a href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
 							<li class="nav-contact"><a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 						</ul>
-						<div class="nav-info">
-							<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
-							<p class="nav-info-text">Birmingham Al, 35210</p> 
-							<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
+						<!-- Wordpress Login -->
+						<div class="wp-login">
+							<?php
+							if ( ! is_user_logged_in() ) {
+								$args = array(
+									'redirect' => admin_url(), 
+									'form_id' => 'wp-login'
+								);
+								wp_login_form( $args );
+								echo "<style> 
+										.top-photo-overlay-container .wp-photo-logo { margin: 239px 0px 0px 0px; }
+										#topMain { top: 98px; } 
+										#topMain #nav-services { top: 98px; }
+										#topMain #nav-home { top: 98px; }
+										#topMain #nav-blog { top: 98px; }
+										.nav-info { top: 15px; }
+										#secondNav { top: 0px; }
+										.wp-login { top: 105px; }
+										#topNav #dropdown-menu-spacing { top: 142px; }
+									</style>";
+							}
+							?>
 						</div>
 					</nav>
 				</div>
-			</header>
-			<header class="navbar-collapse nav-main-collapse collapse">
-				<nav id="secondNav">
-					<!-- Logo -->
-					<div id="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso" height="75"></a></div>
-					<!-- wordpress login -->
-					<div class="wp-login">
-						<?php
-						if ( ! is_user_logged_in() ) {
-							$args = array(
-								'redirect' => admin_url(), 
-								'form_id' => 'wp-login'
-							);
-							wp_login_form( $args );
-							echo "<style> 
-									.top-photo-overlay-container #wp-photo-logo-spacing { margin: 209px 0px 0px 0px; }
-									#topMain { top: 0px; } 
-									#topMain #nav-services { top: 0px; }
-									#topMain #nav-home { top: 0px; }
-									.nav-info { top: 7px; }
-									#secondNav { top: 44px; }
-									.wp-login { top: 63px; }
-									#topNav #dropdown-menu-spacing { top: 44px; }
-								  </style>";
-						}
-						?>
-					</div>
-				</nav> 
 			</header>
 		</header>

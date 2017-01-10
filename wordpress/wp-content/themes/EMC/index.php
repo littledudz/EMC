@@ -87,7 +87,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
 				<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 			</ul>
-			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/cooling-tower.jpg">
+			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/bg-emc-4.jpg">
 		</div>
 		<div class="col-sm-8 blog-main">
 			<!-- The Loop - ESSENTIAL TO WORDPRESS - All of your content is generated through a loop - Pulls from content.php-->
