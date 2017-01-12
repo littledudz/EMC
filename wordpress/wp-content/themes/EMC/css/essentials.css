@@ -411,7 +411,6 @@ pre {
 .container			{ position:relative; 			}
 i.fa 				{ text-decoration:none !important;}
 .justify 			{ text-align:justify; 			}
-.btn i.fa			{ padding-right:10px; 			}
 .btn-margin-top		{ margin-top:30px;			 	}
 .text-underline		{ text-decoration:underline;  	}
 .nowrap				{ white-space: nowrap !important;	}

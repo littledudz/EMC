@@ -49,11 +49,11 @@
 	<div class="body">
 		<header id="header" class="sticky">
 			<header class="">
-				<nav id="secondNav">
+				<nav class="secondNav" id="secondNav-mobile">
 					<!-- Logo -->
-					<div id="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img id="nav-logo" src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso"></a></div>
+					<div class="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img id="nav-logo" src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso"></a></div>
 					<!-- Nav Info -->
-					<div class="nav-info">
+					<div class="nav-info" id="nav-info-mobile">
 						<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
 						<p class="nav-info-text">Birmingham Al, 35210</p> 
 						<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
@@ -61,21 +61,22 @@
 				</nav> 
 			</header>
 			<!-- Top Nav -->
-			<header id="topNav" class="tab-spacing">
+			<header class="topNav" id="topNav-mobile">
 				<!-- Mobile Menu Buttons -->
 				<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i></button>
 				<a class="call-short btn" href="+12059513400"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><p class="call-text">Call Now</p></a>
-				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i><p class="call-text">Client Login</p></a>
-				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-home fa-lg" aria-hidden="true"></i><p class="call-text">Homepage</p></a>    
+				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i><p class="call-text">Login</p></a>    
 				<!-- Desktop Top Menu -->
 				<div class="navbar-collapse nav-main-collapse collapse">
 					<nav class="nav-main">
 						<div class="wp-top-spacing"></div>
 						<ul id="topMain" class="nav nav-pills nav-main"><!-- add "white" class if you want white menu text color-->
-							<li id="nav-home" class="mega-menu"><a href="<?php bloginfo( 'wpurl' );?>">Home</a></li>
-							<li id="nav-blog" class="mega-menu"><a href="<?php bloginfo( 'wpurl' );?>">Blog</a></li>
+							<li id="nav-home" class="mega-menu"><a class="nav-tabs-mobile nav-tab-home" id="nav-tab-home-mobile" href="<?php bloginfo( 'wpurl' );?>">Home</a></li>
+							<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="<?php bloginfo( 'wpurl' );?>">Blog</a></li>
+							<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
+							<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 							<li id="nav-services" class="dropdown mega-menu">
-								<a class="dropdown-toggle" href="#">Our Services</a>
+								<a class="dropdown-toggle nav-tabs-mobile nav-tab-services" id="nav-tab-services-mobile" href="#">Our Services</a>
 								<ul class="dropdown-menu">
 									<li id="dropdown-menu-spacing">
 										<ul>
@@ -88,8 +89,6 @@
 									</li>
 								</ul>
 							</li>
-							<li class="nav-quote"><a href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
-							<li class="nav-contact"><a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 						</ul>
 						<!-- Wordpress Login -->
 						<div class="wp-login">
@@ -102,14 +101,21 @@
 								wp_login_form( $args );
 								echo "<style> 
 										.top-photo-overlay-container .wp-photo-logo { margin: 239px 0px 0px 0px; }
-										#topMain { top: 98px; } 
-										#topMain #nav-services { top: 98px; }
+										.nav { top: 98px; } 
+										.topNav { top: 98px; }
 										#topMain #nav-home { top: 98px; }
 										#topMain #nav-blog { top: 98px; }
+										#topMain #nav-services { top: 98px; }
+										#topMain #nav-quote { top: 98px; }
+										#topMain #nav-contact { top: 98px; }
+										#secondNav-mobile { top: 0px; }
+										#nav-info-mobile { top: 5px; }
 										.nav-info { top: 15px; }
-										#secondNav { top: 0px; }
+										.secondNav { top: 0px; }
+										.secondNav .nav-info { top: 4px; }
 										.wp-login { top: 105px; }
-										#topNav #dropdown-menu-spacing { top: 142px; }
+										.topNav #dropdown-menu-spacing { top: 142px; }
+										header .secondNav { 32px; } 
 									</style>";
 							}
 							?>

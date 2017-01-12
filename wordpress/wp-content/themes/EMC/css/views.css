@@ -22,7 +22,7 @@ ________________________________
 01. Global
 ******************************/
 
-#secondNav .logo #nav-logo {
+.secondNav .logo #nav-logo {
     height: 75px;
 }
 
@@ -386,14 +386,24 @@ ________________________________
     .counties { text-align: center; }
     .top-photo-overlay-container #wp-photo-logo-spacing { margin: 143px 0px 0px 0px; }
     .wp-top-photo #lab-top-photo { margin: -272px 0px 0px -15px; }
-    #topNav { top: 62px; }
+    .topNav { top: 62px; }
+    #topNav-mobile { top: 140px; height: 60px; }
     .wp-login { display: none; }
     #nav-home { top: 0px; }
     #nav-blog { top: 30px; }
-    #nav-services { top: 60px; }
+    #nav-services { display: none !important; top: 60px; }
     #nav-quote { top: 90px; }
     #nav-contact { top: 120px; }
-    #topNav {
+    #topMain { top: 121px; }
+    #topMain #nav-home { right: 0px; }
+    #secondNav-mobile { top: 45px; }
+    #nav-info-mobile { top: 58px; }
+    .nav-tab-home { top: 198px; }
+    .nav-tab-blog { top: 238px; }
+    .nav-tab-quote { top: 278px; }
+    .nav-tab-contact { top: 318px; }
+    .nav-tab-services { display: none !important; top: 358px; }
+    .topNav {
         position: fixed; 
         top: 96px;
         left: 0px;
@@ -468,6 +478,13 @@ ________________________________
         border-radius: 5px;
         box-shadow:rgba(0,0,0,1) 0px 0px 15px;
     }
+    #topMain .mega-menu .nav-tabs-mobile {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        background-color: #23282d;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -489,14 +506,16 @@ ________________________________
         line-height: 17px;
         letter-spacing: 0px;
     }
+    #topNav-mobile { top: 106px; }
+    #secondNav-mobile { top: 45px; }
+    #nav-info-mobile { top: 50px; }
     .wp-top-photo #lab-top-photo { margin: 64px 0px 0px -15px; }
     .top-photo-overlay-container { display: none; }
-    #topNav .call-short { margin: 4px 10px 4px 0px; }
-    #secondNav .logo #nav-logo { height: 45px; }
-    #logo-container { margin:-8px 0px 0px -15px; }
-    #topNav { top: 62px; }
-    #secondNav { height: 85px; }
-    #secondNav .nav-info { top: 4px; }
+    .topNav .call-short { margin: 4px 10px 4px 0px; }
+    .secondNav .logo #nav-logo { height: 45px; }
+    .logo-container { margin: -8px 0px 0px -15px; }
+    .secondNav { height: 85px; }
+    .secondNav .nav-info { top: 50px; }
     .views-top-photo { width: 109%; }
     .top-photo-overlay-container .top-photo-logo { margin: 0px;}
     .top-photo-overlay-container .iso-text { font-size: 10px; }
