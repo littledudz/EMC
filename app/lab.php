@@ -125,7 +125,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                     <li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
                     <li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
                 </ul>
-                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-4.jpg">
+                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-4.jpg" alt="lab">
                 <div class="row" id="environmental-testing">
                     <div class="col-md-12">
                         <h2 class="page-titles">Environmental Testing</h2>
@@ -226,7 +226,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                         <p>EMC provides product quality testing for many local manufacturing and industrial companies. Some examples of the products that we test are:</p>
                         
                         <div class="col-md-4 text-center">
-                            <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="tractor farmer">
+                            <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="lab results">
                         </div>
 
                         <div class="col-md-8">

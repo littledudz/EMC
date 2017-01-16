@@ -78,6 +78,7 @@ ________________________________
     border-bottom: 1px solid #EEE;
     padding: 20px 0px 10px 0px;
 }
+.blog-post-single { margin: 165px 0px 60px 0px; }
 .page-title-margin { margin: 0px 0px 30px 15px; }
 
 
@@ -387,7 +388,7 @@ ________________________________
     .top-photo-overlay-container #wp-photo-logo-spacing { margin: 143px 0px 0px 0px; }
     .wp-top-photo #lab-top-photo { margin: -272px 0px 0px -15px; }
     .topNav { top: 62px; }
-    #topNav-mobile { top: 140px; height: 60px; }
+    #topNav-mobile { top: 98px; height: 60px; }
     .wp-login { display: none; }
     #nav-home { top: 0px; }
     #nav-blog { top: 30px; }
@@ -396,13 +397,12 @@ ________________________________
     #nav-contact { top: 120px; }
     #topMain { top: 121px; }
     #topMain #nav-home { right: 0px; }
-    #secondNav-mobile { top: 45px; }
-    #nav-info-mobile { top: 58px; }
-    .nav-tab-home { top: 198px; }
-    .nav-tab-blog { top: 238px; }
-    .nav-tab-quote { top: 278px; }
-    .nav-tab-contact { top: 318px; }
+    .nav-tab-home { top: 156px; }
+    .nav-tab-blog { top: 196px; }
+    .nav-tab-quote { top: 236px; }
+    .nav-tab-contact { top: 276px; }
     .nav-tab-services { display: none !important; top: 358px; }
+    .secondNav { height: 96px; }
     .topNav {
         position: fixed; 
         top: 96px;
@@ -506,16 +506,18 @@ ________________________________
         line-height: 17px;
         letter-spacing: 0px;
     }
-    #topNav-mobile { top: 106px; }
-    #secondNav-mobile { top: 45px; }
-    #nav-info-mobile { top: 50px; }
+    .nav-tab-home { top: 120px; }
+    .nav-tab-blog { top: 160px; }
+    .nav-tab-quote { top: 200px; }
+    .nav-tab-contact { top: 240px; }
+    #topNav-mobile { top: 60px; }
+    #nav-info-mobile { top: 5px; }
     .wp-top-photo #lab-top-photo { margin: 64px 0px 0px -15px; }
     .top-photo-overlay-container { display: none; }
     .topNav .call-short { margin: 4px 10px 4px 0px; }
     .secondNav .logo #nav-logo { height: 45px; }
     .logo-container { margin: -8px 0px 0px -15px; }
-    .secondNav { height: 85px; }
-    .secondNav .nav-info { top: 50px; }
+    .secondNav { height: 60px; }
     .views-top-photo { width: 109%; }
     .top-photo-overlay-container .top-photo-logo { margin: 0px;}
     .top-photo-overlay-container .iso-text { font-size: 10px; }

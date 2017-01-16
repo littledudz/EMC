@@ -126,7 +126,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 		</div>
          <section class="alternate" id="septic-page-top">
             <div class="container">
-				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg">
+				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg" alt="septic photo">
 				<form class="photo-schedule-container" name="contactform" method="post" action="send_septic_form.php">	
 					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
 					<p class="col-md-12 schedule-subtitle">Select Preferred Name, Time, and Date</p>

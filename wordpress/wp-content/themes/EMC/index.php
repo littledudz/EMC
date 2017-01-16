@@ -78,7 +78,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 }
 ?>
 <?php get_header(); ?>
-	<div class="row">
+	<div class="row" id="blog">
 		<div class="wp-top-photo col-md-12">
 			<ul class="top-photo-overlay-container">
 				<li class="wp-photo-logo" id="wp-photo-logo-spacing"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-iso-white.jpg" alt="emc logo" style="height: 90px;"></li>
@@ -87,9 +87,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
 				<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 			</ul>
-			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/bg-emc-4.jpg">
+			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/bg-emc-4.jpg" alt="lab">
 		</div>
-		<div class="col-sm-8 blog-main">
+		<div class="col-md-8 blog-main">
 			<!-- The Loop - ESSENTIAL TO WORDPRESS - All of your content is generated through a loop - Pulls from content.php-->
 			<?php       
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -102,6 +102,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			<?php endif; 
 			?>
 		</div> <!-- end .blog-main -->
-		<?php get_sidebar(); ?>
+		<div class="blog-sidebar"><?php get_sidebar(); ?></div>
 	</div> <!-- end .row -->
 <?php get_footer(); ?>

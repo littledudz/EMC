@@ -111,7 +111,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
 					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 				</ul>
-				<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/cooling-tower.jpg">
+				<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/cooling-tower.jpg" alt="cooling tower">
                 
 				<div class="row" id="cooling-tower-water">
                     <h2 class="page-titles page-title-margin" id="cooling-tower-title">Cooling Tower Water Treatment Programs</h2>

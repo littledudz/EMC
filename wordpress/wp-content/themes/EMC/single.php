@@ -3,7 +3,6 @@
 
 	<div class="row">
 		<div class="col-sm-12">
-			<!-- The Loop - ESSENTIAL TO WORDPRESS - All of your content is generated through a loop - Pulls from content-single.php-->
 			<?php 
 				if ( have_posts() ) : while ( have_posts() ) : the_post();
 					get_template_part( 'content-single', get_post_format() );

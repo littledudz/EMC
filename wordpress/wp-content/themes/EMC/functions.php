@@ -11,9 +11,9 @@ add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
 // Add Google Fonts
 function startwordpress_google_fonts() {
-				wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
-				wp_enqueue_style( 'OpenSans');
-		}
+    wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+    wp_enqueue_style( 'OpenSans');
+}
 
 add_action('wp_print_styles', 'startwordpress_google_fonts');
 
@@ -66,6 +66,9 @@ add_action( 'admin_init', 'custom_settings_page_setup' );
 
 // Support Featured Images
 add_theme_support( 'post-thumbnails' );
+
+
+
 
 // Support Custom WP Login Styling
 function my_login_stylesheet() {

@@ -1,11 +1,11 @@
 
     </div> <!-- /.wrapper -->
 
-	  <footer id="footer">
+	  <footer class="blog-footer" id="footer">
       <div class="container">
         <div class="row">
           <div class="logo_footer dark col-md-4 col-sm-4">
-            <img alt="" src="wp-content/themes/EMC/support/images/emc-birmingham-logo-dark.jpg" height="50" class="EMC Birmingham logo">
+            <img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" height="50" class="EMC Birmingham logo" alt="logo">
             <p class="block">
               EMC Birmingham<br>
               2607 Commerce Boulevard<br>
@@ -18,31 +18,31 @@
               <table class="opening-hours-table">
                 <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
                   <td>Monday</td>
-                  <td class="opens">9:00am</td>
+                  <td class="opens">8:00am</td>
                   <td>-</td>
                   <td class="closes">5:00pm</td>
                 </tr>
                 <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
                   <td>Tuesday</td>
-                  <td class="opens">9:00am</td>
+                  <td class="opens">8:00am</td>
                   <td>-</td>
                   <td class="closes">5:00pm</td>
                 </tr>
                 <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
                   <td>Wednesday</td>
-                  <td class="opens">9:00am</td>
+                  <td class="opens">8:00am</td>
                   <td>-</td>
                   <td class="closes">5:00pm</td>
                 </tr>
                 <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
                   <td>Thursday</td>
-                  <td class="opens">9:00am</td>
+                  <td class="opens">8:00am</td>
                   <td>-</td>
                   <td class="closes">5:00pm</td>
                 </tr>
                 <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
                   <td>Friday</td>
-                  <td class="opens">9:00am</td>
+                  <td class="opens">8:00am</td>
                   <td>-</td>
                   <td class="closes">5:00pm</td>
                 </tr>

@@ -9,12 +9,12 @@ Tags: theme
 
 /* Globals */
 
-.content-container {
-	margin: 50px 0px 0px 0px;
-}
 #body {
   max-width: 1000px;
   margin: 0 auto;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /* Override Bootstrap's default container. */
@@ -51,10 +51,18 @@ Tags: theme
   border-left: 5px solid transparent;
 }
 
-
 /*
  * Blog name and description
  */
+
+#blog {
+  background-color: #f7f7f7;
+}
+#blog a {
+  color:#248ec2;
+  font-family: "Open Sans", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
 
 .blog-header {
   padding-top: 20px;
@@ -66,19 +74,37 @@ Tags: theme
   font-size: 60px;
   font-weight: normal;
 }
+
 .blog-description {
   font-size: 20px;
   color: #999;
 }
-
-
-/*
- * Main column and sidebar layout
- */
+.blog-thumbnail {
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
 
 .blog-main {
+  width: 720px;
+  font-family: "Open Sans", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  margin: 25px 0px 25px 25px; 
+  padding: 1rem 3.125rem;
+}
+
+.blog-sidebar {
+  font-family: "Open Sans", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  /*border: 1px solid #dddddd;*/
+  margin: 25px 0px 0px 15px;
+}
+
+.blog-footer {
+  width: 1030px;
+  margin: 0px 0px 0px -15px;
 }
 
 /* Sidebar modules for boxing content */

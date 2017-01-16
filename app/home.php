@@ -6,7 +6,7 @@
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 				<a href="/Projects/EMC/app/consulting.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/shutterstock_265671650.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="support/images/1x1.png" data-lazyload="support/images/shutterstock_265671650.jpg" alt="consulting" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
@@ -49,7 +49,7 @@
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 				<a href="/Projects/EMC/app/lab.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="lab" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
@@ -92,7 +92,7 @@
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 				<a href="/Projects/EMC/app/cooling-tower.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/cooling-tower.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="support/images/1x1.png" data-lazyload="support/images/cooling-tower.jpg" alt="cooling tower" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
@@ -135,7 +135,7 @@
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 				<a href="/Projects/EMC/app/septic.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/septic-truck.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
+					<img src="support/images/1x1.png" data-lazyload="support/images/septic-truck.jpg" alt="septic photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
@@ -178,7 +178,7 @@
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 				<a href="/Projects/EMC/app/waste-water.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/wastewater-treatment-plant.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="support/images/1x1.png" data-lazyload="support/images/wastewater-treatment-plant.jpg" alt="wastewater photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"

@@ -46,12 +46,19 @@
     </head>
 
 	<body class="smoothscroll" id="body">
+	<script> $(document).ready(function wp_force_logout() { <?php
+		if ( is_user_logged_in() ) {
+			wp_destroy_current_session();
+			wp_clear_auth_cookie();
+			do_action( 'wp_logout' );
+		}
+	?> }</script>
 	<div class="body">
 		<header id="header" class="sticky">
 			<header class="">
 				<nav class="secondNav" id="secondNav-mobile">
 					<!-- Logo -->
-					<div class="logo-container"><a class="logo" href="<?php bloginfo( 'wpurl' );?>"><img id="nav-logo" src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso"></a></div>
+					<div class="logo-container"><a class="logo" href="http://emcbham.com/"><img id="nav-logo" src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-dark.jpg" alt="emc-birmingham-logo-iso"></a></div>
 					<!-- Nav Info -->
 					<div class="nav-info" id="nav-info-mobile">
 						<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
@@ -64,33 +71,32 @@
 			<header class="topNav" id="topNav-mobile">
 				<!-- Mobile Menu Buttons -->
 				<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i></button>
-				<a class="call-short btn" href="+12059513400"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><p class="call-text">Call Now</p></a>
-				<a class="call-short btn" id="client-login-short" href=""><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i><p class="call-text">Login</p></a>    
+				<a class="call-short btn" id="client-login-short" href="<?php echo wp_login_url(); ?>"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i><p class="call-text">Login</p></a>    
 				<!-- Desktop Top Menu -->
 				<div class="navbar-collapse nav-main-collapse collapse">
 					<nav class="nav-main">
 						<div class="wp-top-spacing"></div>
-						<ul id="topMain" class="nav nav-pills nav-main"><!-- add "white" class if you want white menu text color-->
-							<li id="nav-home" class="mega-menu"><a class="nav-tabs-mobile nav-tab-home" id="nav-tab-home-mobile" href="<?php bloginfo( 'wpurl' );?>">Home</a></li>
-							<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="<?php bloginfo( 'wpurl' );?>">Blog</a></li>
-							<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
-							<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
+						<ul id="topMain" class="nav nav-pills nav-main">
+							<li id="nav-home" class="mega-menu"><a class="nav-tabs-mobile nav-tab-home" id="nav-tab-home-mobile" href="http://emcbham.com/">Home</a></li>
+							<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="http://emcbham.info/">Blog</a></li>
 							<li id="nav-services" class="dropdown mega-menu">
 								<a class="dropdown-toggle nav-tabs-mobile nav-tab-services" id="nav-tab-services-mobile" href="#">Our Services</a>
 								<ul class="dropdown-menu">
 									<li id="dropdown-menu-spacing">
 										<ul>
-											<li><a href="/Projects/EMC/app/consulting.php">Consulting Services</a></li>
-											<li><a href="/Projects/EMC/app/lab.php">Field & Laboratory Operations</a></li>
-											<li><a href="/Projects/EMC/app/cooling-tower.php">Cooling Tower Water Treatment</a></li>
-											<li><a href="/Projects/EMC/app/septic.php">Septic Tank & Grease Trap Cleaning</a></li>
-											<li><a href="/Projects/EMC/app/waste-water.php">Wastewater Treatment Plant Operations</a></li>
+											<li><a href="www.emcbham.com/consulting-services-birmingham-al">Consulting Services</a></li>
+											<li><a href="www.emcbham.com/lab-field-operations">Field & Laboratory Operations</a></li>
+											<li><a href="www.emcbham.com/cooling-tower-birmingham-al">Cooling Tower Water Treatment</a></li>
+											<li><a href="www.emcbham.com/septic-cleaning-birmingham-al">Septic Tank & Grease Trap Cleaning</a></li>
+											<li><a href="www.emcbham.com/wastewater-treatment-birmingham-al">Wastewater Treatment Plant Operations</a></li>
 										</ul>
 									</li>
 								</ul>
 							</li>
+							<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
+							<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
+							<!--<li id="nav-login" class="mega-menu"><a class="nav-tabs-mobile nav-tab-login" id="nav-tab-login-mobile" href="http://emcbham.info/">Client Login</a></li>-->
 						</ul>
-						<!-- Wordpress Login -->
 						<div class="wp-login">
 							<?php
 							if ( ! is_user_logged_in() ) {
@@ -99,24 +105,6 @@
 									'form_id' => 'wp-login'
 								);
 								wp_login_form( $args );
-								echo "<style> 
-										.top-photo-overlay-container .wp-photo-logo { margin: 239px 0px 0px 0px; }
-										.nav { top: 98px; } 
-										.topNav { top: 98px; }
-										#topMain #nav-home { top: 98px; }
-										#topMain #nav-blog { top: 98px; }
-										#topMain #nav-services { top: 98px; }
-										#topMain #nav-quote { top: 98px; }
-										#topMain #nav-contact { top: 98px; }
-										#secondNav-mobile { top: 0px; }
-										#nav-info-mobile { top: 5px; }
-										.nav-info { top: 15px; }
-										.secondNav { top: 0px; }
-										.secondNav .nav-info { top: 4px; }
-										.wp-login { top: 105px; }
-										.topNav #dropdown-menu-spacing { top: 142px; }
-										header .secondNav { 32px; } 
-									</style>";
 							}
 							?>
 						</div>

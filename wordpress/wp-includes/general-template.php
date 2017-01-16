@@ -416,7 +416,7 @@ function wp_login_form( $args = array() ) {
 		'remember' => true,
 		'value_username' => '',
 		// Set 'value_remember' to true to default the "Remember me" checkbox to checked.
-		'value_remember' => true,
+		'value_remember' => false,
 	);
 
 	/**

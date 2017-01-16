@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="logo_footer dark col-md-4 col-sm-4">
-				<img alt="" src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo">
+				<img src="support/images/emc-birmingham-logo-dark.png" height="50" class="EMC Birmingham logo" alt="logo">
 				<p class="block">
 					EMC Birmingham<br>
 					2607 Commerce Boulevard<br>

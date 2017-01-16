@@ -125,7 +125,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
 					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 				</ul>
-				<img class="col-md-12 views-top-photo" id="waste-water-top-photo" src="support/images/wastewater-treatment-plant.jpg">
+				<img class="col-md-12 views-top-photo" id="waste-water-top-photo" src="support/images/wastewater-treatment-plant.jpg" alt="wastewater photo">
                 <div class="row" id="wastewater-treatment">
                     <div class="col-md-12">
                         <h2 class="page-titles" id="wastewater-title">Wastewater Treatment Plant Operations &amp; Maintenance</h2>

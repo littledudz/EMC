@@ -132,7 +132,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 						<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
 						<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 					</ul>
-					<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/shutterstock_265671650.jpg">
+					<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/shutterstock_265671650.jpg" alt="cooling tower">
 
 					<div class="row">
 						<div class="col-md-12">
@@ -177,7 +177,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 							<p></p>
 
 							<div class="col-md-4 col-sm-4">
-								<img class="alignleft wp-image-323 jay-image" src="http://emcbham.com/wp-content/uploads/2011/03/untitled.png" alt="untitled"/>
+								<img class="alignleft wp-image-323 jay-image" src="http://emcbham.com/wp-content/uploads/2011/03/untitled.png" alt="William 'Jay' Mather Photo"/>
 							</div>
 							<div class="col-md-4 col-sm-4">
 								<ul class="list-icon spaced check-circle">
