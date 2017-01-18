@@ -84,12 +84,12 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<li class="wp-photo-logo" id="wp-photo-logo-spacing"><img src="<?php bloginfo('template_directory');?>/support/images/emc-birmingham-logo-iso-white.jpg" alt="emc logo" style="height: 90px;"></li>
 				<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
 				<li class="top-photo-text welcome-text">WELCOME TO</li>
-				<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+				<li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
 				<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 			</ul>
 			<img class="col-md-12 views-top-photo" id="lab-top-photo" src="<?php bloginfo('template_directory');?>/support/images/bg-emc-4.jpg" alt="lab">
 		</div>
-		<div class="col-md-8 blog-main">
+		<div class="col-md-8 col-sm-12 blog-main">
 			<!-- The Loop - ESSENTIAL TO WORDPRESS - All of your content is generated through a loop - Pulls from content.php-->
 			<?php       
 			if ( have_posts() ) : while ( have_posts() ) : the_post();

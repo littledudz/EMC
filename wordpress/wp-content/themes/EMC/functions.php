@@ -1,14 +1,5 @@
 <?php
 
-// Add scripts and stylesheets
-function startwordpress_scripts() {
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6' );
-	wp_enqueue_style( 'styles', get_template_directory_uri() . '/css/style.css' );
-	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.6', true );
-}
-
-add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
-
 // Add Google Fonts
 function startwordpress_google_fonts() {
     wp_register_style('OpenSans', 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
@@ -66,6 +57,9 @@ add_action( 'admin_init', 'custom_settings_page_setup' );
 
 // Support Featured Images
 add_theme_support( 'post-thumbnails' );
+update_option( 'thumbnail_size_w', 700 );
+update_option( 'thumbnail_size_h', 300 );
+update_option( 'thumbnail_crop', 1 );
 
 
 

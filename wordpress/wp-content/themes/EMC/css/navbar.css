@@ -29,7 +29,7 @@
 }
 .nav-info {
 	position: fixed;
-	top: 15px;
+	top: 5px;
 	right: 0px;
 	width: 365px;
 	color: #23282d;
@@ -126,6 +126,8 @@
   background-color: #ffffff;
   margin: 0px 0px 3px 0px;
 }
+
+#facebook a { color: #248ec2; }
 
 /* top Navbar */
 
@@ -550,7 +552,6 @@
 		position: static;
 		clear: both;
 		float: none;
-		display: none !important;
 		border-left:0 !important;
 
 		-webkit-box-shadow: none;
@@ -603,7 +604,12 @@
 		margin-bottom:0;
 	}
 	.topNav #dropdown-menu-spacing {
-		width: 95%;
+		width: 96%;
+		position: fixed;
+		top: 360px;
+		left: 2%;
+		right: 2%;
+		background-color: #23282d;
 		margin-left: 0%;
 		margin-right: 0%;
 	}
@@ -1252,7 +1258,6 @@ body.menu-vertical #mainMenu .social {
 		position: static;
 		clear: both;
 		float: none;
-		display: none !important;
 		border-left:0 !important;
 
 		-webkit-box-shadow: none;
@@ -1294,6 +1299,7 @@ body.menu-vertical #mainMenu .social {
 	}
 	.topNav ul.nav>li.mega-menu>ul li>a {
 		border-bottom: rgba(0,0,0,0.1) 1px solid;
+		color: #ffffff;
 	}
 	.topNav ul.nav>li.mega-menu div,
 	.topNav ul.nav>li.mega-menu div div {

@@ -62,7 +62,8 @@
 					<!-- Nav Info -->
 					<div class="nav-info" id="nav-info-mobile">
 						<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
-						<p class="nav-info-text">Birmingham Al, 35210</p> 
+						<p class="nav-info-text">Birmingham Al, 35210</p>
+						<p class="nav-info-text" id="facebook">Visit us on <a href="">Facebook</a></p>  
 						<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
 					</div>
 				</nav> 
@@ -79,6 +80,8 @@
 						<ul id="topMain" class="nav nav-pills nav-main">
 							<li id="nav-home" class="mega-menu"><a class="nav-tabs-mobile nav-tab-home" id="nav-tab-home-mobile" href="http://emcbham.com/">Home</a></li>
 							<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="http://emcbham.info/">Blog</a></li>
+							<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
+							<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 							<li id="nav-services" class="dropdown mega-menu">
 								<a class="dropdown-toggle nav-tabs-mobile nav-tab-services" id="nav-tab-services-mobile" href="#">Our Services</a>
 								<ul class="dropdown-menu">
@@ -93,8 +96,6 @@
 									</li>
 								</ul>
 							</li>
-							<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get a Quote!</a></li>
-							<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 							<!--<li id="nav-login" class="mega-menu"><a class="nav-tabs-mobile nav-tab-login" id="nav-tab-login-mobile" href="http://emcbham.info/">Client Login</a></li>-->
 						</ul>
 						<div class="wp-login">

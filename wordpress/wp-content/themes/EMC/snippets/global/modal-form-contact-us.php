@@ -31,7 +31,7 @@
 						</div>
 						<div class="form-group col-md-12">
 								<label for="details">Message</label>
-								<textarea class="form-control" id="details" name="comments" rows="6" required></textarea>
+								<textarea class="form-control" id="details" name="comments" rows="6" placeholder="Message" required></textarea>
 						</div>
 
 						<div class="col-md-12">

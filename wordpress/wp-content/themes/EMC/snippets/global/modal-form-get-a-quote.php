@@ -32,53 +32,57 @@
             <div class="form-group col-md-3">
                 <label for="typeofwork">Type of Work</label>
                 <select name="typeofwork" required>
-                    <option value="other">Other</option>
+                    <option value="other">Which Service?</option>
                     <option value="coolingtowerservices">Cooling Tower Services</option>
                     <option value="wastewaterservices">Waste Water Services</option>
                     <option value="septictankservices">Septic Tank Services</option>
                     <option value="consultingservices">Consulting Services</option>
                     <option value="laboratoryservices">Laboratory Services</option>
+                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="form-group col-md-3">
                 <label for="urgency">Urgency</label>
                 <select name="urgency" required>
-                    <option value="other">Other</option>
+                    <option value="other">How Urgent?</option>
                     <option value="norush">No Rush</option>
                     <option value="urgent">Urgent</option>
                     <option value="veryurgent">Very Urgent</option>
+                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="form-group col-md-3">
                 <label for="howoften">How Often?</label>
                 <select name="howoften" placholder ="[select one]" required>
-                    <option value="other">Other</option>
+                    <option value="other">How Often?</option>
                     <option value="once">Once</option>
                     <option value="yearly">Yearly</option>
                     <option value="biannually">Bi-Annually</option>
                     <option value="quarterly">Quarterly</option>
                     <option value="monthly">Monthly</option>
                     <option value="whenneeded">When Needed</option>
+                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="form-group col-md-3">
                 <label for="reference">Who Referred You To Us?</label>
                 <select name="reference" required>
-                    <option value="other">Other</option>
+                    <option value="other">Reference?</option>
                     <option value="worofmouth">Word of Mouth</option>
                     <option value="homeadvisor">Home Advisor</option>
                     <option value="angieslist">Angies List</option>
                     <option value="valpack">Val Pack</option>
+                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="form-group col-md-12">
                 <label for="comments">Any Other Details</label>
-                <textarea class="form-control" id="details" name="comments" rows="6" required></textarea>
+                <textarea class="form-control" id="details" name="comments" rows="6" placeholder="Message" required></textarea>
             </div>
 
             <div class="col-md-12">
                 <div class="g-recaptcha" data-sitekey="6LdZdygTAAAAAAtJxXG51pNFnPSIl4q9Bim-WWdy"></div><br>   <!--6LdZdygTAAAAAAtJxXG51pNFnPSIl4q9Bim-WWdy -->
-                <button type="submit" class="btn btn-primary col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0">Submit</button><br><br><br>
+                <button type="submit" class="modal-btn-mobile btn btn-primary col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0">Submit</button><br><br><br>
             </div>
 		</form>
       </div>
