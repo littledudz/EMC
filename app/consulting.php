@@ -106,9 +106,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 
 <head>
 	<meta charset="utf-8">
-	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
-	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
-	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
+	<title>Consulting Services - Enviro Managment Corporation</title>
+	<meta name="keywords" content="Environmental Consulting, Corporate Safety Training, Injury Prevention, William 'Jay' Mather, consulting services">
+	<meta name="description" content="Help prevent injuries and accidents with Eniviro Managament Corporation's consulting services! Willam 'Jay' Mather is your man to call to save some money!">
 	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 </head>
@@ -122,14 +122,14 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 			<?php include_once 'snippets/global/navbar.php' ?>
 
 			<!-- PREMIUM -->
-			<section class="alternate">
+			<section class="alternate content-spacing">
 				<div class="container">
 
 					<ul class="top-photo-overlay-container">
 						<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
 						<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
 						<li class="top-photo-text welcome-text">WELCOME TO</li>
-						<li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+						<li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
 						<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 					</ul>
 					<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/shutterstock_265671650.jpg" alt="cooling tower">

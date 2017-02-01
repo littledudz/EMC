@@ -11,7 +11,8 @@ TABLE OF CONTENTS
 06. Lab View
 07. Septic View
 08. Waste Water View
-09. Responsiveness   
+09. Blog
+10. Responsiveness   
 ________________________________
 
 ******************************/
@@ -360,7 +361,7 @@ ________________________________
 
 
 /*****************************  
-08. Blog
+09. Blog
 ******************************/
 
 .blog-content-container .blog-post .row .blog-thumbnail img { 
@@ -528,7 +529,7 @@ ________________________________
 
 
 /*****************************  
-09. Responsiveness
+10. Responsiveness
 ******************************/
 
 @media only screen and (min-width: 1026px) {

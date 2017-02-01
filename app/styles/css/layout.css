@@ -278,7 +278,7 @@ div.slider {
 	background-color:#171717;
 	position:relative;
 	z-index:1;
-	margin-top: 5.25em;
+	margin-top: 10.15em;
 
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	   -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -288,7 +288,7 @@ div.slider {
 
 @media only screen and (max-width: 990px) {
 	div.slider {
-	  margin-top: 0em;
+	  margin-top: 102px;
 	}
  }
 
@@ -765,6 +765,9 @@ ul.search-history {
 	.maintenance h1 {
 		font-size:40px;
 		line-height:40px;
+	}
+	div.slider {
+		margin-top: 63px;
 	}
 }
 

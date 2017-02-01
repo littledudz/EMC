@@ -34,7 +34,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corp.
+						data-easing="easeOutExpo">Enviro Managament Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -77,7 +77,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corp.
+						data-easing="easeOutExpo">Enviro Managament Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -120,7 +120,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corp.
+						data-easing="easeOutExpo">Enviro Managament Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -163,7 +163,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corp.
+						data-easing="easeOutExpo">Enviro Managament Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -206,7 +206,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corp.
+						data-easing="easeOutExpo">Enviro Managament Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -223,7 +223,7 @@
 </div>
 <!-- end Carousel -->
 
-<section>
+<section class="content-spacing">
     <div class="container">
         <!-- word rotator -->
         <header>

@@ -102,8 +102,5 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
         <?php include('snippets/global/modal-form-contact-us.php'); ?>
 		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
 		<?php include_once 'snippets/global/script-tags.php'; ?>
-		<!-- <script src="scripts/main.js"></script>
-		<script src="scripts/factories.js"></script>
-		<script src="scripts/controllers.js"></script> -->
     </body>
 </html>

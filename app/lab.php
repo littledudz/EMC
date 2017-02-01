@@ -116,13 +116,13 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
     <?php include_once("snippets/global/analyticstracking.php") ?>
     <div id="wrapper">
         <?php include_once 'snippets/global/navbar.php' ?>
-        <section class="alternate">
+        <section class="alternate content-spacing">
             <div class="container">
                 <ul class="top-photo-overlay-container">
                     <li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
                     <li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
                     <li class="top-photo-text welcome-text">WELCOME TO</li>
-                    <li class="top-photo-text enviro-text">Enviro Managament Corp.</li>
+                    <li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
                     <li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
                 </ul>
                 <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-4.jpg" alt="lab">
