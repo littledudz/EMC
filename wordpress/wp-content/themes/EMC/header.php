@@ -6,9 +6,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Enviro Management Corp</title>
-        <meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
-        <meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
+        <title>Client Login and Blog - Enviro Management Corporation</title>
+        <meta name="keywords" content="emc blog, emc login, emc client login, environmental blog, birmingham blog">
+        <meta name="description" content="Whether you are a client looking to log in or are interested in our blog, you have found the right place! Let Enviro Management Corp help you stay informed.">
         <meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
         <script src='https://www.google.com/recaptcha/api.js'></script>

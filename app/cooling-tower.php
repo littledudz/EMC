@@ -91,9 +91,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 <html> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
-	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
-	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
+	<title>Cooling Tower Water Treatment Programs in Birmingham, AL</title>
+	<meta name="keywords" content="cooling tower service, cooling tower water treatment program, water treatment program, cooling towers">
+	<meta name="description" content="Having a cooling tower water treatment program can save your company thousands on your heating and cooling. EMC can do the maintenance and testing for you!">
 	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 </head>

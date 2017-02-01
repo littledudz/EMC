@@ -103,9 +103,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 
 <head>
 	<meta charset="utf-8">
-	<title>Consulting - Enviro Management Corp | www.emcbham.com/consulting</title>
-	<meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
-	<meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
+	<title>Septic Tank & Grease Trap Cleaning | EMC in Birmingham, AL</title>
+	<meta name="keywords" content="septic tank cleaning birmingham, grease trap cleaning birmingham, septic tank service, grease trap service, septic tank pumping services">
+	<meta name="description" content="Enviro Management  Corporation offers professional septic tank & grease trap cleaning for everyone in Birmingham, Al and the surrounding areas.">
 	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>

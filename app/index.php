@@ -85,9 +85,9 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 <html ng-app="WebApp">
     <head>
         <meta charset="utf-8">
-        <title>Enviro Management Corp</title>
-        <meta name="keywords" content="emc birmingham, enviro management corp, waste water treatment, environmental consulting firm, laboratory testing, environmental testing in birmingham alabama, birmingham alabama, water testing, laboratory testing, field sampling, petroleum testing, wastewater treatment facility upgrade">
-        <meta name="description" content="EMC is an environmental consulting firm specializing in waste water treatment and laboratory testing, proudly serving Alabama and surrounding Southeastern states since 1989.">
+        <title>Enviro Management Corporation - Birmingham, AL</title>
+        <meta name="keywords" content="emc birmingham, enviro management corporation, drain services, environmental consulting firm, petroleum testing">
+        <meta name="description" content="EMC is an environmental consulting firm in Birmingham, AL specializing in septic tank cleaning, petroleum testing, and laboratory testing.">
         <meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
         <script src='https://www.google.com/recaptcha/api.js'></script>
 		<?php include_once 'snippets/global/head-tags.php'; ?>

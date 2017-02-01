@@ -108,7 +108,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<meta charset="utf-8">
 	<title>Consulting Services - Enviro Managment Corporation</title>
 	<meta name="keywords" content="Environmental Consulting, Corporate Safety Training, Injury Prevention, William 'Jay' Mather, consulting services">
-	<meta name="description" content="Help prevent injuries and accidents with Eniviro Managament Corporation's consulting services! Willam 'Jay' Mather is your man to call to save some money!">
+	<meta name="description" content="Help prevent injuries and accidents with Enviro Management Corporation's consulting services! Willam 'Jay' Mather is your man to call to save some money!">
 	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
 	<?php include_once 'snippets/global/head-tags.php'; ?>
 </head>
