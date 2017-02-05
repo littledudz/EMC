@@ -60,11 +60,11 @@
 						<ul class="dropdown-menu">
 							<li id="dropdown-menu-spacing">
 								<ul>
-									<li><a href="/Projects/EMC/app/consulting.php">Consulting Services</a></li>
-									<li><a href="/Projects/EMC/app/lab.php">Field & Laboratory Operations</a></li>
-									<li><a href="/Projects/EMC/app/cooling-tower.php">Cooling Tower Water Treatment</a></li>
-									<li><a href="/Projects/EMC/app/septic.php">Septic Tank & Grease Trap Cleaning</a></li>
-									<li><a href="/Projects/EMC/app/waste-water.php">Wastewater Treatment Plant Operations</a></li>
+									<li><a href="consulting.php">Consulting Services</a></li>
+									<li><a href="lab.php">Field & Laboratory Operations</a></li>
+									<li><a href="cooling-tower.php">Cooling Tower Water Treatment</a></li>
+									<li><a href="septic.php">Septic Tank & Grease Trap Cleaning</a></li>
+									<li><a href="waste-water.php">Wastewater Treatment Plant Operations</a></li>
 								</ul>
 							</li>
 						</ul>
