@@ -38,21 +38,21 @@
 			<div class="nav-info" id="nav-info-mobile">
 				<p class="nav-info-text"><a href="https://www.google.com/maps/place/2607+Commerce+Blvd,+Irondale,+AL+35210/@33.544752,-86.6960897,17z/data=!3m1!4b1!4m5!3m4!1s0x888911b12775f7c1:0x2d2df237c1da85d!8m2!3d33.544752!4d-86.693901">2607 Commerce Boulevard</a></p>
 				<p class="nav-info-text">Birmingham Al, 35210</p>
-				<p class="nav-info-text" id="facebook">Visit us on <a href="">Facebook</a></p>  
+				<p class="nav-info-text" id="facebook">Visit us on <a href="http://info.emcbham.com/">Facebook</a></p>  
 				<p class="nav-info-text"><a href="+12059513400">(205) 951-3400</a></p> 
 			</div>
 		</nav> 
 	</header>
 	<header class="topNav" id="topNav-mobile">
 		<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse"><i class="fa fa-bars"></i></button>
-		<a class="call-short btn" id="client-login-short" href="http://emcbham.info/"><i class="fa fa-sign-in fa-lg"></i><p class="call-text">Login</p></a>
-		<a class="call-short btn" id="facebook-short" href="http://emcbham.info/"><i class="fa fa-facebook fa-2x"></i></a>        
+		<a class="call-short btn" id="client-login-short" href="http://info.emcbham.com/"><i class="fa fa-sign-in fa-lg"></i><p class="call-text">Login</p></a>
+		<a class="call-short btn" id="facebook-short" href="http://info.emcbham.com/"><i class="fa fa-facebook fa-2x"></i></a>        
 		<div class="navbar-collapse nav-main-collapse collapse">
 			<nav class="nav-main">
 				<div class="wp-top-spacing"></div>
 				<ul id="topMain" class="nav nav-pills nav-main">
 					<li id="nav-home" class="mega-menu"><a class="nav-tabs-mobile nav-tab-home" id="nav-tab-home-mobile" href="http://emcbham.com/">Home</a></li>
-					<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="http://emcbham.info/">Blog</a></li>
+					<li id="nav-blog" class="mega-menu"><a class="nav-tabs-mobile nav-tab-blog" id="nav-tab-blog-mobile" href="http://info.emcbham.com/">Blog</a></li>
 					<li id="nav-quote" class="mega-menu"><a class="nav-tabs-mobile nav-tab-quote" id="nav-tab-quote-mobile" href="#" data-toggle="modal" data-target="#QuoteFormModal">Get A Quote!</a></li>
 					<li id="nav-contact" class="mega-menu"><a class="nav-tabs-mobile nav-tab-contact" id="nav-tab-contact-mobile" href="#" data-toggle="modal" data-target="#ContactFormModal">Contact Us</a></li>
 					<li id="nav-services" class="dropdown mega-menu">
@@ -69,7 +69,7 @@
 							</li>
 						</ul>
 					</li>
-					<li id="nav-login" class="mega-menu"><a class="nav-tabs-mobile nav-tab-login" id="nav-tab-login-mobile" href="http://emcbham.info/">Client Login</a></li>
+					<li id="nav-login" class="mega-menu"><a class="nav-tabs-mobile nav-tab-login" id="nav-tab-login-mobile" href="http://info.emcbham.com/">Client Login</a></li>
 				</ul>
 			</nav>
 		</div>
