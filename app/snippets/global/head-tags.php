@@ -1,6 +1,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <!-- mobile settings -->
 <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
 <!-- Favicon -->
 <link rel="shortcut icon" href="support/images/emc-birmingham-logo-favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="support/images/apple-touch-icon.png">
@@ -8,6 +10,7 @@
 <link rel="apple-touch-icon" sizes="152x152" href="support/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="120x120" href="support/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="76x76" href="support/images/apple-touch-icon.png">
+
 <!-- WEB FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css">
 
@@ -35,12 +38,16 @@
 <link rel="stylesheet" type="text/css" href="styles/css/views.css">
 
 <!-- Morenizr -->
-<!-- 		<script type="text/javascript" src="scripts/plugins/modernizr.min.js"></script> -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<!--[if lte IE 8]>
-	<script src="scripts/plugins/respond.js"></script>
-<![endif]-->
-<!-- <link rel="stylesheet" type="text/css" href="styles/css/rs-style.css" media="screen">
-<script type="text/javascript" src="scripts/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="scripts/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<link rel="stylesheet" type="text/css" href="scripts/plugins/rs-plugin/css/settings.css" media="screen"> -->
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92254254-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
