@@ -122,7 +122,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 					<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
 					<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
 					<li class="top-photo-text welcome-text">WELCOME TO</li>
-					<li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
+					<li class="top-photo-text enviro-text">Enviro Management Corporation</li>
 					<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 				</ul>
 				<img class="col-md-12 views-top-photo" id="waste-water-top-photo" src="support/images/wastewater-treatment-plant.jpg" alt="wastewater photo">
@@ -160,7 +160,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 
 				<div class="row">
 					<div class="col-md-12">
-						<p class="bottom-p">Wastewater treatment is the process of removing contaminants from wastewater, which includes the physical, chemical, and biological processes. This is done to eliminate help eliminate pollutants from the wastewater, especially the metals. Once treated, water can then be released back into the environment without the risk of it harming the environment. There are an extraordinary number of sources that create sewage every day. Some of the most common places are residences, institutions, hospitals, commercial buildings, and industrial establishments. When it comes to treating this sewage, it can be treated close to where it is created, or it can be collected and transported via a network of pipes and pumping stations to a municipal treatment plant. EMC provides these services and many more to help monitor,treat, and control the sewage produced by many businesses around Birmingham. <a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact us today</a> for a free quote!</p> 
+						<p class="bottom-p">Wastewater treatment is the process of removing contaminants from wastewater, which includes the physical, chemical, and biological processes. This is done to help eliminate pollutants from the wastewater, especially the metals. Once treated, water can then be released back into the environment without the risk of it harming the environment. There are an extraordinary number of sources that create sewage every day. Some of the most common places are residences, institutions, hospitals, commercial buildings, and industrial establishments. When it comes to treating this sewage, it can be treated close to where it is created, or it can be collected and transported via a network of pipes and pumping stations to a municipal treatment plant. EMC provides these services and many more to help monitor,treat, and control the sewage produced by many businesses around Birmingham. <a href="#" data-toggle="modal" data-target="#ContactFormModal">Contact us today</a> for a free quote!</p> 
 					</div>
 				</div>
 				

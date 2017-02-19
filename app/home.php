@@ -5,15 +5,15 @@
 		
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/consulting.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/shutterstock_265671650.jpg" alt="consulting" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<a href="consulting.php">
+					<img src="http://emcbham.com/support/images/1x1.png" data-lazyload="support/images/shutterstock_265671650.jpg" alt="consulting" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
 						data-speed="2000"
 						data-start="0"
 						data-easing="easeOutExpo">
-						<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
+						<img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
 					</div>
 					<div class="tp-caption small_light_white fade str"
 						data-x="75"
@@ -34,7 +34,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corporation
+						data-easing="easeOutExpo">Enviro Management Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -48,15 +48,15 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/lab.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="lab" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<a href="lab.php">
+					<img src="http://emcbham.com/support/images/1x1.png" data-lazyload="support/images/bg-emc-4.jpg" alt="lab" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
 						data-speed="2000"
 						data-start="0"
 						data-easing="easeOutExpo">
-						<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
+						<img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
 					</div>
 					<div class="tp-caption small_light_white fade str"
 						data-x="75"
@@ -77,7 +77,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corporation
+						data-easing="easeOutExpo">Enviro Management Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -91,15 +91,15 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/cooling-tower.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/cooling-tower.jpg" alt="cooling tower" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<a href="cooling-tower.php">
+					<img src="http://emcbham.com/support/images/1x1.png" data-lazyload="support/images/cooling-tower.jpg" alt="cooling tower" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
 						data-speed="2000"
 						data-start="0"
 						data-easing="easeOutExpo">
-						<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
+						<img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
 					</div>
 					<div class="tp-caption small_light_white fade str"
 						data-x="75"
@@ -120,7 +120,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corporation
+						data-easing="easeOutExpo">Enviro Management Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -134,15 +134,15 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/septic.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/septic-truck.jpg" alt="septic photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
+				<a href="septic.php">
+					<img src="http://emcbham.com/support/images/1x1.png" data-lazyload="support/images/septic-truck.jpg" alt="septic photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"></a>
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
 						data-speed="2000"
 						data-start="0"
 						data-easing="easeOutExpo">
-						<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
+						<img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
 					</div>
 					<div class="tp-caption small_light_white fade str"
 						data-x="75"
@@ -163,7 +163,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corporation
+						data-easing="easeOutExpo">Enviro Management Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -177,15 +177,15 @@
 
 			<!-- Slide -->
 			<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
-				<a href="/Projects/EMC/app/waste-water.php">
-					<img src="support/images/1x1.png" data-lazyload="support/images/wastewater-treatment-plant.jpg" alt="wastewater photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<a href="waste-water.php">
+					<img src="http://emcbham.com/support/images/1x1.png" data-lazyload="support/images/wastewater-treatment-plant.jpg" alt="wastewater photo" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<div class="tp-caption modern_medium_light fade"
 						data-x="75"
 						data-y="125"
 						data-speed="2000"
 						data-start="0"
 						data-easing="easeOutExpo">
-						<img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
+						<img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px; width: 215px;">
 					</div>
 					<div class="tp-caption small_light_white fade str"
 						data-x="75"
@@ -206,7 +206,7 @@
 						data-y="270"
 						data-speed="300"
 						data-start="600"
-						data-easing="easeOutExpo">Enviro Managament Corporation
+						data-easing="easeOutExpo">Enviro Management Corporation
 					</div>
 					<div class="tp-caption modern_medium_light sft stb"
 						data-x="75"
@@ -261,8 +261,8 @@
 			<p>Does your staff need training on OSHA and EPA regulations? Does your staff need training on how to lower risks in your line of work and the safety measures to put in place to lower these risks? We can train your staff in house or at your location through our expert consulting team spearheaded by William “Jay” Mather. Learn more about what consulting opportunities that we can provide for you!</p>
         </div>
         <div class="col-md-3 col-sm-4">
-            <a href="#" class="btn btn-primary btn-block">Client Login</a>
-            <a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a href="http://info.emcbham.com/" class="btn btn-primary btn-block">Client Login</a>
+            <a href="http://emcbham.com/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>

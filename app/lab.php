@@ -122,17 +122,17 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                     <li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
                     <li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
                     <li class="top-photo-text welcome-text">WELCOME TO</li>
-                    <li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
+                    <li class="top-photo-text enviro-text">Enviro Management Corporation</li>
                     <li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
                 </ul>
-                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="support/images/bg-emc-4.jpg" alt="lab">
+                <img class="col-md-12 views-top-photo" id="lab-top-photo" src="http://emcbham.com/support/images/bg-emc-4.jpg" alt="lab">
                 <div class="row" id="environmental-testing">
                     <div class="col-md-12">
                         <h2 class="page-titles">Environmental Testing</h2>
                         <p>EMC has provided a full range of environmental testing services for permit holders for over two decades. Samples are analyzed using EPA approved methods for compliance purposes.</p>
 
                         <div class="col-md-4 text-center">
-                            <img class="img-responsive animate_fade_in" src="support/images/bottle-by-stream.jpg" alt="environmental testing">
+                            <img class="img-responsive animate_fade_in" src="http://emcbham.com/support/images/bottle-by-stream.jpg" alt="environmental testing">
                         </div>
 
                         <div class="col-md-4 col-sm-6">
@@ -214,7 +214,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                             </ul>
                         </div>
                         <div class="col-md-6 col-sm-12 text-center">
-                            <img class="img-responsive animate_fade_in" src="support/images/shutterstock_89021125.jpg" alt="diesel testing">
+                            <img class="img-responsive animate_fade_in" src="http://emcbham.com/support/images/shutterstock_89021125.jpg" alt="diesel testing">
                         </div>
                     </div> <!-- end .col-md-12 -->
                 </div> <!-- end #petroleum-and-jet-fuel -->
@@ -226,7 +226,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                         <p>EMC provides product quality testing for many local manufacturing and industrial companies. Some examples of the products that we test are:</p>
                         
                         <div class="col-md-4 text-center">
-                            <img class="img-responsive animate_fade_in" src="support/images/lab-results.jpg" alt="lab results">
+                            <img class="img-responsive animate_fade_in" src="http://emcbham.com/support/images/lab-results.jpg" alt="lab results">
                         </div>
 
                         <div class="col-md-8">
@@ -251,7 +251,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
                                 <p>We can also prepare the Electronic Discharge Monitoring Reports as well. After setting you up on the eFile program, we will complete the reports, and when complete, you will receive an email to review the data and submit it to ADEM directly.</p>
                             </div>
                             <div class="col-md-5 col-sm-12">
-                                <img class="img-responsive animate_fade_in" src="support/images/stockimage3.jpg" alt="lab data delivery">
+                                <img class="img-responsive animate_fade_in" src="http://emcbham.com/support/images/stockimage3.jpg" alt="lab data delivery">
                             </div>
                         </div>
                     </div>

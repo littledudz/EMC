@@ -116,10 +116,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
     <?php include_once("snippets/global/analyticstracking.php") ?>
     <div id="wrapper">
          <?php include_once 'snippets/global/navbar.php' ?>
-		 <a href="support/files/Coupon.pdf"><button class="btn" id="coupon-button"><i class="fa fa-print" aria-hidden="true"></i>Get $25 Off!</button></a>
+		 <a href="http://emcbham.com/support/files/Coupon.pdf"><button class="btn" id="coupon-button"><i class="fa fa-print" aria-hidden="true"></i>Get $25 Off!</button></a>
          <section class="alternate content-spacing" id="septic-page-top">
             <div class="container">
-				<img class="views-top-photo" id="septic-top-photo" src="support/images/septic-truck.jpg" alt="septic photo">
+				<img class="views-top-photo" id="septic-top-photo" src="http://emcbham.com/support/images/septic-truck.jpg" alt="septic photo">
 				<form class="photo-schedule-container" name="contactform" method="post" action="send_septic_form.php">	
 					<p class="col-md-12 schedule-title"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule Service Online</p>
 					<p class="col-md-12 schedule-subtitle">Select Preferred Name, Time, and Date</p>
@@ -145,7 +145,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<div class="text-content-container">
 					<h2 class="page-titles">Septic Tank & Grease Trap Cleaning</h2>
 					<h3 class="col-md-12 counties">Servicing Jefferson, Shelby and St. Clair Counties</h3>
-					<div class="col-md-9 col-sm-8" style="border-right: 1px solid #dddddd;">
+					<div class="col-md-9 col-sm-8">
 						<p>Enviro Management Corp is your choice for complete septic tank and plumbing services. We service both commercial and residential clients in Birmingham, Al and the surrounding area. At <a>EMC</a>, we have licensed, professionally trained technicians who are dedicated to getting the job done right the first time and doing it with a smile. We don’t shy away from any commercial or residential job, no matter how big or how small. You can get a <a>free estimate</a> for any of our many services today, so if you are experiencing any difficulty with the plumbing or septic system in your home or business, put your trust in the hands of a professional EMC technician by <a href="+12059513400">giving us a call</a> today!</p>
 
 						<hr>
@@ -185,10 +185,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-4">
-						<div class="client-buttons col-md-12">
-							<a href="wp-login.php" class="btn btn-primary btn-block">Client Login</a>
-							<a href="support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+					<div class="col-md-3 col-sm-4" style="margin: 0px;">
+						<div class="client-buttons col-md-12" id="septic-buttons">
+							<a href="http://info.emcbham.com/" class="btn btn-primary btn-block">Client Login</a>
+							<a href="http://emcbham.com/support/files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 						</div>
 						<!--<div class="coupon">
 							<div class="half-coupon col-md-12">
@@ -211,30 +211,15 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 							</div>
 						</div>-->
 						<a class="ha-review" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">
-							<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; margin: 115px auto auto 0px; width: 225px; height: 410px; box-sizing: border-box;">
+							<div class="ha-reviews-verticle" style="background: #f1f2f2; border: 1px solid #ccc; border-radius: 3px; padding: 20px 15px 10px; width: 225px; height: 400px; box-sizing: border-box;">
 								<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" style="width: 190px; height: 30px;">
-
 								<h2 style="background: #3d4549; color:#fff; margin: 15px -16px; padding: 6px 0 4px; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS</h2>
-
 								<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=vertical&reviewSort=recent&section=rating" style="width: 100%; height: 204px; background: transparent;" frameborder="0" scrolling="no"></iframe>
-
-								<!--<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company</a>-->
-								<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">More Reviews</a>
-							</div>
+								<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" target="_blank">More Reviews</a>
 							</div>
 						</a>
 					</div> <!-- end .col-md-3 -->
 				</div> <!-- end .text-content-container -->
-				<!--<div class="ha-reviews-horizontal">
-					<div style="border-bottom: 1px solid #d7d7d7; margin: 0 -15px 10px;">
-						<img alt="Review Pros" src="//cdn2.homeadvisor.com/images/consumer/home/ha-logo-title.png" width="185" style="float: left; margin: 10px 0 0 20px;">
-						<h2 style="background: #3d4549; color:#fff; margin: 0; padding: 11px 27px 9px; float:right; text-align: center; font-family: helvetica, arial, san-serif;">RATINGS & REVIEWS</h2>
-						<div style="clear: both;"></div>
-					</div>
-					<iframe src="https://www.homeadvisor.com/ratings/embed/iframe/56516298/?orientation=horizontal&reviewSort=recent" style="width: 100%; height: 215px; background: transparent;" frameborder="0" scrolling="no"></iframe>
-					<a class="btn btn-primary btn-block" id="ha-btn" href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html">More Reviews</a>
-					<a href="http://www.homeadvisor.com/rated.EnviroManagement.56516298.html" style="color: #5486a3; float: right; font-size: 11px; font-family: helvetica, arial, san-serif; text-align: center; text-decoration: none;">See More Reviews of Enviro Management Company, Inc. on HomeAdvisor</a>
-				</div>-->
 			</div> <!-- end .container -->
         </section>
         <?php include('snippets/global/modal-form-contact-us.php'); ?>

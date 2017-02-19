@@ -106,7 +106,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 
 <head>
 	<meta charset="utf-8">
-	<title>Consulting Services - Enviro Managment Corporation</title>
+	<title>Consulting Services - Enviro Management Corporation</title>
 	<meta name="keywords" content="Environmental Consulting, Corporate Safety Training, Injury Prevention, William 'Jay' Mather, consulting services">
 	<meta name="description" content="Help prevent injuries and accidents with Enviro Management Corporation's consulting services! Willam 'Jay' Mather is your man to call to save some money!">
 	<meta name="Author" content="Dudley Dickerson & Phillip Sanford [www.phillipsanford.com]">
@@ -126,13 +126,13 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 				<div class="container">
 
 					<ul class="top-photo-overlay-container">
-						<li class="top-photo-logo"><img src="support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
+						<li class="top-photo-logo"><img src="http://emcbham.com/support/images/emc-birmingham-logo-iso-white.png" alt="emc logo" style="height: 90px;"></li>
 						<li class="top-photo-text iso-text">An ISO 9001:2008 Company</li>
 						<li class="top-photo-text welcome-text">WELCOME TO</li>
-						<li class="top-photo-text enviro-text">Enviro Managament Corporation</li>
+						<li class="top-photo-text enviro-text">Enviro Management Corporation</li>
 						<li class="top-photo-text leader-text">The regional leader in environmental & safety consulting since 1989.</li>
 					</ul>
-					<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="support/images/shutterstock_265671650.jpg" alt="cooling tower">
+					<img class="col-md-12 views-top-photo" id="cooling-tower-top-photo" src="http://emcbham.com/support/images/shutterstock_265671650.jpg" alt="cooling tower">
 
 					<div class="row">
 						<div class="col-md-12">
@@ -143,7 +143,7 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 								</div>
 								
 								<div class="col-md-3 col-sm-4">
-									<a href="wp-login.php" class="btn btn-primary btn-block">Client Login</a>
+									<a href="http://info.emcbham.com/" class="btn btn-primary btn-block">Client Login</a>
 									<a href="files/ChainofCustody.pdf" target="_blank" class="btn btn-default btn-block">Chain of Custody <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 								</div>
 							</div>
@@ -176,22 +176,10 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 							<h2>William "Jay" Mather</h2>
 							<p></p>
 
-							<div class="col-md-4 col-sm-4">
-								<img class="alignleft wp-image-323 jay-image" src="http://emcbham.com/wp-content/uploads/2011/03/untitled.png" alt="William 'Jay' Mather Photo"/>
+							<div class="col-md-6 col-sm-6">
+								<img class="alignleft wp-image-323 jay-image" src="http://emcbham.com/support/images/untitled-234x198.png" alt="William 'Jay' Mather Photo"/>
 							</div>
-							<div class="col-md-4 col-sm-4">
-								<ul class="list-icon spaced check-circle">
-									<li>Certified Safety Professional (CSP) Board of Certified Safety Professionals, License 17184</li>
-									<li>Certified Environmental and Safety Compliance Officer (CESCO) National Registry of Environmental Professionals, License 612376</li>
-									<li>Certified Fire and Explosive Investigator (CFEI) National Association of Fire Investigators, License 19339-10834</li>
-									<li>Certified Fire Inspector I &amp; II (CFI-II) Alabama Fire College-NFPA &amp; International Code Council (ICC) Certificate # 8393566</li>
-									<li>OSHA Authorized Trainer – Construction Industry Department of Labor –OSHA License C 0096957</li>
-									<li>OSHA Authorized Trainer – General Industry Department of Labor –OSHA License G 0066111</li>
-									<li>Associate Safety Professional (ASP) Board of Certified Safety Professionals, License A6961</li>
-									<li>Professional Development Series  FEMA-Emergency Management Institute</li>
-								</ul>
-							</div>
-							<div class="col-md-4 col-sm-4">
+							<div class="col-md-6 col-sm-6">
 								<ul class="list-icon spaced check-circle">
 									<li>Certified Safety Professional (CSP) Board of Certified Safety Professionals, License 17184</li>
 									<li>Certified Environmental and Safety Compliance Officer (CESCO) National Registry of Environmental Professionals, License 612376</li>
