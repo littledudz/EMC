@@ -93,14 +93,14 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 		<?php include_once 'snippets/global/head-tags.php'; ?>
     </head>
     <body class="smoothscroll">
-        <?php include_once("snippets/global/analyticstracking.php") ?>
+        <?php include_once 'analyticstracking.php'; ?>
         <div class="website-container">
             <?php include_once 'snippets/global/navbar.php'; ?>
-            <?php include_once'home.php'; ?>
+            <?php include_once 'home.php'; ?>
             <?php include_once 'snippets/global/footer.php'; ?>
         </div>
-        <?php include('snippets/global/modal-form-contact-us.php'); ?>
-		<?php include('snippets/global/modal-form-get-a-quote.php'); ?>
+        <?php include 'snippets/global/modal-form-contact-us.php'; ?>
+		<?php include 'snippets/global/modal-form-get-a-quote.php'; ?>
 		<?php include_once 'snippets/global/script-tags.php'; ?>
 		<!-- <script src="scripts/main.js"></script>
 		<script src="scripts/factories.js"></script>
