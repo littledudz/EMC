@@ -93,7 +93,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 		<?php include_once 'snippets/global/head-tags.php'; ?>
     </head>
     <body class="smoothscroll">
-        <?php include_once 'analyticstracking.php'; ?>
         <div class="website-container">
             <?php include_once 'snippets/global/navbar.php'; ?>
             <?php include_once 'home.php'; ?>
