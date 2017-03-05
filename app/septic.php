@@ -113,7 +113,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 	<script>$( function() { $( "#datepicker" ).datepicker() } ); </script>
 </head>
 <body class="smoothscroll">
-    <?php include_once("snippets/global/analyticstracking.php") ?>
     <div id="wrapper">
          <?php include_once 'snippets/global/navbar.php' ?>
 		 <a href="http://emcbham.com/support/files/Coupon.pdf"><button class="btn" id="coupon-button"><i class="fa fa-print" aria-hidden="true"></i>Get $25 Off!</button></a>

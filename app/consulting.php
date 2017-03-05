@@ -114,9 +114,6 @@ if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
 </head>
 
 	<body class="smoothscroll">
-
-		<?php include_once("snippets/global/analyticstracking.php") ?>
-
 		<div id="wrapper">
 
 			<?php include_once 'snippets/global/navbar.php' ?>
